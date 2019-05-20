@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.platform.hyperlink.frame.v10</id>
+    <name><![CDATA[平台内打开标签页]]></name>
+    <active>yes</active>
+    <hidden>no</hidden>
+    <version>1.5</version>
+    <env-version>10.0</env-version>
+    <jartime>2018-12-25</jartime>
+    <vendor>finereport.zack</vendor>
+    <description><![CDATA[装上本插件，可以设置部分超级链接对象打开在平台标签]]></description>
+    <change-notes><![CDATA[
+	<p>[2016-12-12]第一版</p>
+	<p>[2017-06-06]修复平台内打开对话框不能使用POST方式问题</p>
+	<p>[2018-03-13]支持图表超链</p>
+	<p>[2018-07-21]适配10.0不兼容之前版本</p>
+	<p>[2018-11-27]国际化api变动导致服务器不能用的问题修复</p>
+	<p>[2018-12-26]解决报表块无法进入编辑的问题</p>
+	]]></change-notes>
+    <function-recorder class="com.fr.plugin.platform.hyperlink.frame.FSWebHyperlinkImpl"/>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.platform.hyperlink.frame.locale.HyperlinkLocaleFinder"/>
+    </extra-core>
+    <extra-report>
+        <JavaScriptFileHandler class="com.fr.plugin.platform.hyperlink.frame.js.JavaScriptFile"/>
+    </extra-report>
+    <extra-designer>
+        <HyperlinkProvider class="com.fr.plugin.platform.hyperlink.frame.FSReportletHyperlinkImpl"/>
+        <HyperlinkProvider class="com.fr.plugin.platform.hyperlink.frame.FSWebHyperlinkImpl"/>
+    </extra-designer>
+    <extra-platform/>
+</plugin>

@@ -1,0 +1,61 @@
+
+<div class="modal" ng-controller="SaveModelCtrl">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h2>{{'MODEL.SAVE.TITLE' | translate}}</h2>
+        </div>
+        <div class="modal-body">
+        
+        	<div class="form-group">
+           		<label for="nameField">{{'MODEL.NAME' | translate}}</label>
+        		<input type="text"
+                       ng-disabled="status.loading"
+                       id="nameField"
+                       class="form-control"
+                       ng-model="saveDialog.name"
+                       ui-keypress="{13:'save()'}"
+                       auto-focus />
+        	</div>
+
+        	<div class="form-group">
+           		<label for="docTextArea">{{'MODEL.DESCRIPTION' | translate}}</label>
+           		<!--<textarea id="docTextArea" ng-disabled="status.loading" class="form-control" ng-model="saveDialog.description"></textarea>-->
+                <select id="docTextArea" ng-disabled="status.loading" class="form-control" ng-model="saveDialog.description">
+                    <option value="" selected="selected">请选择分类</option>
+                    <option ng-repeat="classify in classifys" value="{{classify.classifyname}}">{{classify.classifyname}}</option>
+                   <!-- <option value="开发管理">开发管理</option>
+                    <option value="工作管理">工作管理</option>
+                    <option value="产品管理">产品管理</option>
+                    <option value="培训管理">培训管理</option>
+                    <option value="合同管理">合同管理</option>
+                    <option value="人事模块">人事模块</option>
+                    <option value="行政模块">行政模块</option>
+                    <option value="财务管理">财务管理</option>
+                    <option value="项目管理">项目管理</option>
+                    <option value="其他">其他</option>-->
+                </select>
+        	</div>
+
+
+
+
+        </div>
+        <div class="modal-footer">
+        
+        	<div class="pull-right">
+            	<button type="button" class="btn" ng-click="close()" ng-disabled="status.loading" translate>ACTION.CANCEL</button>
+            	<button class="btn btn-primary" ng-click="saveAndClose()" ng-disabled="status.loading" ng-show="!error" translate>ACTION.SAVE-AND-CLOSE</button>
+            	<!--<button class="btn btn-primary" ng-click="save()" ng-disabled="status.loading" ng-show="!error" translate>ACTION.SAVE</button>-->
+            </div>
+        
+            <div class="pull-right popup-error" ng-if="error && !error.isConflict">
+                <span>{{'MODEL.SAVE.ERROR' | translate}}</span>
+            </div>
+        
+        	<loading></loading>
+        
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DWDto xmlVersion="20170720" releaseVersion="10.0.0">
+<customRole>
+<![CDATA[null]]></customRole>
+<engineConfigDtos class="com.fr.solution.theme.diversitywidgetsTEN.service10.utils.ListConfigDto" pluginID="com.fr.solution.theme.diversitywidgetsTEN">
+<ListConfigDto isactive="true" searchEngineText="MD" shieldLoginPage="true" shieldHomePage="true" shieldEngineering="true" shieldWebInf="true" role="Blue"/>
+</engineConfigDtos>
+</DWDto>

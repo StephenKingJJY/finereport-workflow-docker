@@ -1,0 +1,257 @@
+/*C7*/SET SCHEMA PUBLIC
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceModuleConfig.profiles.LOCAL_ENV.workroots.fa58e19f60186711a29b1bf865646b65cfd363943fa2b0c53ae27535042177f7'
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceModuleConfig.profiles.LOCAL_ENV.shared'
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceModuleConfig.profiles.LOCAL_ENV.workroots.fa58e19f60186711a29b1bf865646b65cfd363943fa2b0c53ae27535042177f7','/Users/stephenking/Documents/apache-tomcat-9.0.14/webapps/webroot/WEB-INF')
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceModuleConfig.profiles.LOCAL_ENV.shared','false')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceModuleConfig.workRoots.fa58e19f60186711a29b1bf865646b65cfd363943fa2b0c53ae27535042177f7'
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceModuleConfig.sharedRepository'
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceModuleConfig.repositoryName'
+DELETE FROM FINE_CONF_CLASSNAME WHERE ID='ResourceModuleConfig.repositoryName'
+INSERT INTO FINE_CONF_CLASSNAME VALUES('ResourceModuleConfig.repositoryName','java.lang.String')
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceModuleConfig.workRoots.fa58e19f60186711a29b1bf865646b65cfd363943fa2b0c53ae27535042177f7','/Users/stephenking/Documents/apache-tomcat-9.0.14/webapps/webroot/WEB-INF')
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceModuleConfig.repositoryName','LOCAL_ENV')
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceModuleConfig.sharedRepository','false')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='ResourceCacheConfig.cacheMode'
+INSERT INTO FINE_CONF_ENTITY VALUES('ResourceCacheConfig.cacheMode','0')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+COMMIT
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards"]')
+COMMIT
+/*C8*/SET SCHEMA PUBLIC
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826392215'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557826392215',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828300000.00,1557827700000.00,5,1557826392000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826392215'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557826392215','0 * * * * ?','Asia/Shanghai')
+COMMIT
+/*C7*/DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards","cubes"]')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards","cubes","logs/cubes"]')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards","cubes","logs/cubes","minor_cubes"]')
+COMMIT
+DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards","cubes","logs/cubes","minor_cubes","treasures"]')
+COMMIT
+/*C8*/DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826362084'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557826362084',NULL,NULL,0.00,'','GROUP_EXPORT','NAME_EXPORT',2,1559332800000.00,-1.00,5,1557826362000.00,'PAUSED','CRON')
+COMMIT
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826362084'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826362084'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_EXPORT' AND JOB_NAME='NAME_EXPORT' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+/*C9*/SET SCHEMA PUBLIC
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='onceDelayTrigger' AND TRIGGER_NAME='onceDelayTrigger1557826362039'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','onceDelayTrigger','onceDelayTrigger1557826362039',NULL,NULL,0.00,'','GROUP_EXPORT','NAME_EXPORT_ONCE',4,1557849599039.00,-1.00,5,1557849599039.00,'PAUSED','SIMPLE')
+COMMIT
+/*C8*/DELETE FROM QRTZ_SIMPLE_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='onceDelayTrigger' AND TRIGGER_NAME='onceDelayTrigger1557826362039'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='onceDelayTrigger' AND TRIGGER_NAME='onceDelayTrigger1557826362039'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_EXPORT' AND JOB_NAME='NAME_EXPORT_ONCE' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+INSERT INTO QRTZ_JOB_DETAILS VALUES('GROUP_EXPORT','NAME_EXPORT_ONCE','QuartzScheduler','JOB_FOR_COLLECT',FALSE,FALSE,FALSE,'com.fr.analysis.cloud.ExportExecutorJob','aced000573720025636f6d2e66722e74686972642e76322e6f72672e71756172747a2e4a6f62446174614d61709fb083e8bfa9b0cb02000078720036636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e537472696e674b65794469727479466c61674d61708208e8c3fbc55d280200015a0013616c6c6f77735472616e7369656e74446174617872002d636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e4469727479466c61674d617013e62ead28760ace0200025a000564697274794c00036d617074000f4c6a6176612f7574696c2f4d61703b787001737200116a6176612e7574696c2e486173684d61700507dac1c31660d103000246000a6c6f6164466163746f724900097468726573686f6c6478703f4000000000000c770800000010000000017400085a49505f504154487400097472656173757265737800',FALSE)
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','onceDelayTrigger','onceDelayTrigger1557828247509',NULL,NULL,0.00,'','GROUP_EXPORT','NAME_EXPORT_ONCE',4,1557849599508.00,-1.00,5,1557849599508.00,'WAITING','SIMPLE')
+INSERT INTO QRTZ_SIMPLE_TRIGGERS VALUES('QuartzScheduler','onceDelayTrigger','onceDelayTrigger1557828247509',0.00,0.00,0.00)
+COMMIT
+INSERT INTO QRTZ_JOB_DETAILS VALUES('GROUP_EXPORT','NAME_EXPORT','QuartzScheduler','JOB_FOR_COLLECT',FALSE,FALSE,FALSE,'com.fr.analysis.cloud.ExportExecutorJob','aced000573720025636f6d2e66722e74686972642e76322e6f72672e71756172747a2e4a6f62446174614d61709fb083e8bfa9b0cb02000078720036636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e537472696e674b65794469727479466c61674d61708208e8c3fbc55d280200015a0013616c6c6f77735472616e7369656e74446174617872002d636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e4469727479466c61674d617013e62ead28760ace0200025a000564697274794c00036d617074000f4c6a6176612f7574696c2f4d61703b787001737200116a6176612e7574696c2e486173684d61700507dac1c31660d103000246000a6c6f6164466163746f724900097468726573686f6c6478703f4000000000000c770800000010000000017400085a49505f504154487400097472656173757265737800',FALSE)
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828247743',NULL,NULL,0.00,'','GROUP_EXPORT','NAME_EXPORT',2,1559332800000.00,-1.00,5,1557828247000.00,'WAITING','CRON')
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828247743','0 0 4 1 * ?','Asia/Shanghai')
+COMMIT
+/*C11*/SET SCHEMA PUBLIC
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_error'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_error','[{"type":91,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"tname","remark":null,"precision":255,"scale":0,"columnId":"tname"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"userrole","remark":null,"precision":255,"scale":0,"columnId":"userrole"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"msg","remark":null,"precision":255,"scale":0,"columnId":"msg"},{"type":12,"name":"trace","remark":null,"precision":255,"scale":0,"columnId":"trace"},{"type":12,"name":"displayName","remark":null,"precision":255,"scale":0,"columnId":"displayName"}]',NULL,NULL,'DECISION_LOG','fine_record_error')
+COMMIT
+/*C10*/SET SCHEMA PUBLIC
+alter table PUBLIC.fine_authority drop constraint UK8vuu0vr7cyuckse1rww0aokww
+alter table PUBLIC.fine_authority add constraint UK8vuu0vr7cyuckse1rww0aokww unique (roleId, roleType, authorityEntityId, authorityEntityType, authority, authorityType)
+alter table PUBLIC.fine_dep_role drop constraint UKeqkkb9m9yhp8ss3e64x6lg51n
+alter table PUBLIC.fine_dep_role add constraint UKeqkkb9m9yhp8ss3e64x6lg51n unique (departmentId, postId)
+/*C11*/DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_intelli_focus_point'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_intelli_focus_point','[{"type":12,"name":"id","remark":null,"precision":255,"scale":0,"columnId":"id"},{"type":12,"name":"text","remark":null,"precision":255,"scale":0,"columnId":"text"},{"type":4,"name":"source","remark":null,"precision":10,"scale":0,"columnId":"source"},{"type":91,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"title","remark":null,"precision":255,"scale":0,"columnId":"title"},{"type":12,"name":"body","remark":null,"precision":255,"scale":0,"columnId":"body"}]',NULL,NULL,'DECISION_LOG','fine_intelli_focus_point')
+COMMIT
+/*C10*/alter table PUBLIC.fine_extra_property drop constraint UKfuxlugi6j4kgugdms45dj5bbv
+alter table PUBLIC.fine_extra_property add constraint UKfuxlugi6j4kgugdms45dj5bbv unique (relatedId, type, name)
+alter table PUBLIC.fine_mobile_device drop constraint UKnueghd2ow0ntb4efvtyyufs2r
+alter table PUBLIC.fine_mobile_device add constraint UKnueghd2ow0ntb4efvtyyufs2r unique (username, macAddress)
+/*C11*/DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_func'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_func','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"func","remark":null,"precision":255,"scale":0,"columnId":"func"}]',NULL,NULL,'DECISION_LOG','fine_record_func')
+COMMIT
+/*C10*/alter table PUBLIC.fine_user_role_middle drop constraint UKo4aop4w6n9tlo4l4lif9nvd2l
+alter table PUBLIC.fine_user_role_middle add constraint UKo4aop4w6n9tlo4l4lif9nvd2l unique (userId, roleId, roleType)
+/*C11*/DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_sms'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_sms','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"receiver","remark":null,"precision":255,"scale":0,"columnId":"receiver"},{"type":12,"name":"mobile","remark":null,"precision":255,"scale":0,"columnId":"mobile"},{"type":12,"name":"content","remark":null,"precision":255,"scale":0,"columnId":"content"},{"type":-7,"name":"result","remark":null,"precision":1,"scale":0,"columnId":"result"},{"type":12,"name":"detail","remark":null,"precision":255,"scale":0,"columnId":"detail"},{"type":12,"name":"sender","remark":null,"precision":255,"scale":0,"columnId":"sender"}]',NULL,NULL,'DECISION_LOG','fine_record_sms')
+COMMIT
+/*C10*/alter table PUBLIC.fine_write_stash drop constraint UKgajoxxj15qn2565t73sor3ijh
+alter table PUBLIC.fine_write_stash add constraint UKgajoxxj15qn2565t73sor3ijh unique (username, reportPath)
+/*C11*/DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_email'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_email','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"receiver","remark":null,"precision":255,"scale":0,"columnId":"receiver"},{"type":12,"name":"mail","remark":null,"precision":255,"scale":0,"columnId":"mail"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"tname","remark":null,"precision":255,"scale":0,"columnId":"tname"},{"type":12,"name":"content","remark":null,"precision":255,"scale":0,"columnId":"content"},{"type":-7,"name":"result","remark":null,"precision":1,"scale":0,"columnId":"result"},{"type":12,"name":"detail","remark":null,"precision":255,"scale":0,"columnId":"detail"},{"type":12,"name":"displayName","remark":null,"precision":255,"scale":0,"columnId":"displayName"}]',NULL,NULL,'DECISION_LOG','fine_record_email')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_sql'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_sql','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"executeid","remark":null,"precision":255,"scale":0,"columnId":"executeid"},{"type":12,"name":"dsname","remark":null,"precision":255,"scale":0,"columnId":"dsname"},{"type":-5,"name":"sqltime","remark":null,"precision":19,"scale":0,"columnId":"sqltime"},{"type":-5,"name":"rows","remark":null,"precision":19,"scale":0,"columnId":"rows"},{"type":-5,"name":"columns","remark":null,"precision":19,"scale":0,"columnId":"columns"}]',NULL,NULL,'DECISION_LOG','fine_record_sql')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_real_time_usage'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_real_time_usage','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":8,"name":"cpu","remark":null,"precision":22,"scale":15,"columnId":"cpu"},{"type":-5,"name":"memory","remark":null,"precision":19,"scale":0,"columnId":"memory"}]',NULL,NULL,'DECISION_LOG','fine_real_time_usage')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_execute'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_execute','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"id","remark":null,"precision":255,"scale":0,"columnId":"id"},{"type":12,"name":"tname","remark":null,"precision":255,"scale":0,"columnId":"tname"},{"type":12,"name":"displayName","remark":null,"precision":255,"scale":0,"columnId":"displayName"},{"type":4,"name":"type","remark":null,"precision":10,"scale":0,"columnId":"type"},{"type":12,"name":"param","remark":null,"precision":255,"scale":0,"columnId":"param"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"userrole","remark":null,"precision":255,"scale":0,"columnId":"userrole"},{"type":-5,"name":"consume","remark":null,"precision":19,"scale":0,"columnId":"consume"},{"type":12,"name":"sql","remark":null,"precision":255,"scale":0,"columnId":"sql"},{"type":-5,"name":"sqlTime","remark":null,"precision":19,"scale":0,"columnId":"sqlTime"},{"type":12,"name":"browser","remark":null,"precision":255,"scale":0,"columnId":"browser"},{"type":-5,"name":"memory","remark":null,"precision":19,"scale":0,"columnId":"memory"},{"type":12,"name":"reportId","remark":null,"precision":255,"scale":0,"columnId":"reportId"}]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ',NULL,NULL,'DECISION_LOG','fine_record_execute')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_write'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_write','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"tname","remark":null,"precision":255,"scale":0,"columnId":"tname"},{"type":12,"name":"displayName","remark":null,"precision":255,"scale":0,"columnId":"displayName"},{"type":12,"name":"sql","remark":null,"precision":255,"scale":0,"columnId":"sql"},{"type":-5,"name":"sqlTime","remark":null,"precision":19,"scale":0,"columnId":"sqlTime"},{"type":12,"name":"browser","remark":null,"precision":255,"scale":0,"columnId":"browser"},{"type":-7,"name":"result","remark":null,"precision":1,"scale":0,"columnId":"result"},{"type":-5,"name":"consume","remark":null,"precision":19,"scale":0,"columnId":"consume"},{"type":12,"name":"detail","remark":null,"precision":255,"scale":0,"columnId":"detail"}]',NULL,NULL,'DECISION_LOG','fine_record_write')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_operate'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_operate','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"type","remark":null,"precision":255,"scale":0,"columnId":"type"},{"type":12,"name":"item","remark":null,"precision":255,"scale":0,"columnId":"item"},{"type":12,"name":"resource","remark":null,"precision":255,"scale":0,"columnId":"resource"},{"type":12,"name":"operate","remark":null,"precision":255,"scale":0,"columnId":"operate"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"detail","remark":null,"precision":255,"scale":0,"columnId":"detail"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"requestParam","remark":null,"precision":255,"scale":0,"columnId":"requestParam"}]',NULL,NULL,'DECISION_LOG','fine_record_operate')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_login'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_login','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"ip","remark":null,"precision":255,"scale":0,"columnId":"ip"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"userrole","remark":null,"precision":255,"scale":0,"columnId":"userrole"}]',NULL,NULL,'DECISION_LOG','fine_record_login')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_record_param'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_record_param','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"templateid","remark":null,"precision":255,"scale":0,"columnId":"templateid"},{"type":12,"name":"username","remark":null,"precision":255,"scale":0,"columnId":"username"},{"type":12,"name":"pgroup","remark":null,"precision":255,"scale":0,"columnId":"pgroup"}]',NULL,NULL,'DECISION_LOG','fine_record_param')
+COMMIT
+DELETE FROM FINE_SWIFT_METADATA WHERE ID='fine_tpl_info'
+INSERT INTO FINE_SWIFT_METADATA VALUES('fine_tpl_info','[{"type":-5,"name":"time","remark":null,"precision":19,"scale":0,"columnId":"time"},{"type":12,"name":"id","remark":null,"precision":255,"scale":0,"columnId":"id"},{"type":12,"name":"tid","remark":null,"precision":255,"scale":0,"columnId":"tid"},{"type":12,"name":"tname","remark":null,"precision":255,"scale":0,"columnId":"tname"},{"type":-5,"name":"cnums","remark":null,"precision":19,"scale":0,"columnId":"cnums"},{"type":-5,"name":"formnums","remark":null,"precision":19,"scale":0,"columnId":"formnums"},{"type":-5,"name":"sheetnums","remark":null,"precision":19,"scale":0,"columnId":"sheetnums"},{"type":-5,"name":"dsnums","remark":null,"precision":19,"scale":0,"columnId":"dsnums"},{"type":-5,"name":"compformnums","remark":null,"precision":19,"scale":0,"columnId":"compformnums"},{"type":-5,"name":"submitnums","remark":null,"precision":19,"scale":0,"columnId":"submitnums"},{"type":-7,"name":"isfrozen","remark":null,"precision":1,"scale":0,"columnId":"isfrozen"},{"type":-7,"name":"isfoldtree","remark":null,"precision":1,"scale":0,"columnId":"isfoldtree"},{"type":-5,"name":"widgetnums","remark":null,"precision":19,"scale":0,"columnId":"widgetnums"},{"type":-5,"name":"tsize","remark":null,"precision":19,"scale":0,"columnId":"tsize"},{"type":-5,"name":"imgsize","remark":null,"precision":19,"scale":0,"columnId":"imgsize"},{"type":-5,"name":"execute0","remark":null,"precision":19,"scale":0,"columnId":"execute0"},{"type":-5,"name":"execute1","remark":null,"precision":19,"scale":0,"columnId":"execute1"},{"type":-5,"name":"execute2","remark":null,"precision":19,"scale":0,"columnId":"execute2"},{"type":-5,"name":"execute3","remark":null,"precision":19,"scale":0,"columnId":"execute3"},{"type":-5,"name":"execute4","remark":null,"precision":19,"scale":0,"columnId":"execute4"},{"type":-5,"name":"mem0","remark":null,"precision":19,"scale":0,"columnId":"mem0"},{"type":-5,"name":"mem1","remark":null,"precision":19,"scale":0,"columnId":"mem1"},{"type":-5,"name":"mem2","remark":null,"precision":19,"scale":0,"columnId":"mem2"},{"type":-5,"name":"mem3","remark":null,"precision":19,"scale":0,"columnId":"mem3"},{"type":-5,"name":"mem4","remark":null,"precision":19,"scale":0,"columnId":"mem4"},{"type":-5,"name":"sql0","remark":null,"precision":19,"scale":0,"columnId":"sql0"},{"type":-5,"name":"sql1","remark":null,"precision":19,"scale":0,"columnId":"sql1"},{"type":-5,"name":"sql2","remark":null,"precision":19,"scale":0,"columnId":"sql2"},{"type":-5,"name":"sql3","remark":null,"precision":19,"scale":0,"columnId":"sql3"},{"type":-5,"name":"sql4","remark":null,"precision":19,"scale":0,"columnId":"sql4"}]',NULL,NULL,'DECISION_LOG','fine_tpl_info')
+COMMIT
+/*C7*/DELETE FROM FINE_CONF_ENTITY WHERE ID='WebInfResourceFolders.syncFolders'
+INSERT INTO FINE_CONF_ENTITY VALUES('WebInfResourceFolders.syncFolders','["assets","schedule","reportlets","resources","dashboards","cubes","logs/cubes","minor_cubes","treasures","../backup"]')
+COMMIT
+/*C8*/DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826392215'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557826392215',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828300000.00,1557827700000.00,5,1557826392000.00,'PAUSED','CRON')
+COMMIT
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826392215'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826392215'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_COLLECT' AND JOB_NAME='realtimeusage' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+INSERT INTO QRTZ_JOB_DETAILS VALUES('GROUP_COLLECT','realtimeusage','QuartzScheduler','JOB_FOR_COLLECT',FALSE,FALSE,FALSE,'com.fr.analysis.cloud.CollectExecutorJob','aced000573720025636f6d2e66722e74686972642e76322e6f72672e71756172747a2e4a6f62446174614d61709fb083e8bfa9b0cb02000078720036636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e537472696e674b65794469727479466c61674d61708208e8c3fbc55d280200015a0013616c6c6f77735472616e7369656e74446174617872002d636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e4469727479466c61674d617013e62ead28760ace0200025a000564697274794c00036d617074000f4c6a6176612f7574696c2f4d61703b787001737200116a6176612e7574696c2e486173684d61700507dac1c31660d103000246000a6c6f6164466163746f724900097468726573686f6c6478703f4000000000000c7708000000100000000174000f4a4f425f464f525f434f4c4c45435473720040636f6d2e66722e6465636973696f6e2e73797374656d2e6d6f6e69746f722e7265616c74696d652e5265616c54696d655573616765436f6c6c6563745461736b63a35781185f00e502000078707800',FALSE)
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828300000.00,-1.00,5,1557828263000.00,'WAITING','CRON')
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826393063'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557826393063',NULL,NULL,0.00,'','GROUP_COLLECT','tplinfo',2,1558296000000.00,-1.00,5,1557826393000.00,'PAUSED','CRON')
+COMMIT
+/*C9*/DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826393063'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557826393063'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_COLLECT' AND JOB_NAME='tplinfo' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+INSERT INTO QRTZ_JOB_DETAILS VALUES('GROUP_COLLECT','tplinfo','QuartzScheduler','JOB_FOR_COLLECT',FALSE,FALSE,FALSE,'com.fr.analysis.cloud.CollectExecutorJob','aced000573720025636f6d2e66722e74686972642e76322e6f72672e71756172747a2e4a6f62446174614d61709fb083e8bfa9b0cb02000078720036636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e537472696e674b65794469727479466c61674d61708208e8c3fbc55d280200015a0013616c6c6f77735472616e7369656e74446174617872002d636f6d2e66722e74686972642e76322e6f72672e71756172747a2e7574696c732e4469727479466c61674d617013e62ead28760ace0200025a000564697274794c00036d617074000f4c6a6176612f7574696c2f4d61703b787001737200116a6176612e7574696c2e486173684d61700507dac1c31660d103000246000a6c6f6164466163746f724900097468726573686f6c6478703f4000000000000c7708000000100000000174000f4a4f425f464f525f434f4c4c45435473720032636f6d2e66722e616e616c797369732e636c6f75642e7461736b2e54656d706c617465496e666f436f6c6c6563745461736b2efdae676f563dc20200015b0008636f6c6c656374737400345b4c636f6d2f66722f616e616c797369732f636c6f75642f636f6c6c6563742f54656d706c617465496e666f436f6c6c6563743b7870757200345b4c636f6d2e66722e616e616c797369732e636c6f75642e636f6c6c6563742e54656d706c617465496e666f436f6c6c6563743bc38cd60d4cb0ee6b02000078700000000273720028636f6d2e66722e616e616c797369732e636c6f75642e636f6c6c6563742e437074436f6c6c6563742fed107a3377daab020000787073720029636f6d2e66722e616e616c797369732e636c6f75642e636f6c6c6563742e466f726d436f6c6c656374e3a0343e743f636002000078707800',FALSE)
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263498',NULL,NULL,0.00,'','GROUP_COLLECT','tplinfo',2,1558296000000.00,-1.00,5,1557828263000.00,'WAITING','CRON')
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263498','0 0 4 ? * MON','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828300000.00,-1.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245714','QuartzScheduler',1557828292280.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828300000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245714' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245714','QuartzScheduler',1557828300049.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828300000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828360000.00,1557828300000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245714' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828360000.00,1557828300000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245715','QuartzScheduler',1557828352257.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828360000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245715' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245715','QuartzScheduler',1557828360002.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828360000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828420000.00,1557828360000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245715' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828420000.00,1557828360000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245716','QuartzScheduler',1557828412234.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828420000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245716' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245716','QuartzScheduler',1557828420007.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828420000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828480000.00,1557828420000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245716' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+/*C10*/INSERT INTO FINE_LAST_LOGIN VALUES('af972950-ee3f-4f17-a44c-a8c22977559a','\u6c5f\u82cf\u65e0\u9521','180.112.66.204','2019-05-14 18:07:16.000000','530a7191-c431-48de-9d28-83c68dee47d2')
+COMMIT
+/*C9*/DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828480000.00,1557828420000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245717','QuartzScheduler',1557828473302.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828480000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245717' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245717','QuartzScheduler',1557828480032.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828480000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828540000.00,1557828480000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245717' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+/*C10*/INSERT INTO FINE_AUTHORITY_OBJECT VALUES('5781457d-32fa-4dfb-b699-f373488a199a',NULL,5,'decision-directory-root',NULL,'',7,'\u5f85\u529e',NULL,'/static/jsp/frontEnd/daibanTask.jsp',21,NULL)
+COMMIT
+/*C9*/DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828540000.00,1557828480000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245718','QuartzScheduler',1557828532683.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828540000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+/*C10*/DELETE FROM FINE_AUTHORITY_OBJECT WHERE ID='5781457d-32fa-4dfb-b699-f373488a199a'
+INSERT INTO FINE_AUTHORITY_OBJECT VALUES('5781457d-32fa-4dfb-b699-f373488a199a',NULL,5,'decision-directory-root',NULL,'',7,'\u5f85\u529e',NULL,'static/jsp/frontEnd/daibanTask.jsp',21,NULL)
+COMMIT
+/*C9*/DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245718' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245718','QuartzScheduler',1557828540007.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828540000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828600000.00,1557828540000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245718' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828600000.00,1557828540000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245719','QuartzScheduler',1557828588957.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828600000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245719' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245719','QuartzScheduler',1557828600002.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828600000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828660000.00,1557828600000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245719' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828660000.00,1557828600000.00,5,1557828263000.00,'ACQUIRED','CRON')
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245720','QuartzScheduler',1557828656012.00,'NON_CLUSTERED',FALSE,NULL,NULL,5,FALSE,1557828660000.00,'ACQUIRED','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245720' AND SCHED_NAME='QuartzScheduler'
+INSERT INTO QRTZ_FIRED_TRIGGERS VALUES('NON_CLUSTERED1557828245720','QuartzScheduler',1557828660004.00,'NON_CLUSTERED',FALSE,'GROUP_COLLECT','realtimeusage',5,FALSE,1557828660000.00,'EXECUTING','cronExpressionTrigger','cronExpressionTrigger1557828263028')
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828720000.00,1557828660000.00,5,1557828263000.00,'WAITING','CRON')
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_CRON_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028','0 * * * * ?','Asia/Shanghai')
+COMMIT
+DELETE FROM QRTZ_FIRED_TRIGGERS WHERE ENTRY_ID='NON_CLUSTERED1557828245720' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263498'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263498',NULL,NULL,0.00,'','GROUP_COLLECT','tplinfo',2,1558296000000.00,-1.00,5,1557828263000.00,'PAUSED','CRON')
+COMMIT
+DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263498'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263498'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_COLLECT' AND JOB_NAME='tplinfo' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+INSERT INTO QRTZ_TRIGGERS VALUES('QuartzScheduler','cronExpressionTrigger','cronExpressionTrigger1557828263028',NULL,NULL,0.00,'','GROUP_COLLECT','realtimeusage',2,1557828720000.00,1557828660000.00,5,1557828263000.00,'PAUSED','CRON')
+COMMIT
+/*C8*/DELETE FROM QRTZ_CRON_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+DELETE FROM QRTZ_TRIGGERS WHERE SCHED_NAME='QuartzScheduler' AND TRIGGER_GROUP='cronExpressionTrigger' AND TRIGGER_NAME='cronExpressionTrigger1557828263028'
+DELETE FROM QRTZ_JOB_DETAILS WHERE JOB_GROUP='GROUP_COLLECT' AND JOB_NAME='realtimeusage' AND SCHED_NAME='QuartzScheduler'
+COMMIT
+/*C10*/DISCONNECT
+/*C9*/DISCONNECT
+/*C8*/DISCONNECT
+/*C7*/DISCONNECT

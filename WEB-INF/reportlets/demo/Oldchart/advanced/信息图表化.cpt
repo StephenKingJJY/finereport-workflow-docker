@@ -1,0 +1,3344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="左一" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1UZ-r!`FbB>fIo/R*,V#R0*E~
+]]></RowData>
+</TableData>
+<TableData name="中一" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[国家,,.,,排名]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[*KJk]AJl!.LTD/>R[UkfoX+sZuLEN8u7\CH+8OUQAO$DYErJZcN%?&3L1uB:.MM)QW:`2:Kl:
+k'o""A[U@?g45Xi]Ar4&nQ5^S2-Ngnc\sF"CCQCfZGO9Z+`)1:NLF=<EmFCV?L1ANd$Wuj)VP
+5fVTq2?1`^YnB`EjG97o89O`d"3IJ-UaV'_3ir/r~
+]]></RowData>
+</TableData>
+<TableData name="右一" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1Z:(jP/`5]A`^%\nPfj1tR/d3~
+]]></RowData>
+</TableData>
+<TableData name="左二三四" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[月份,,.,,test1,,.,,test2,,.,,test3,,.,,test4,,.,,test5]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[-'$@[_CuBeT5VIkC"f\7'Z>cXqVW160mo*DL(jK3D^u8C>Y\$LN!n,TSO2TLVtgf;JJDkE%U
+-_pgn:['$'@MCN8_!YkQNuaUlm(C^435kU*GA#?f4iTQ5eC0HGU[c-ctqWCk"]AK7NoPf7QB2
+cQ)e@M>2)[=o(o")'PUF?+^Cp(]A7TD:32sq=k6]AE7YC7hS%f~
+]]></RowData>
+</TableData>
+<TableData name="中二" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[%E,dh!$D[QZ'[%r_>'l,``NDMFnX9qQZF\0Paj3E24''X!r~
+]]></RowData>
+</TableData>
+<TableData name="中三" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比1,,.,,百分比2]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1Bh2>,9U\1`5Z'%5gf^iN;r~
+]]></RowData>
+</TableData>
+<TableData name="中四" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1U?'s!`Fag>fInX.@1?sB?4WkU:AEtUk(N+~
+]]></RowData>
+</TableData>
+<TableData name="中五" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[1ZUC>1U?'s!`>h"`^%\nK$+9@BF<`"!!~
+]]></RowData>
+</TableData>
+<TableData name="中六" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[类别,,.,,百分比]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String">
+<![CDATA[1ZC7<1B@I~
+]]></RowData>
+</TableData>
+<TableData name="右二" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[text,,.,,sample01,,.,,sample02]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String">
+<![CDATA['oB1)!$DgSCDk.Mql'Bf-5=K4i#8-;Cp:"9FFi37$t/^$JU'=#I/~
+]]></RowData>
+</TableData>
+<TableData name="ds1" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT 时间,进水流量,出水流量,气体流量,剩余污泥流量*(-10) as 新剩余泥污流量 FROM flow]]></Query>
+<PageQuery>
+<![CDATA[]]></PageQuery>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars/>
+<WebPage isPage="false" showAsImage="false" autoScale="false" tdHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<ReportFitAttr fitStateInPC="2" fitFont="false"/>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1828800,723900,1295400,1295400,1295400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,1638300,723900,723900,723900,723900,723900,723900,723900,723900,723900,990600,876300,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2628900,2857500,3162300,1181100,2247900,2743200,2971800,2743200,2743200,2743200,2743200,2743200,2743200,1104900,685800,3086100,2743200,2743200,1600200,2743200]]></ColumnWidth>
+<FloatElementList>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float4"/>
+<PrivilegeControl/>
+<Location leftDistance="28346400" topDistance="16764000" width="1181100" height="342900"/>
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="88"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.MapPlot">
+<MapPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<newattr201212 mapName="世界地图" isSvgMap="true" mapType="Map_Normal" isHeatMap="true" heatIndex="0"/>
+<MapHotAreaColor>
+<MC_Attr minValue="1000.0" maxValue="1000.0" useType="0" areaNumber="5" mainColor="-14374913"/>
+<ColorList>
+<AreaColor>
+<AC_Attr minValue="=1000" maxValue="=1000" color="-14374913"/>
+</AreaColor>
+<AreaColor>
+<AC_Attr minValue="=1000" maxValue="=1000" color="-11486721"/>
+</AreaColor>
+<AreaColor>
+<AC_Attr minValue="=1000" maxValue="=1000" color="-8598785"/>
+</AreaColor>
+<AreaColor>
+<AC_Attr minValue="=1000" maxValue="=1000" color="-5776129"/>
+</AreaColor>
+<AreaColor>
+<AC_Attr minValue="=1000" maxValue="=1000" color="-2888193"/>
+</AreaColor>
+</ColorList>
+</MapHotAreaColor>
+<BubblePlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</yAxis>
+<BubblePlotAttr bubbleSize="50.0" bubbleType="1" isNegative="true"/>
+</BubblePlot>
+<Plot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<PieAttr subType="1" smallPercent="0.05"/>
+</Plot>
+<CategoryPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="0"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</CategoryAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</yAxis>
+<secondAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="4"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</secondAxis>
+<CateAttr isStacked="false"/>
+<BarAttr isHorizontal="false" overlap="-0.25" interval="1.0"/>
+<Bar2DAttr isSimulation3D="false"/>
+</CategoryPlot>
+</MapPlot>
+</Plot>
+<ChartDefinition>
+<MapSingleLayerTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[中一]]></Name>
+</TableData>
+<AreaName areaName="国家"/>
+<DefinitionList>
+<SeriesDefinition>
+<SeriesName>
+<O>
+<![CDATA[排名]]></O>
+</SeriesName>
+<SeriesValue>
+<O>
+<![CDATA[排名]]></O>
+</SeriesValue>
+</SeriesDefinition>
+</DefinitionList>
+</MapSingleLayerTableDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<Style index="0"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float562"/>
+<PrivilegeControl/>
+<Location leftDistance="3771900" topDistance="10287000" width="1143000" height="2819400"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n&P`m)-XD,[$IlY%M-MPk9';%&oWcpA/X_('O`i!3Zh_hE\GN`;
+<#c:5]A".L=EhiMJR0Mbr^*kS#]A9SnS<2iOA$/Sh^Q_ki,H0ab%o`N3bGj]A"do4QT%1caflBF
+L[VH7S&'@:023kCjQnr&"M,!nK_L=!*cM@:*il"LMDr5W;j?Ig#QE.mF,:,oc,*g-*$6"PD2
+fb^5qm6^OkF>ug9[?=g$/#k@P9G6;-F28ikjD1bPF]A:rXZ&K-#V9NU@XICE1Q$aG7DJpp"QV
+(\h>JRgETI5Qq93p;?eMj&q-MRn"ZJ<Rr&r*#OM=gBi).Rm"\X<43Z'3]AoK\7ZQCollc]A4ta
+*_\LL=6&AIleZ>h32%UYSUi*FD%2,*DDJQZY"fR:=>>'3qRN\K8n\8+~
+]]></IM>
+</O>
+<Style index="1"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float563"/>
+<PrivilegeControl/>
+<Location leftDistance="39709725" topDistance="10315575" width="1257300" height="2667000"/>
+<O t="Image">
+<IM>
+<![CDATA[!@%[$rJ=?G7h#eD$31&+%7s)Y;?-[s,QIfE9F(h&!!!2#'s@T;!U<6E5u`*!m?c4;K.mjk)1
+`AT![BBc8&tsp^^,n7#T4fSIH_"TJH6rl]A<Wa7gmucH%91#r?]A!iOJ)"\^Ufl<W\Pc0-:`oq
+Q%++mXBh_'\`FO+rhoEWc*6_Ia'$$$?7fnYQN/so8;P8^EZlB/.FJWAmZF0XZTZ\drlD@<?p
+6'^?5QMSO(o9B/(Jq7#W<P:a<TCl:-8,Bj*'6Yl!f5RC\Og]A4'[0Ab`b3p+<3eQd.]A)i6Bc%
+q602Xu57A*3R"?fmg@@sgo#GV0^"lq"^(:]AjX)*kO?#)(5%_A9Ng18d,bDu=`hAcWL%c:$bl
+g7TD_J`Qm*--k#Z\WJrYkQ0M!)\\cR`3g*gaSatN9KEK&L"4/raGg8<Nf$T1/(B;2g49;lH\
+P?uX:=N5+:rZ#4*?82:]Ah7?l?K50:`Hu9+X!_RcN:[eD,4tP`'DZppHlGXD.&ugJ7:+Em?c0
+7C4f95)$9@^o!Y@&3HbRK`S*A^L0`!jh0&mbH0XkH7]Ai'[.]AI3Y7flXff.V!o5a?F;[2lA"W
+U4A)8Sr,(,.3u8Mpup)/lEYafH[ViaZ3kd.$+KZO9-km!\'34.?FW0"/,E"^qpti$.K1fgWu
+HI<Xl!N:'XT<"Y-']Ak:<kPW*C7Ez8OZBBY!QNJ~
+]]></IM>
+</O>
+<Style index="1"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float20"/>
+<PrivilegeControl/>
+<Location leftDistance="10706100" topDistance="18669000" width="5715000" height="5715000"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n,O_R"Gi=g+X:+@UNSHkiq(D;DIA%h7^A."%:iUq\KODUbIZu2Y
+^=,YO(ma@(+LXC%W4S]A;i,5]Aam^lDmF%_b$]AZFZqSh\KC6LA:Y*iVkf-21F+*T<;l<9]A9?h%
+3Zb1kXShLD>+V*ZdrUkWRd9#(#5L[=/m[j1Pg1*.2?XPP1168Kq1ZDI(NEnNidesiSdWJc4?
+H1F7Q1Jb^4u"ZF@h.UV!K'V[GS>!M9e(J`hmgE5bLGSfOuSO#oa*X.GI@A5.o2O<ZkIAR3dn
+^%pNOV4'mYK]Ac9o-V&_gY52c9OqOT/q/\(n!]ADr6kM(]A-WprFOX8G]AhsqrH6OCRFcVSg$nE%
+^S]AAH49&[@ZENNG?t5i,0doCGN.:]AoA0&C2\q`L=SUJVGTGr3C1FPOJn>s7PJZ)STp_SC%G0
++<"(M*F?%aae>EqKh/45(JEJUBK$HZJ:*Fnpb;2>I?rG@.d(^RF^Lji%D<]A78^Fc":3jZf'E
+s=$,$Sc%rgrhmrRS-cS;Np-hW(I$aU$bhh#Op`D'J]A6_NmV0DaD(2peedajbG>idQ.f:RNZa
+O]AkTeseU/3F>Rr\r6C-b.1T&T/Y2$V_C&Wjh:@3Qh:TB55%Zup\c;R,Yd#nh\XF?'TLe1]A]AR
+hh)d^0+IanafCZa1)m+s$&_7'3Dr:A8;7M6XY[X.Gtf8$Ol<d8!cON4Abn<5Zf!0c&i5:ei%
+.hb:X*G)8<Yt-Ti8(7R-5Z)kNo)R7Hq&fj"Vu8mg)GDZI^C+5:f6D*0lMpn_%s2g*Y1VssT"
+p`<))7+rRW?=f&LQm%Yf`m/+JTEo'#n@rZmO6Tbo\"!g>I.?<@?JNVH0@-hkn`/m_99J1X4?
+@OOSP;kL1lo4`BeTM+/aTB:=#6P+S#aTD^@fGCKF;pupJ:B%&TM"O$_uLhjeJVOG<ac+Ei%`
+joH-nV+2>pX4*Xd]A$Ac+]A!$HWraV,,k#RZNQ;eb?Q$M)_;"IGl<b'D0`uj0i_jrDK;a%IOp9
+I&UY^kI35?lkYbHnFpQpZ=f5"[R=b1!+A+o-rQ^l"^/eWXKfc\EMf"Po!MJ%X%VqKZQm!``;
+^mXu&LNSSl@3L`VAVV3Tp@@\Dr6SH,!E52a?_:lt&-?%B7ea,'G@X9hgkp3n0S'M_<W<iZ3m
+O`M^S+A?gMr>PN.Lhc*]A4YdYY>lIg$e=n<X,+3==&#Mdbi>Y$7O8B-,ZHP/;jGdABVZ[l+j?
+MYMrW#oFcU2R$MQqA^aN+ks$80]A[<G!Enf`%2%A8$Ch/ae#!LSH!6.<%::fggL5B6fqtDd-3
+P&SD^=<!9cs:'T"WhaX'"6TQs7?*9ja$*f58ckJM8YnL`M:@nihp,D"I<1!T!!Mpl^STV!!
+~
+]]></IM>
+</O>
+<Style index="2"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float21"/>
+<PrivilegeControl/>
+<Location leftDistance="22593300" topDistance="18249900" width="5715000" height="5715000"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n,O_R"Gi=g+X:+@UNSXolP0^WL3:#cL!sW5QOo,Q?FVc^.&-+-:
+IqX@ZWfui5Dl8B;Xq3DX=hg^+CH(@$PTF]A0"WAfd/2=5(1"T9'uq]A9>Z#o^9Hfs3;;P%p$9K
+Xe`6)Js7IjK`=Sq$QTs^&e!]AYk)#$!,WH[blZfK_PnQjOC'oaLsaa]Ar?H,9,.k""<1&!0tMW
+[;_Ha'[W%/3a'(r'%2ADLV6[CNY^Uho^"/(Zu,IjBb`o4='q.R'eV7qs6_a$-1gGo1gop#_1
+t[mbtf5CmK+C!q4O8beB60'9VXXQBt]A,"g",L>LK8;e)RFbn)"q-rFa@mOKrMgc)9X+CqP%U
+F]A.-9f$0,`<>J)DVn%_4\8;pAe#,-u-V8N:Coi6Ld3o+_>n0>0>8,.O)H0&0&&*>*FAh.&';
+idV?Q\VNkl90>LN#/04F-p;+%sbkbqV"c@mPR80^f&.'(lUOQ^ltV\FFYB\(Ht=S$*m;Q<?C
+c.d[c""q7Z@r&YN2Ff2rbLeF-'r9N";qI_+6Z$\W!@Vbc^qORh?p#S>E2%t;L?Q@@]AGP^e"q
+r*)KSk/VRkt-(VYH9rNce^a#GGBD5:0h,VdYQBTg_sYqqF?1h(dSmNL.Qi%l8j7JHfMB+<E6
+"?Ra.Ot">ZZe_OF'%PFghrVHPp7htYY#e3$q^@&$9dA7hrX8\%8"5Vmf`<^_%H4io,;^!Y&E
+6'C@f2>.TPUUQg;/(TUan:hh^Fu:@6(dN_Ln_kZmO?Zi20U;7r]A!KRcCGsQ>"XfmnFGKo#:P
+?GDqbVSrKD</iRosB,obD9REn<^]AH-d8%24GiY6!)!6B06+M.rMqG?j]A-(/,_lMN%%TY@A=+
+;i9P.pStD?*KQ+U`3c49fqV6FmLpdW$co85]AR9J>\9KT*%,VCh5bp2ne-c+>;Ek!S;(J\GiO
+4_P7[3RBg.$aSe&>(g-9oT>]A;"+L'%tAit!r:-Zs4cG[>^B\a;;5,?4M@U>V]A5$4B'"Y62\r
+<;GC?T?;)J<himcLaTm;3-/oFQM3pH0h\+4MB+AV,t.GHdG0;O"\)^bE-hVim>AbXe%bm[nL
+ZS>gqmbaJ&IlDMHL2D=##Sc"O.'L6D,#,FKDHc,K0'P#*_,>G35Ch^cnL`e`Unk=H]A76?8r:
+spD?$3YDUX]Ar^<t2EUDuKib8-BcETc6elJfMNNU.>O2@m>6C\W<aZ>6PlGb9[?g=$N$o:'jV
+p~
+]]></IM>
+</O>
+<Style index="2"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float22"/>
+<PrivilegeControl/>
+<Location leftDistance="16573500" topDistance="18707100" width="5715000" height="5715000"/>
+<O t="Image">
+<IM>
+<![CDATA[X]A9.9P1^cQ!!T,gn^<d1a1Goc`\WXDJgP2`0jY'<(c>5I4d^Iui*]A#XAg+$Bc-^,A;t<6Y>)
+Zo\ZUD^<;A57_,d1^s=ADtC)(cfma39upeiLRkO1jGYpO4dAoBs#X[l?.5J:QCi!<>B<&qe:
+1>Oc^$5RfdbPVimMd'_5.Ho1$,\LLb507K5!k;IdE9jDm2;/73^-:P)lOKUPAZ5IZ(kh47bf
+C`3jA2S2[Y5djY5^dS*,\W>KA7R$bjQNS.$7$sCBY6+p_L@]A\#TUXahuLYI3hS*A&k"jcJ<Y
+C&K@quqVLbL3R"CWHIlXkfYKW'%_GB%]AaST`BFWTk/(W`tRO%`<RI\!iDVKnT)m6:_]Am#5lL
+.5G=%#R8?JF9(",mUFst^soNFW:KtVe<;J04nO!O9a@&X2X:gdCeN-u>N!"VpQ1SI/sgEPH7
+uhNa3t?4Z><Bb-l'iQTUdtI8sVd9?G#7h1O<hg;A`ij\5gYPZ@+Sclj(cF>QIrmRXFCPTL'O
+6gc!'JjCI\lRJUD2,PbL4-7?l:!?j'k,KL5sHVLe;^p8W\g,\&NQOriqh,cl,F?R=Z,@CTa@
+FCkL(r=mN6Q%2&*RIASp3[D0/-YZY)\elZ_pd;J/)$Z%=*#aDWc-]A6R,^g:AlVZt![:82fdX
+saA_ulrX<-d)M-Mn*8)pe&G%JG\/6I_Mg*I#7.Nf^OrS!;=N5KsW[1TS"hep-%Ce"%lRM`jA
+[T+lYq%@F*SY<T[heVRSPlmnOn!E<&qlNhl?E!s#IkUqq<1FdRp]AdFBS1D%Ql8-3"__g*NP2
+m<=^/;\`qD`1@37Q&NAKaOPd%Zarl"L76btan5^.rlCFjV]AWYc[0j\jJl$_h_+Gi7b2uB+sd
+K-<dDYrA#Gs04pR.$b%[1An%sQ;M`ba-&cU,HS&,>37hRW)mp<ARPOEMnR;U%F=`Vr[!%Wh[
+JsR>goGmGP)DKZB)Ii.q-[Xqr8"^*XXrffrV&G5#NOBF>69:NnpS-V,^n_i`Dt^=F6Y<L'YR
+RoUT<%V>PJp@DD(9-l4rAO@>3jgq7_,jOrXKfPLs57_orqh(a=H@%L``pX@;Q.>AY4B`T>PE
+ShmfRmV4/]A$2oT+L<>sj^6K)ca+bt7mrPS"]AAN*c:),Q3YQYf[FkK.&94>p,R*XKITNJWC)f
+X85]A2SCDZGrOlb6<l=ee-BpmekK0IF+jk!RW*Pi(5+Rqfh)^peqhFCGTRlWgo@PJ8Q6/gPkS
+h?boI;qT\8uAXPnZ&*F21$dje!\:kG72^WF4H)3tlbjNU(I8T)c9?gO-`CLLfPP"BT]A8oCqc
+1bLj0L?UBX"6j]A5(-(->*q9g9D.67dGPW$)GaTSNE*O/7A*c+EurHCj!*)I3qmS@Oo";h1I@
+t6(Ss?=]Ac%NA@^4q]A$n^>)73$U4Z[;lbECnNr?Yr4+]AusPJl;j#GZ@D6j=cfAuPo@rua,cnW
+UY)J6dMT&lH#`-TQd/$4J]Ai/\r_%1i`H$XhDp8=M=1ng<h[*[*aHte-617mYRbhQbAT>k6?g
+`8cFD^13c@,62(Xie)iPpDVa=>o$B!Qa.b_LLcTDe[HDJ#\,e@SrKmF^pFb%Ij,;4>C$TN;;
+UN5Cr0>qa&6BaZM;!mGgl'+J)8+e`!q)Z(i70aK'@201ooJZaG17ACAh[hN_C[!HL&Xgd8?-
+&+A02=qV6agef\4*4N9\W/"T`PXMVZ7OOVTf%X#=&42P"3Zap9,>4K$.ro-l5XlD/*Bfd1hX
+1m2CRQoL`'J^$q7(bE`8Q4mqWW?0<[$eFQ_8FEWEi-+CUQKK?.o')H8=eC65tERR-,\#1%e6
+I,29I4ou`3_V!OJ[N"p%"3(N4+QMe?:<&fUbduiQQUJ=nQm*FV*sjMH6/=l;6_i[B"lt?3<H
+&@t>Q?Q'\FEbFl2XbhZ=l&6?\qB:R#'IIeRJ]AnA1-"f\_+0>eC>Ko;]Al=D]AS5LU9/aG*q]AiF
+>fGDoA,%E$4$^!hY6iKlXs2H4Ul,/7>#*'t9Lh96Ta.Jn>Ytd+5]A.ZWjTsjrAa4S5kDeW67M
+PI!N/;*Z$HV-T/p,t,oLADqRMt<tmeo+#AJIp46C7doM'R5*KS(N8c2hG]A:7>Z^k&,.BJO*b
+c3^#S')4Ku-<Y&043d;h5\4#^rcj*o3f<Y`&=X/:oehYI+on_P+7e,L7Cs#l?R>j[S1Ep\!r
+jp_D)#i-LBgpATjp`B~
+]]></IM>
+</O>
+<Style index="2"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float23"/>
+<PrivilegeControl/>
+<Location leftDistance="28232100" topDistance="18249900" width="5715000" height="5715000"/>
+<O t="Image">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n,O_R"Gi=g+X:+@UNRWnT8aZWL3:#cGdT>%K\8QN<1k/MA@a<!?
+<[!"?7A9/c*-k.1.%#qtWYGV"ooaQ0t\akB#q_'^]A^Uhjh)<kN82]ADp,-aQ-;HH.&fN%RjIe
+)mqq*%[m0d;481!V:gcahDp:W/8d;h\RJU7[-O9>4=h&`%1]AN$?Z8K#pQo>k3Q?h;-mKmA,6
+eFKO=./%`MiE^HZ6qPTT=*K=ldCC0S!`s]AGf7pQI4Qi@@Us!oHc"gg]A3-c<\#)$e-S3jC9)#
+pp2dfe_?b)=V[g.jJ??gt*War5fe<orR?[,/1),P"%^#]A)M@@+;Fb_+GhcSg4A-KbB8JYDJY
+[5Qbu`U@0<Gr$]AF!N5_,agG?^DiFI7oeGW:Es&XC%tF)Eo<">qfZMdiqCV_VIj8S0K@lU+;L
+P1n++p)i\LO-KoD/I3Rb5&3dqfNKrn&c_Wp8d@%i?U1(.__.QOO&.;#04PC9\#&2_#l:XO)F
+B%J9/1,FJSU&$l<X[ZP^`DZ)US\HYXQD#4_OB3%Fu#("V_kUh6&#%OcNF[.7()nuCUUShn.H
+j)l@aI9k/gD20MAI!s$CXUD-hcrEP9Bt\!k+DJH45*GeCD2n+6O+tC4qP6Ba#Wag9j@e47Ft
+65VK]AYd*I7@@al\*r7!p%PS86ka2sW/K[!A#$-s,bDi1D]AM8u@@2m,QM9(hS(i9a*8:J]Ar!k
+;pp$Xe+gsK6Q=]AS7'+c:Rh'%aX9(3@JXC5W0`tHN[PYMNbC4/4PdOrM*bPBX$R6kM/o@VA0\
+)(#DG=uV\29,S0'Q"4]A:;4Wc?"cuhTC4PphQZ'nQ-fXC`K$(V+Q')IeJoA`o1#r@'&>_V]AWI
+"bbSLu[l)`d2cT6Sih*FeC*jUD6,6&Pp7-@(_Y_k*0_RB*(!m:$\A>R,M7&HW1\%/k?"rQiZ
+]A@*s)O*BsK$:Q0jB"l]A_S?AU'6tu"^08'%,%Rt>ii6!^@7ns_dT;'22ms`4>a==Joh'n_Wl.
+V_[T>o)+Y$P^FQUfg$1[II\goFGa(h+$[\9G!45D!&FP$8aJ%cQ#k+%I`pVTQaV1B[V;Ohml
+;9@#]Afd>jN,JIHrF^jsui8flDP?VZiDqVZbR"&i8kE+%J/nR:ZX-Oi#Wh&,F_oEAMl7AKA-Z
+qOpDotm_)u8EgEjXUG`LRt-D052GmYJRT9`FbB^Qt/>.T^=[M`e4$pYX!&V`3KD%c&OT;tSU
+tGuEI&95":^G5(Xl3C#BAmlhEB?<oS9p8Vg"VN-+%!qquPk6.Y]AIYSJ,BJ[=^Y8;)u!Es]A4L
+\p@qhqto4`.7e"Xs;"o_&t.bKI>q6E\Z;^3mVK2d*Z!=QOJq"\5kL-oh%4arD`Bnjdlb@LfN
+l,Cf5+L]A1d(jk<J?]ADn-&hJ/,,96LA6tnB[`\T'l,$^Us-@`"t"TRI^fI<\=0KXS5LIG$_1u
+B2Y^tbBN+i^_3L7:Gnas0IH7&n_]AsXBCF5![C>bfKQk]Ampic2eM9"5#(I_$l]AWcHDEVsi;-L
+LDoSmP#dh=P[RV^W^cBO#?Q\TE:4m?r%S70Y;O5\!U4^6Vt7b@u69Q@6b+O%IA2T79Dk9frq
+[g"WS\h4-_*pi<%CbQHP-?ZiGNh!jRS^WCm#26[!C2F1JaS^-KED_qRJXM+ST6bU5Ukec,e@
+I>j4NDn;E(0><O>:AD(m+lC7bDVQZ!n$&g\EIOqBs3(W56-H-6)ilDs2:?kgkK^s,9k3[]ADl
+G<f[S6R\bgp-"G<VQT?B9nKI-[~
+]]></IM>
+</O>
+<Style index="2"/>
+</com.fr.report.cell.FloatElement>
+<com.fr.report.cell.FloatElement>
+<FloatElementName name="Float28"/>
+<PrivilegeControl/>
+<Location leftDistance="10591800" topDistance="2171700" width="24384000" height="15240000"/>
+<O t="Image">
+<IM>
+<![CDATA[m'l"r,u3(j*DMJ+RhOO7-MEsC@bW9=D;,_q9RPiVSP3kc)f&p]Ak,Q#mMPm%pZ`C[pXQnWTen
+7LRWQ:eW'-T_/6(uED8S^RW_$!%i5pmhms4\.!S#([f.V4s5QMBm5GM]AIc`,+J?I?O@e0o8#
+[r-,6V%gNGWo/.na(DCO1mu@eg/8U>!.V2k(Ybh:L^u"ra8C#hQZIUf#[$G@LpI3Gr<k?GN$
+IBt="bSDTr&U[4f":r"79&sRDusJprJgOH/JpeQM!"8?q"%dm/b!0Q'gB"NR%<180E9oXWX'
+pSXi!eBl]A#0k.!i0"bI0T(s*&&]A'?OUJi8AP2rNXZ"4gd?Z+*^e9JO",1H[`Hso[t$0<8Z#V
+mSUQ3A04))QsXggZSm1ics>S]A<\mjio?chO8\;]Ai@J6bd^@XIQ/We<IId_8aB.%bD]A?p"\L3
+s0>n?_9Ri+[Z4Be"<enEDkm7_kbNb,;_t>JBcGNTegj.;U_>dau?."7mY\B,-,Yq*-AS#-SC
+?Sb/)-a[jI"IP)Rf%Z.iU^%A%J^<9i>G]A!&.C;9J"IR]A?Hbi=o1S0_BIR(o76>D86VTnM,mF
+AOpsA.?GiclTVZJC=IoV;6e`brbTjSY[P']AtUoIVTM'G`GLZZ?n)+q9/s(to1La:`he:bT:#
+1TH;EO`ISa-Qd73m]A^(k6rE1"SmYKqtQVlq7gZ?p>1B`saDU?>8>(Lr%BJ%s0[3@@36#2R/R
+]ANjS'&nA5hjXZ>q4C*hu]Ao\hpOakA?D%'kDM)$MBm4m?XgOC6^L@Gif7&MG\oCr-_%V;uWrH
+\ZRG\7"E$YMuUkoiE2$Jk1dS<_<BjQfkGT-ga-!\s!L$8%(=$)tdk+&`GrU`WC9<lIZ'i(D%
+a5i.Nk8f*0r$E#-]A_e5h@cd^?/7c2q3X#<=)3pk.e/gq,"&3.N<!f?rW.;Y4T%TEkV5HL#I7
+k)U1d`**:^I'"Sfh@&:bBt/'I!RmDFN;Fr-<uN.BCOtt<#C'm6l,<<b;Z`]Alg$k/J0CDPZMF
+6GnDEOdkmNN&pXTb(DV'PueB9D4/D`\PIJU2s(*Fo.R*s/`13.b'SIRt.%,^PfrTWWoX*[Yc
+ZYGiU"`sb.i^<"Ks0D-=.75_KUL+3/g,h>j`roj@5G+R]A^"hF`$47+a#'QPe[C+tWOccW5*u
+n+$[C:2s2GtM+7/f1._`X>o2S(RJ&%m=aHJ<f;!U+a"^&)&7ZYf`k5P;cQbJK;!`26Be^AW_
+]A)$@.&_2@XHQH%u9_Pon$Jh#T?KYPIdGBg%Sg_:;YNAS5U(LB*b-F0p/=lcI51S6cteJT91e
+Fd]AC2c393^C[&a3d]At7EUkiIYB(>q;n4)?LMg@%?@F\+kRDpnNVkI.MB9)3![3BS5*LL'J,6
+Icc'80&M/"U$Z06\s&#/t)BPMM?T.U8IT=5p-A`t6(Y:5pT=NAaD[dWH;rhii<3DAQ.$Xp@R
+Jl=(IAs+hteKJ\L[urD25L_>Z#%8)M*"AYrc;$`J,*AghpR`j=hoLQ!>6(+/@*=aK4725Uil
+;X<6g!d'8gOa8Vq'+18&-YQm(a/>6bg^#N]Ad,V5i]A<=L:3p#@C`2h%rS2.XY"Xi*^@Lk^EfL
+$E]A=K/-jeD;W@;CgL%"Jd=/N--5nE:npYW,+J54BR"!S[JU0S(G`E4mMlDRSo]AR0j\&OW7UQ
+co,Ok;4sf@@ig,o&o6;B&F\0$6jTEi5n6G(kknST+s$n<ZmBcl)ZVC;EraYkr5g@M]A.Ol`RU
+Og_tQ'4CA%+7GPAsmV5;#GGJJ=p#5W7XKd8IahA;B?8G^G@Fet&OLPHXVa<beg+2_[V8Ma_?
+YP\/AUsWJ>,EQ`2MFF(Kp1]A:b\icTbY(#jg;K;W`jW0N&gKPGW_Qlj&1pg<]A'J8Ap@]A=]A4:c
+$MjBIK>nTT6`@o.[9RX0gBrH<$"cG(0-/J*EII%\rrpG,T0L_2YU`_IpHp@fEoKT!*TpgSiH
+F$_mok95=XP=i,2LI+(lfBuTRPK>WcO@,EShHKId$Xk7?_TP]AVYf%[0-<&*u"$geD]Al%?<UP
+5fg3<%*:'2<G<\:mD-5mLpj'\8f6-`DD%BOHgc`DO[Gq"?JXaiVj%J*`ZsVb_'A2IWAOlj4I
+G)_Oe85FBGl*0(YSd*F`rg[t^=LEcLn_X<)*q-1$qSH^DH"RuGV]AV/5_BN(VLl[2XKA^+HOO
+QQHX+mIQXn%97c$`5aNc(`^.+*W!#dF5PQ,#t/_(&#(t"gA9cFJZ<V5]AQ6cKs&gBs8-5T/::
+4?GBNaSj&hNZf71cJM.TJ!QqYM*+)Zf61__Df3=MNt\Xt/X43[FX]AiEQ-Lm2WmLps[;dI&q)
+JR=UkuE?-u(-chr2<-$]A@*A/X>OuUX(D&N:/I5[%nhVTmSf"fn:5d\qRh-DOPOnNW0-t(b+B
+f!fKE?!'@7HB)S'g^>C`is,Ojs57?b2?`D6Z,Gc@"Tee!EY*N4`/,'_Z`;QRj+TEkeel%J%$
+lUMU-cpk1b!i^=/o[e%rS-9sb#c^]A$m+IA'NDiId279r4b,gf(Ge5-%S;Z:2"6k,ZD+]AR61#
+F2JTc$k0i3D(g<bT9\'+$oO+s#HK$iF=@.M-<#iaYDHlV^fJ8k^t\_6gic?=4&UYXBq'"4-K
+#_\8l91-;L3jj/o\828sY4OFPf/c6ZXs!@@RuUOW")/Di>oi]AqWAf1B;gW)`>Df>;[d%e`WH
+I?Q,]A=GFE]A,GmO0%fDi8W`c?>GFmsBkF=</ddbhU$G!S3\r\&]AD-'8IIeCEK-d,/al_OQm;?
+o%\BK(gQ,A:]A64Nk8mEl-'#&5aXB]A^[+8`$7+BV.:T0XBi$IU=,Nf?lL"DJ7fT7b6F(o"*pC
+iOZ<5Su^p`UdD0f?[;O"+GO]AEtD.b\C)Lj6Q<NP@e$aeO"AmR8[-087Mq9"PP4CK9XRiT4i"
+T]A>!5Fu^GNk#d(R78iA#-Xne/?KD%ul9%q&CoM&PHM/u/5L34P:oL5kd9E32VA#PS;PP:[qC
+P.9h%5WY>sr?Yh&r%?7hV=%7<GpY\g`R&@XG[<>Um4"o(9_0]A0FBW_Tj]A[)/]A`?k>D43L?JW
+t5/eM6iBruJcX%*1=h$L]Ad2ed#gL2k'PNhVMm&M-"TP@X<g&2_[L#%5>&0s3/R148@NP=6C3
+J$C2Y('a/#g/kG9oBNr5-i*<4)TdH=T8,ID>IV!s66Wq^*cF75*e>/X[)(cd<^L/X^7#]An(6
+qK=tiWCdG@=ulNpfbdrA4EYXKtf[Q/i[ZWjKdIWQsp1VN\]A.KcaVr11:tgD-%nZA35HHQ-Cb
+Fnba;QU:O;c/DQ-no/O@+`_j?a'O6q']Ag3[aIr!(4Q[L*(<n/uB3ieP3IN'g".eeh>.>7G1J
+MS,.!;@d[NLap(Y%2[RFEQDMDE_A[^4GSF<+5cYQFF2H`TjH`6:^IA#OBj!#<k-2%tFN,ANZ
+.e_!E*IHe_,ql?5j?[1t8n.Wu&=.k7"(CK(;ROaM3QbjO]AbbO(/E]ABkKF![:gM\Ap;@W>9l"
+b-J7'pXeSUmWd"JRUBR>@?'B60Ye##WodF3_BBr/Jd7nMLA,6?CEGNf!N`ugaj:qN-\tb1HO
+67k2riQhZK>=ht7eX6o#>MhU_:6TL[)nlYFdc7?.A>Xm'8i-ZN7(h3RC1[_Z'Tb!g?KTX1KB
+I?DoVO!-A!Q1'j.%s6Ce;SlU+qCtD1r/Y4Icr.5'6]AuNG.Z&rGKrS1SIL';9!R#W8%dlUXrA
+K@&C0'MBrt),hL7l?nq2B+*ZS]A?L9_Gc>O;2G,9"r@nkPG!]A8h=t:rADEB*;LhN0de5EMGXL
++r*k_M`uQP**b8uYlLnrfm@ssD`dKc)HC"-9TM?8gbH0)pWd9jWC7`l"OiZ3oe]A-a"RM<SJk
+)1=o'b\;12atpI?cUb&/N9O+flKE2QdTG@'*#'ES>,PW[%V\M\./C#PUrY9&S*N!p/J9'XD(
+kCS\F7([)H6"\Zeqcq@9r%dldINH'4;Q]A\TTB[s;E4D-p)0)><%#9$Ul[\kXr'g_u/8e0#B=
+edKr'U;hUpQ:'sks/h3,*J(G2qHq`H.to%>Sa:_dmq^qg.uL?T<pT7X[_'K=eDc6?7^sKcV:
+2J4LP-8e?JRgXVq^6s3>nP`ZB"GiYu>6Ym88D[d0?j-Y\8:RSt>kI3+Sc4:p4DZClK?G$&*Z
+9Yb>H7d&_GCFW4*-dL3X$:A$sOD?BG42lPp"N.?D#6r/g=4dt1uKrjM90@9SX-ppU-6n4g@D
+Z)oc#.`f(9YNHG>e.&MqoV1E"^Eo4Sh7IB]A2\1NMYuL[SCB;>>\.a!3!Y9R1Z.=1dX&"8jgo
+jnK(7['e2-V`L+1.7Vqrmul1W<F0J&eb9i-$c7N95iX_q-79Eap*.mt3/jSD%\.fi/_k<:'9
+@kdW.+OpW.]A#Q3PA3fo]AnOGq+67P8hqThjsOg*Wj5e@del(Stp9t/o:l2Z";4sVM)d:E#kEY
+RAQ*[LOpEmkc_YW02a#K;I!*S.TLk(eEcpB<G@H->cu96sdW]Aup=[>-.pBpQb#fKIGjIOn]Ai
+d0,+%QE&]A#+dB"5dT,mLHQiu:gnD=#L"uHP,pK1(0XL9$oj[-i@]AP9-qYIiGN:[*&FFC'9Y=
+h_WE0/"@",PUKKYA9-?W<^M>fp0j+-@OAt%kQ,r^G[dm^G1(iC4@$c7(bA(0@6a@Ue:herWD
+9A1N3?SYc(MdrmU?9#\mgM=Z-LE%\Ju,km%>?GOig"m5sS9Q^btiiLrP73Yrp$G-Vk>3&A^H
+N$B#08IY3+D:a5=hr!s(^uP=N70oK[+H%s!.%dtoV<TY*r4aB5_[$*<lWomul6H^l_[)ZJ-Z
+u5/6!rH8,.o!8(UfG0*Q(bm+NY\Rn(jY;c3[!Ik<.aH^5RURl63tR7u)>bmkD/='&s-$jNK#
+n#ZX'ZG?4"">nrkQ4==$=+(!cb("<>B?QfbdT9,.Y[th%j'i)j#$!LDC-h5d-7bH%Z5:Pn.r
+kfH\5^Rm'khfs4EH6l1R!;GAgnqmrj,i)Hi'%eTBeXGj.P`T2oFH7G#(0OpEs0GC$6P393oh
+RV30:5j7f?6G:/sWdVLP5Il`n*s=XHCnQa2"@dJK2t:!AA&]AACb58$"VZ_pD@9DJ=O]ASHcRW
+,QFP#)Z8g7ehnSKO@(N=k4oJo]Aaf#8>e.U'aoeIZ[o]A(4eG$WH9Q@6hWAZh.)uiDApWG4YQm
+@WC[I+r,]A0kWlig5$@[FDk;N*!*7Wu5choO'W%5*=&]APDmp)dhd(Da!-+kmiTP*d42oT7bC'
+>VM5<)5Seg]Ae'F"BD9%:R5DY6S&g&@#(ONc[Jol4#p3>KB$M3j6VSC)?(N6k#51aWt\fF-;e
+dV7PC\2<Q0r;LXS8;8H>E6gBO15(*rh_^Jb6GsAj%;P)adYmUbV5L`1WREtPs?6m,JGRIluQ
+5uWg?FB+<6'/6X7Wdq.haa7^lB\QT*562?Z-Q+I%Q;=sW)sahVYc#t!O5iVYH#^mm6;O>1eb
+TKk&"ZYof"[HG-RaQ1%M@us"E47X#sSA@N;*S%OsR`$sN?qK/<VqpE*HI&ksrUmJ>-3a2RHV
+Ok:9)mc9eel)-Lo0F(.:-?WcbKVTJ#B`+Ybkchb(pWsBrLD+3^Whi5Ij!1;WG<kq%q,,H)B#
+PC&%iQ=P;?@8mR*V9>'ME6N*D?[X=XUM.CoY"G1j9P6PIqgdNeHKI'b,>\kNa]Af+.i60s,%o
+/`VJ#+:-Kb2B,GNP:YTNY8RJJJMDbR(\E@$qf67rk,ukG(+NhMI9RSDcQaZ9Gd;^UqabhY$)
+CqY//)m6h=f0?P4Qq3bYMqhl._%)G#8LG&oR&J:n/8+"q"l/@DZ:*SO8_"uaCb9N0t:'#PDd
+F#751$k4+.H*dAg>O1g2Qfcp#glu+P8p&l1q6u;us5dV@(Tk'Vpo*Q$Ve)K+VP]A`fb2`*p+,
++X>$^$h.S+cc/Z:u/ZPEml+@INC'X*R?pep%?)XZ'1p[9sR"1OdPu^6Cr5`:qEs^BEf=517:
+onVqFW/_>I]Aq&+ns_C/3M;1&$EVnOIR#mA>F[6PWs,BFTh]Ao3\&2f7/ME%7g8DgmZ-i:2)/-
+-G<NRM*3cc<#%$KjouN,k<%+B/[&p;aHHfosg$<7d"BuqOkCuk+q?XWkGn$m6"-Jb+<t]A%h"
+H-aOQ_=[e6f4kolPEq,IBHk8d,D1C(f,!,>*oMEhqe?\tm3/t*"3LqQ>\l8dZI(I_:9%hGN(
+MjhPN;s)gaM(SP]AP5<)>$R!#MG1>Q=LjeET-.%+)DFu/)H-.)kgSNs#'sKEur5r.\]AR%\:JP
+F*/r@;G0='/2qNVh.$CUH*68)f3k4h"sJs5K)m7lb(8;#S-0e@S[M["oX<'ObgN%]A(XsA,#$
+1^BaI#1Z^iu&:$8/$d)#l,C7B1D3E(I&5*ItGs-/2fL.)NT/sSd2;*EgI3L#8\OK<4]A'O/I"
+Eh?C_L+/=YO!/l)W0s0Bc/0k2%[c!CDlHb']A@r]ABnP#T/tXY.9of<>V;"V=d$_PS]Aul/+aG4
+e/G;)YL^ET'$2958F-<ZKc/Elmd(G>eP++bXH's6AT`.7WJd=hL+]AX35f)?L$C]A;Z;S/84V0
+)Y7D'e=QqMTTJ.IIMMZ\P2ZQIBulh1R+7>B5M8l=JK'<BI@Wc1m3:URZ\joPRCaub9XY5GA`
+17/-pSD/<A]AlsOsJL.d-#H&=#rppO=Vf:$.OtdE:2oK-Xo5V\!s-ar9L(<TO_\f8_qUR\'B`
+(C*#bF<9>F8%$%.Ann=5TXc;f0W.NfJj[.b-Kd+dJQUp$W+a5$lY-K!8A:0)-[pmj']A6X(4$
+8d"1Ouj4;M@Ar3M2A2[T+r-F9pScORYCeB=5/l]Al#=]A8$p:uBP&oc21#2H\6tZ(a9)M[$<eZ
+%aN'U$L3m;FB&jS]A7^U"CmQGG7-X4S=-IT(!f(E#C1;g6m^_lNXR<4*(<H.?6S=/7Z(ddqF'
+mDF>L3Xg(fLY=//d/EiB0]A=H:!Zh3Xj5[KcNRhW7nW$"+KfX!BQU:8,$kV;X4N_9j3/Sbn#)
+'K)@]A1g9KX'9fl$2:B)7CD6r8&jBP*CGmHXs2.cQ=N!\376BWc"X+:ADAr3F?Qu,sF4LKMj@
+D1XM:8o:[7hq=#B9J*1$j\lX4<9OsI0Zb%>?E=)@C=)G_/q4:[e@jU(*N?]A9Y\_b`u&YhiIn
+Fk4:15Do<5:),l9'2q;?(\1b#!3[MSqU.%I5N3I"H)[:'\$,IoF]A?eKf0_j^\Zr5GfsQ.Ol"
+9_Bu,8h,SrsrbZ_,@?ai]A*/pCr!>T%-`@B;pT,XRAXU*oc=.H3?PWE57Zc1tX40i:!?RPR2L
+@r1671H'6#!]ARXGSPhP=rEa=L>[IieT]Ag.?:(mgLd4-M@3)D'2.Soc9C(KDBe*lg5']ATM@4J
+FuRW_Xmq*u+iYdmr?d,Y"Z4s1k+"+niP7OkommO.j82rS-O+:BT>lQDVQP4)2pubIJqWVr68
+*Ia8F-g_g[V0N[aXjYt\Bn_an;ltHs9qX:,uXeUa3Z$#$\%0'IO/0H*IptDm8*$HDNN016!,
+pc37ZTepl<\#V"0>Fj-j&rd/,8q?7.YEe3_D_c0TZVS_ZIBhIs4Ydm1RaVrV4+@(A.,o;\)0
+jmAA.I4\eGJYIfL?.-&`!8o;oDMhN"9!/',1'Co"B'"GK8;8Z&c'h\JHl<J*`@9[BKQC:UM!
+K`t\[4)fI&l#1A5nAd'>l^h9GKWjA<i=Nmqf8M)taU6BI'3bfeB/aqL@LHM!Fh15aIEGD)77
+FIsQUm]A-8V-u!*QC@s0)6i-NmU6-TSS<W/(6YLlCqPRCHphF]A%<H;[C!Nj\imA3:6!FirE6l
+<89<e%B3heYQdjImLUd8(fnBXe/%LluVf\`C5M.NWR$^.;VB$PWLTMO3S/[4.:NCW?T9Ig.k
+;(:CE]AE7Cb,*QL>jYQTkipGHauP1sDpP9Z_N9NKI!I>;.<Y0-o5)'@T0OKUS+X;b\B=#^\]Aa
+F<eAJ<Ia=E=*?GI@.8QkCs"-hkh6'5hWT>l[jU4@OKTf>omJ*r%FeH_P267cUi3lN$r,f]Aj&
+"32J_VA4If[bN6fd7RP'b_60A=(fri^qSTJJ:F*'*eI^:IlM^0-$;L]AAol>iZsMZGdil&o0]A
+S2L>l).j'2;W_+uG`?M8"j[b-hl`fN$2"jS^=l6esT]A%GJ^nAm'$OO9A"C1P8NE.fWu;jf#=
+p]A.9p^f55l,J+nY/!'bSCjb(Fp#IS,+MDijCpa"$8LnLqZ&CD7:ikI?j[)lRVP.H(]A0%&4.W
+&G$m=Nf#)I`Z_gmU6!,>Xo5P7uHP31W!]A=IGKirB8efJD)H"/0@YIkqfUuI!!^gto\_,9<sb
+;X#5R2H6I"LL(Di:qL7(q2ARMt5U>,Eki7FVi!mY01TMJFSRhB%;)j;AP=T'.L%3g2`%TjQd
+CH#hBb#fiN*@g"K]AE+]APZG(q:Ic7\(LdZrZSddkI>M-,P[m-b24N?Sg0IVi3"U5GOM7\o9-Q
+]Ac:!qdo*X"VIn[$2Z,@N6&rPsR>tp4%q=l<hj!RmSl:kA<s_i:+/;X1+3=Z)'*%Z1L",DNI=
+F`kkE*Kq4Gh]AiG`#cXi?GY^Fep)TS)aYK7pq7-0$<@&,]A@,5[[g\<LoIC2BRZaj7*EGdL%NO
+<eLc`]A8I4K9NqNdrRgWD=<`_15D_eSg*!`IJd#1^C?ARZ'nsLWCm6u]AfRokl/Sh8NXpMAbsk
+1EW8NH:,jp?>GaJ2sg@GBMArK;?AikoV-*!';9pNZLO:QAd*8oegoFs>JH!Wonj'0lgA]A^Y5
+1)^`lM,EOtMl-\%C'mdbOQ3HI4oPgR]ApKf!(;CY78[g,o36h%BV0DNsRVCK44=qJnBn*h7hD
+?9TqDjgU2S#Gfb7`NmZ.muAF7A=R18+.._395_;e3neVqQEB\]Ac7!F]A@`XAa^f0Xk<;X)4>W
+&Wnc*bk0JVb=-M5uQK6u+`(#G5*_F_9po1Z<n"-bYaZrBNFO$?#h3$Xe5D!*$h%tY"?\p8[=
+p\gYhoLpC?_V/lM\4Wd!c;GpNIFb1r%a3pN&>"TZAW*T0_d70P%q%JHr#0paF8(HKK>h9QAt
+f9W_O01M6Be?%;o?'\CtKf!X9fk@?3.nJI3J6rfu0i,4G]AQq"PFX%DGMA.]AMmc:?BqpNGdLQ
+b$Y(BG>.qIm_Ms83ONoBWHqI-UK:UTINDfB@q8+BVoR%OG!I\mpX%PST'+DKMCq2jYPE/RXl
+8uk96N26a2`!Lh?L[9Sc6Z_,fEWV6]AEhUFpL[$R4:m^j3,C"r3-knq-fo*[qlY<-8'(8m*oU
+%bZ)3UFSf(\Uq.l:gp7l!UPW%i+Oe7mH).^>l;3+`o7\$^P2Sr%0ALc94M+*qmGAG?nkVD>=
+EC!56Pcu%fb"0.[_7*gB^&c]AX:*`9R_2qH$*?I`j>6XO4?0pmQ.Y<Nep\nL3KB>Wm`Uk`>!C
+.NI[r6m!C?+2ISCP2+g#5YWQ0Xo$4XPRm'e>/$W+7u-f8q3)nr_i9sf`Z-DK/*Jken]A:sl5Q
+R'mrA"Pi?-Y62+`1L_S*i^8m7=9hU86GQ=*N,`*-d5=iiO1dqj?5-ob+!TM*n#'R\&arY'Qg
+Qp;&9/s#ce3$^X5_8(:V:RJ-.fm<lR%u_clLBC\k0+($:-V*UX3nAS=4!jR(Mu#MuTigbO2H
+/MLcVUIF+TSQBeb;3HI2>2`E_PSV*u,B;$]Atf5n3D3GS/gn6!3?4&NV_mr';MUKVc]A_IJ$B,
+?tA(":<qX,,-^8CH0nk$[i@P)5)4MrHf(X5oiTF,YJB7p.mpqBr9eTO,NBT#HQuiTeRg(Cp5
+jrE^f)-LX*#LhaHbF6E?l`*^DAZ[\e-A7mOcJUD$\iQ)DZ\EZ)ON8'X_[[tIiN6?6(VX2pnO
+K#>O.c<>hW_ACr@.D#eJ2QFYk_m#-:FT,]AbXK9Z`=5C:8q>A\^s)hnVG3NUY+bfcQdKBoTH;
+>d[rCF[K]AbFVLfL'o5NSY[b^I#Tm'Voe@jj'NLpae3mIR(3EU=E*5i,AXjr(O5^&D,s@j$0k
+7hWV3[i%C!SQ"6a71f+"Q[GmrRV5E6Q*mA&Bk[_Z'lD2[tFH]Ai=PD>4Uj<_F`'0D?1W&B!>U
++e7R*:,Y>#4H+FP>hl55V$Pr3ksB`Hm?OA<?MO_V(Nd8d<,/_g7m=c4I9K`[g,^fXa1GgU3.
+M3\hXKW-rWH*FZQo`Mp*%!;d4's(d)CX&CIETDY8']Agt"m/5TgVjXgNhf>N^XjO")9UVj"&5
+YTc2>4itZQNWlEHAG+8&.Q86DEdZ.&V]A>u^R,u1\T?J/Kk7Ts"'=m2J?p$cshPM_:PP:HD79
+(;%ML@sHaRL[.9+LO\+]A>N_N06C4\%LTr]A?8M^T>QMpZ;LEs#(_K6H<m<J]Ar`rIRYLSEIdT7
+-.BPPeHE1AgqE'YL2_\;tQWXkQ$9G@lV\HY)hiW6!"-bM,f@Dp1?3cmE#q)DlTh&AGY[mW(F
+0[=Wjc\2$)DWH#g5uq$S@^VNUuC%g,k4Dj0f1XAlEN29K#9TQn0l!:acC.T*^u2.X\*AVjb5
+RR.uZr$M&e$"0N_MS3X+U:X*iA@;cGEB`8#4o$k3WfQYoa$;^a7D#+e.C^#LMC[fH1t(*>R:
+Hq=Ss,>J[G.V@o>6fbM`(JU&<o,rCL[>?1r(:ARtK?12pKGOqF]As!b3J*,M>H"k@=J&@3251
+OTP@"Nn,RF`;]A>P50uO(+K>Q+cH-Oj(9RYqWRa>gY:9\.6X`+cR<77attM2S1Gc(N6ifE=*U
+jV]ADYD>-9o2MM"-;36gn_W(:I2#.K,o)lgToTlSuJm>Dr$ldhti;lpj\2T/6,`1O_VoMN41P
+sA8b\cM.Oe0bK*(gAo[BV,6Aa>cLYcm,!b"ItsQnCb[]A)*Hkis0468k9Q(.f?K[kapk=2HX2
+m/&7DH.0!u#(;BO?NiT%9<<TWNDgg4hPN$XHjjQ"u2-*!U`2'D_9[Sc6Xpg`YMWs$%P6r2g'
+lto=+*g@DXU=BlcammQJWR+R3:_3k#h+(n,Q[GFuf3hUqgM<AYOP*3Xk[V5<RB'Vp!oP=<FY
+L/l`g#L&jm%NChE4qW_ouA7WTo^=@k_8c/Fe)g7Np\Ncp42s4EM-;DoZE[m@H=4VjO*?(;)C
+=.afiB9Tn,XPP_8]A,BXO^R1*oY6`4nMc**BEg`ItP^U)"$K!I=!ao)^ga-A_;XcuPi>131_M
+-!%&:tLR#RR)Oa^^^F?"9O6nSf<N^O?&fiD-'+A7OrK<EehM@D]A%sf,D9p(%$oG><5GYn<?Z
+_,<uk?O[=X4I'*fHmH21SkODiF:,qnYG\gd8[qT:R!Rhe^j8C4ps1EA+:6'RE%WOM[/BA/>0
+>ls+V_S&1e[MS),7ORTnNY5P]AAoINILT@K[obr(@($en'PgX'HN<qcG4_3-]Aom'@5+?Ica(E
+oI(3^m:q6c_?CRXL,=_PE5:O>8N#V"-"gJjbp2L6DZ4Y3bM$&If#bYZK![P[_jVcV31N9p8<
+o]APCpQ,!JJ$n,E.[T)$T]AN^\$hh/C(QSq-tkSGcJ_BmtJ=Z5.04:lsok)hq(*lN+YR>TdsUB
+bHQXf,g>Hq[P,1$_-L4]AS&@%&<eF5$00DN`i\$=1o:K;JmsM??#.GZ%:6?F0:cA'"GOJ8B)c
+1pW.Y,R9`FSel8HjUb_Y5EE'+I1"k,$WC_)R-IdjB42OU;XEJNRd,6)2rEumtLLNZL:N8h7k
+=(l-[g"FR"r/X";rR.Oi([QTZ&/U=f\)VN@-!c#`l&3B_aY2?uQ:W>phro9`!Y7@@%I?<S7Z
+EdW:H+VQd'gmcs.%3Ojk'R'MCq]ARUf;3ZW?SCgl[A1e(_^^ThZ34ElBIg7"ToPDJ)V@A`dhS
+PG1CQ^0;!8^%8X,G0Xl!A%$M^mrH?2ZWD=gd5[G_X*=u:IJ1(diWKdYW-<nU[4,*9=pJe$dd
+^q!$B7KBm7U,nMS)YKJSZ]AZBATDt"`*blJ1tH\:APg+D6Y<UaW%em]ABGq[qf^X4B%li/fq^@
+H/&#G;JX@']A8ZGo%jjX#kJ^7`O%djET#YeeBI*[GMbI,5%T!tJh;h_9j8QLDnJo3->&#\[(h
+N4*G_%)-!LlY=Q6bYhRA>!ic-R55_V^h:QWPc!u8Cs=[>r\:af-jjME8q5`oYt",f@b^ECg)
+T<s"%JV/P(XGh$bKH6Bg#a"H"_ttSUTi^b!.h;PBqk/NL*P&$;(E1+sD-PCTVpI&`++ueIG[
+:^s?ndnFML(Y/^;oeV4;R>Wa+a9N5H^[^iRBW=DL>43kriN64tV193C3kAhk;(<"]A&^+(,W9
+4Xi>24l%'6qe'Jg*UXRJd:f==4AYoC%.T/!$n5Q=aH^+4'6r&[hhPo61^-of#[[ITc1lW8b?
+/>OVT^2L!'PT?FVj6Z`]AA=O/(;;=/9esZ:tV@HNO_Hh2l6t2)jPXEnN*c$@MCk8,(W:`RQgB
+VEaf[bZIVrP0dpQ<$/U\UqO-6_QuBR@'<1NSL%Xc/@$=aomL?8[]AA*35M*>]A0"?J<anLrOoS
+@2"a*feo^T<m$hi*I+ggXc&gV.Q<",&m#;mLIuD!8K?#qu9C7o_naZ_nsiR"llYh@(bXE0d1
+q_'UZgZ'*8HW5CIN,^?dt5+XoomK@(j,/lHJm?>&aDQSgDA45mcY^m?U92Z:CFZ*D3dTrC(K
+LO):oFOp"6%+@;PsqT'abOsp&Sbs>*3M$Thrs/n,bNjBY-#f%pANU$oV;++p$B\Lm@t9R*eH
++7JS.TSB9b5E`gZ5AR+@[hFrH0f9a8a0^9KB@j\'rEqhHFN.u-HV@A;,$\8`ZpNGh\GakTj<
+)^Pb9Q92Qm25ed5b5-j<9`,P<4`?Y.Y@"(:ZZ(H)gQVUOK/;T`c@g"m]A&7]A</,H7ugN$8t<S
+V(A<L<i7qj)fooI]A0i0S8^gqM97+7*E++/+lpl_6Dg%H9gtY)V4<$V._kI't*5?F"abc.t"a
+`HP6<)!)+YDiB4l(P\Uct8_h%4#H1+AOrdQ9h:_R[aWOYI^Z@0Cj.lIpLM";DF<DX@=uSS_6
+!\9$d"sq1p2[48&XmiH2nc>#.&fpe<0JQ@9rZ#4KE\9SRL9:8+D%$^I%bcOR&5c2hr4pR7bu
+RkKe$K>kJmJlLZ!^JSH!YU.=7+#(D<[;^JD(IQeQ*f/P4(\WJ/$u?6V+@L2jD3GAr2)>tQ.'
+8!h,CjAII1cumDfb;g#"iDZ!N-SqnN#^E!0MKgS!9j\ra4Y!$;*/b]AOPMb2k</R6ph=ak63h
+hR=e*bE<#4=<Cj,_\agVn`n9!r;DaEouu]A9H,=8tSJmI+=qAJ`$Q=H8l]A`X2$)eo(s'/\up-
+is29R9imKPS/5ZeVbhPPRgQ%<j$DAgd,:VjFTH_!,s3;!cU=pOSQP1.W$7KEL]AXPU6<6)b/O
+86MG8Wd-\s7Ds2[%%']AIQi7,\'7t[;r'cVKsjaRnhoDX/NUVC@$`5K(bZ@[5-^U5^>!X8*/h
+QY8l<^(2Rp?@QT]AeciD$*L2P-urGiRM1Ya=*I2A1l#)"KbgBnI/2,Q>?b1p!osM[qZXr8'O3
+Mf/;=kXD$&2=(6tdu&gd(AM)'pc]A'+WnV>dN#OJlIgllAj?#'sCb<M/@/&Y&CWMUs4P".)SB
+*k88H4-*UMdH"(I0f(j<MU9_D1jkS"73SCEYHrdU+rEFGLns[VAnkg90JCA9./S'C*`Ga0/8
+O^gbh#gcDgn!b&!IB>S4.D_]Ao+Oa@iNb`G@iZQV%R-hU=WUHR>o1YR0::A%4Wg<cgc\^CI?I
+mJ[S5Wlu`ja\oj1(QtkAIC2-[6uO]AMLa_0/?eWb$N(8]AML`r?!="-=nT!lOh*j[b[(k$.b]Ah
+0eoiQsKJ$t9!<2"s`."qa[cqH`a8`;%$$#K4PKKn$GEI+a(VU?A49=.'a;V1?bdaG!r_@Y?2
+m#@#4_/lRm6s9O6^E=!YSa>A]AGD\&&UQEDCNW4#MnM.u9GK''`5a5%;*FeQ2GD-iTF05n&T&
+(fe?'dhuVMa)76$hPF,RXU=2dYg"97=MspC"d\HDm0MBJHBj6jd+7PJ=h>RY#[B:A/:W@O%l
+Q+1Si@\iNN+64`'h#g\AQ+/!qf)o:)NMm*0p,:.J9[^BCHl+7S>GO7?,dW&#$-r+b`8M!!f%
+Aa[.V8%mK76=u^[RG'HB=gptr`JYA^^H>p;gtP\)?4hal>q*7S]A`YWI>9@EB.1Gb@n>u:h>>
+-5d%g1laC4Z+1@1>1D9GOQFf@Cs89,gNV;n'5S.;Xsd=tBO@$I/p\a$.F*_fU(?Lq=ujPWgU
+XAKM96/B]Aln<T;n>Ee1nKQ??.itO."JV'+4[>;,[0a0nmA/^f<2<rSF2EnD+Y?u5@(\!gt)k
+b)q6RB;\Ef;X[pKWMdVb;^'"0*ZM>=PdJ%fG$p+g\g6[K'XIXrGc'j/kkH"#^@/.;UU%k6T)
+/K;HpGIu#I"Lo$#uWjiI$4^K$?;0`pC"N1!I3fQF#Ac?\A3WAG)2Eu;B,PLG.ZD+u#2`f/_l
+UFE,2McS.Q0F8d)QHu\d2!&BGpMlhal6tBDIdaEP<Fe8)4L*YLIVgo#&%@J)+GFT2=L=8ND[
+D\$/g?V4,G-:&-Yi6+*?>]AIM>1H/4bNG`"%IDfh11-B?;2U6Q_fLM^Mfri2F<4bGSZ=%\Z,c
+BO[hI-Ji<bQga$6_O+Xo3N9m=\Yr&[P%_o8_VkgIDE^g^.W:nh&\q,A>!6W</qU@-Mru02]AO
+O36ZLP!`Y%3R5jBTd7W3p*kX1^8r.lP/7,EB=KqBkG2+_1^T-BlL?ED.QfQmruu*D<-C'/*L
+H>gAcDd`0e$7kNF3;1,E#:HuU&PV]Aa+&4aE$A5trA%n4N(TF%5Z9nAV\ULaaG^`[)>YS&l&D
+#(HdN+Q/K?/]AJ;%^1@%lFRbfm*b+"B00_0I@$'UL'1FBpl4^1g/mMoL2(H./;nHnVr\XX/g\
+iSaaV?#j,WPTSB+\%pCCpUN4u!`<1Of1ast\DPAOObZ>WFYAhJ->P.71DUV.KR,3^%7\0A"D
+.rO!u0B@a7)8(aVWKtLXkGaY^cG%=A6PpnNAYUdL*HZ@:"(iST"K64BVF0-`8[3uopO\Du\l
+g$VBtoGN;uflUah3H*4k37@_5MVZeYs$n7;ZjI^I+u&je)?8Wt,oeKLr=/_*^ZK@Af5_8^1,
+pA?)qYSb_Lrhu#eg/_YtPegs:tZ0q]AB,J;Vm3+Lk7V;@fb[NeX"dX>DjJni$gkSPX^OSLJ0@
+r2eE_mq$A\4=d_/mRR^V"!]AfaSPZ$o;JLHf36)rMOeQT-!RhcF>:IchM`)?-Go(%XMmTeG]A=
+K>Q!7JQ<XdYmb@%7A9*+n8[O9rF6ZbGs&KPJt&I[e]AZV"?tNm%jol.ld?FsX)7ab8gcS@@;$
+,Pj=TVh5\8*7WXga0mGpmG)Z[7Hpa7=6?"Y%ZmhS<X+rk;^X9aX8c=nA]AKWFkS>Qt`#kJr+O
+p#W_rPWI_-C_2;5R3T8*,K!1O*nX/UB>YkVP^sqK9C7a,G=C;9bp3&qP^cJA_iV5mQGm.Tnk
+IWao\,-0ubGG(_9N=Gt$fN4'hcC9euY%$>>m,Flq<p?+RiAY=rJ,SohT=.\?a\SmspWmAP/.
+!IOghR9O%hcX;'<"=isFFU2pYatZ>f!jgfLknCkJ'r>!)57i4*nc0p^I7)R+n>l<5g`FRI1t
+?=8Y9X"O,Am70')uJ'_9c=pWbdG@n@oYKW0:"]Ah61alTjaJI1DubG'PmQmrOd]A!N=\Wo@<>q
+PA<m<G%(BXN@R^PiYM[Z!?""e8DR6DEV3G</+M[kW"EAJRdqqioF)oXj58ZdKq'7$aX=U(E8
+L9:@!^eRW5IQ'PM.jM1%N.(>]AO*Gpsn?o>%:K'\mW=>-nH2JX;P\?O"N]AS?04]A:4^)ME(k*f
+G0WCrZY[@WikB;)//\s>=E6[eebei<^Q4kX+8.!6r=8#E1_"-a7juE#JHaTItUsLD2C`-+11
+/C`f/oWACQ(2&mq29_d0pfs<XHW^NSqT[EUuK,b#W%b@Rej:f@`)BU:Qh_h<KIt:0+oZngGB
+'@(Er_;'6/7<W53b=',79f=!TC*=G0?4'2VLK9P'"RRRGUbEXIKB1sbJB^UC8]A+$INI0H>e9
+k-(sc3?PF_8,'B2;&58pn=;-o:=pj%6[C59s/NEQA!_d!jU.;-(LS!Y4Bq]AsnmE-X-QZ1ck6
+,-2NKqf5orY2D)OIp\2;gDh/984Mn=3d"XH,j:I'dgbZ`<?b-tpL#B*J728JsUj3Y$]A;5kp&
+F-DS@/p68LF7h*FY3M!lPlT93WDeJn2"D:^73s-Q**]Ae%-rJVu6DL=Nkdtr=/"kiu/q2WIhQ
+Zt08Xl2HN,mC<^_KAGP4rZIZ67d]Abei8p5=21L<N*=R(b+,Ip6(c>DI8-mFj0GY8X]AF=<CQ2
+ghrXuHoj@*riE>,R,&4W3a;?F9J/]A*\%+)j__-im[R=?]AfM\?R46kXfnM&P.(tT*r^LIt%NR
+s/]APpcZW?4WQ_n4jc"XiL5I9\Su/eil.gu165<G_,[3tkPAg(Kj/(UDosCI8Y1+Uq)0cOLm6
+7N%;:\H?p3%ai[UdCn2uP$3ZL]A*9;YKSIU/j@&Q<;el^)#g,^'p14:F!=U:Q_.mX*9%#6:BZ
+nP;a%7]AB4q)&IaEP!hh(9hGf1+W+e#hFn+Rl`[SA%\D;6f_Z<GOUuDUBE5*lb7m^.M!T<@^m
+MF_qni1&GH-s0m&FukCZDU>*S4B%\r!-@rr\aK`;BYj>_#i/]A13R(2,/pg"`]A`Q^T&C9NoNf
+b$Dc#Pq:4"+rXo#knLEm_]A7M&8`!P`%+Y05rdD]AZ3k]Ah=,1VW^L`,RuRMZWa&b.]A0)7Eac2/
+j_g*"0a7rQ4099hA#j'&)n]A*Z^sEX1<<-RS?-S82UiC@@Ppcmrpku0g2l/?on^=0PDmGo=ll
+qj?8edlS;U7#T8S=8+,)D^Bo7D1jDt&CS]A<f"sm-6?ep1f8cc()BB7DU>9\@^(p1AJ,^BoAj
+Z4L<1Jll[3'S4l-.q!kWL+<Aml^O*;<=^Lnbi[%'E^`Qu.j\"Dpfe`;r;onQ#PgdL;H\RsPR
+3nQd>Zk0,;490.I=8<fX_SPTK&0ZARUj*@C*,OOZ.AdZ=(!MGIEEaOZ="BcGi<FbNQ3Fu]Aan
+R4k3pHHn7>To0'7E_;J5X(]APZuTW'g-/d,9kX5HT5]AX#X@$g2W?*qHrpDg(C$T(FN,">lt/L
+7X_Y>WtNK)h;?^Eg!>\Ki_eJ5lZqW%bRYu6WSOF6&FPhIT"2jfPjCIr48S8s8%t!/[\^Y-g;
+[`is6&:r7S8U]ArSt$)Bm]AE/r19V4>?*OUbk_Hk^Q`1<D,Y"m5dNTlY=$2>kHM=8C@,7rKXKH
+-g8j[NblpS8PuGI4-sK21&Zj:-iKU1]AmNi3FAp\+"O]AHRoOl_FS[NBS<)h,ihd1(K"]AggqD,
+N<af?Td%qLUVs2B2EE=`V9i3cVf!]A/>u5fc';[jk;SPA.qB&\_RcClR@Qhq1[HmRrio1^8f4
+CuIniT6`ukF'WRE6->br..EV<*O">MenchX:<0#R_(cO1JXa-Rghna;QpBUaYQ]ADSWoZY>c?
+TfW3<\QWL@eDHDr*a99m7lXK`TlS9Cg(RAHV)q1:$gjoPp@A[jmq$^&hWI,.@u0md$cAV%U5
+b0$[F"=Q=BBSlY3sL[YEKHM/rOI4aMUTRg1I<JVF`/)hr(dRYYmuarldo5nD%RuPQ6#5I1;a
+lCbYkdB`oHob?3Vgm4C%AHn;4iX.P%1l^'37lZ.&fHPCZPSG$Ujnds/$GJo&u@NK:MK?n1Od
+b"Ss0pig;A4p]A#@3l:sn22A$/$spTE?i<D!J/1ABO*X[p;M<tPhS0'Nd>Akr]Af+I^W"@?E8m
+]A:h7i_\M)c04c:\omkfrV@IY3(gGl1N!s83T.#T3MNHRQOVN-(64r'5BlJY1\#Y:2NSD.%>S
+("mp7M4%WOq4LmD;FLO#s/smH@H3VJs+-*93`Z%-TL9Q+K;".CE5p.HjTh%`i8VTsY$3qTHq
+G@o_r&G,5(E:<V1lf+H#=>qPcWKZ>AlOldH*/-H4q&QrbTXhXd$NHi,Ts[mWdDd4'?Rb!k*9
+2b%86,&l[@HN4O6Fa@9;4R&^G7[UqiU<RFrBisrYTMJ6bYLte.8acrdGIH$]Am-iVAcfB_8g;
+/[bZVJg,LH0ND+!kC\rr/+VSCiFoM,`LhAeQ/L0EGs:6RJI1$RNSg;4I`GKMWE)#hdPP;eDb
+(I]A,+ZJ3Tp+b)`]AB<<'[:<,>@185qX/Ch9MUqpV$n*qMJiD$4LCZ/?b7D*+;'@nP3JcT>#lm
+1[>5VFQ\!^(Z1Xc5!EP>aV[5/ZrS_q#.9>;JZ3`XYY!Hh@J?bmN@\!Ug2&nhXsp"Y2FRi#9W
+uWAK8DGd4*spJX?9[FfBeW5T[u?JDis#/-OeQG7V*ISWd?nl(;ukAelu8<_,9dIUHGg"gS[#
+e["Z\3f>&b=csTdII*JB;OLnd0*,j'r^e,DFId1s#PPP^T;^G*%rHu_0>RA&]A\e3T/=P%Q8&
+cu<$i1u5_8B_$QUo8:L+@0gk32-Gs,Hj8?s/*i>N1Vn7h&M#tKrC0ik+o4BN54?;3K:%LQ'/
+qJ@?a1%/'XY,*a7ohi&+8a4n5#=/?)u>U"/J.WjR8Wl7'$>jf2C`7:#_T8^V(Q2LX6rRd*O*
+Z-d7frBerNL@0Vcd')?ZlL!\\[IJ0hM32&#W<kMC3bob@(J6j[+'1oMOe8\5r`"ICgDbL$QM
+0VW#n'ihJ6V,$POINAbmQK;]AJVj$\A+C+gQo,rCp*W0]A*d#N+(L$.>_rD@,O$u\O9^U3cs\#
+FH+k7iT"o9'>gMaGr&aUDp25!MDT\OTO+3tInm"LS(d=lt2b8h#!-Ol?#gXr+46jBC'prM2:
+%p+B%6YJM)Y[-n`[.NR4T`t2#K>kj!0VI]AinFpM9AY+XZu?eJBN_tiU\L)-e&bDh;ijtR%m)
+I^+1oX_Amp_*5"8m&3us2P6i'^p<guE_AO:(kH?5RDC$f1jdH(A7CH2shFQ8Md)dP#4B/):i
+5Aq0L7Z4F;_;tP:%n%bJ8!GA!HjO9&d%%D$`7-Sc<MS^0:GOJ1hZp\O;*n>0:"B:0nR!YF_O
+dO<DN(3Tc//$@qdt=tYXcObWW*KbfdFG5FaIuO`E7=,p-S8m-[2?ZcKPJk]AmP"gAe`+8h=G2
+,_3humTW+4#rj%T"AAcWA6`=:<Zb_l6m)C1DLMO0nDFbO]A.pE(s:!h\-ZU#*ej+=_8g,KOCL
+c1@O>esq2oo0#V.\h(Uj4Z_]Ai/Y!7`K^4Sm]A-?TWWYn#7+qsf[TIb'./DoRHE*L@OePSOefP
+fro!3:=*P=/a":20AO#m!H`D44XRs?SM]AuePJe$m5#RBMD2j&m8W9sEV7FCaZ+WoG$>LLr--
+o=t<ui5OVaM(r+YcU8V'MQ(<r\hkDR%u&$YS,]AN?E2CM_T&DJ*/7BU_35Kd!s3&9ZD[PT#:P
+<"V4e5#khiu-?%j6]AY+Q#EWgY-Lr`#2DjOp6e@Hr"3:,[W3O*Vf7Gp07UK0kU&'@L:J;;tp5
+JJ%"+H.\lAF%l+q%XFd1K(;*,tGf'(jq^`1k$UIK:EqJZTKOZ$$*?1(TBm!A2"&Lh\57:^:h
+Tr<nO/>W8oo6#dC[1PpL-"T:28c3LqO[Hc2A$AL2nDp,4A9h$V^YcX'T*+*@<2d2]ASJ\l-g)
+ofYg!+(JEJlAIL))li@"u^(+l)J5iHLIjN&A7R+O@(hoW]A'pr<\Gb]As&:XF6&[)"c8<RdQY5
+STMQF>mXBIU"3#mSb=pn(jcFpB*$S43OG('4bJAF!i;/<ChJmuiL^%K-]AV<\YDpWql]Apd9@;
+H8**NTY(6bla#.;crq8*@qG&L#]Ad!e)$\HK*0I`s6qm;Q7mGN`>d35T=3M%S.jbI$H03c-@T
+[+AjO2D@"Su@5_NGfnelEN<r'@]A8,C]AP)=l:3^Q>"<W;m5O0R[UDY2N=7A%(.p-;M>7W^!n5
+W0Ncs2'kW<O/QrpR'KR:BHaY,bfX=jUsg86Y?lMnC:qD'je6-`:FY!60%1U&>%T\/Y0XF\GU
+\24&&^A8<t7/J-s>Q(Tr]Aq:/1d7m]AO.U5*@XNKPNm6@sI$7.'Kjnf1,UjqkiGM_%%-<YMGt$
+GO6R(o#YROgP)lLK%?INEJnmIiK+n5H]Ag4b.NV4*NX/.#R!f+@bmEV/7I"cgYN5\B)nf"l';
+O`,jQ^>)Qp)!/K[CrhS?*O:aDq-^GC+4s')f7%B;`"rJtPpKW?=u7+'$hB:=^^RX2lD%+dFT
+c0,\9jZ/6dA4b[N#rFh7r_tS7Zo3TGr<Hq`(TDiAD!BthRmk9se/i[2D*rDVTi9`J]A4=3[p7
+883\`7Lr<;]A@S,RX+oC<t3''AA/AO+#'RQGD]AWP<o/QVNY0o6h3_3`]A1+.?Nn]Ag4k.l#iJUK
+?kmSB-\YSZV.#0To*on!FLLtbB^V"?2rHPl8gEQlDo-"6\4]A*C(Nm;@=aBBBgN,]AGg5+.hns
+eb;MRRMUo>H+6WE`DP`)Z<Ne0HKc.>UJ[Kh!bcjK[*=ud8T%mZr&u$InV<S!3RCTVbB$u-.0
+di`#QKF?>82n")sLY.Ja!XKM<Gc8I@+RXs2C)eY&N)40i^/?51uM%9]A=ZDHm'Z9rdoe(SnM%
+`-O/mId$3)\0RoE76;_@eqG.0m`P]A4Ce#.gmO'HOsp[$=.RcBo.#)Z:fm]As4j>5V1uST4b)[
+PH3a#J(U]A:"MVjNbES)`sB]AI:1^8[9LnA8FG#uBVuQ9(73KLC]AP6^'c#Z.t1>4G.4l_a.g3o
+:.b%pB!k3nQC%K]A:FGc<_7a(U?U_XTta-hLT`h>S3!4T-&bS7^FB.(^7$>k'WZ+Dtf$q#_'r
+8cEjM7T)1k"2_/k*p[39glLk3+E4e/K'1k+NgO.Zob<PKjoJ*%<Em5j^VF?H4seN2J&A%]Ae6
+Q$%H\\BG+7YiRAt/YAMkr3IeO4b`)W_KYNU[JFs*k#e5`ib,l3?BN$TN&FI9/ukT\O`CQN3'
+G%ZCB+jou7\O;9-n:#F0QCs5:9p$8M)&;J./,u=.6?\ADOnjdO?!BbHH&R%7lj5M?`.CMF3o
+3391"3noPht<36H:m,81j'>,0t(pTGb.G+SSZSN1-d0?`9gWqhaE-\bYX)qYLJALgTVDIa<[
+TiPcVG'0dKP]A95VJSrNid_jU<=]A7J/ONU)bQp*nRV$aPPeCFhk%^%]A5,:&0[iTY!lX!.#aGt
+@[I[FO[&O<^Ju,Wp?0?Z:lsAT_6DS=,S28)GuQ:kr[OoG.#M<^-^4+/>=6)&'rkZIa>1NlG7
+k!;cj-Mfs0^tWARZ70,em$Jpi28##,,WMCN+]AlWI%_g\?U^Vj$YXn>i/S@Cf/:3oDNTK'1%L
+>P9i?(]AU3LgA6cU9okEb9[07rTGC1):6EM!te;Nln@hSCB6u,P,ZC.(Yk>pG8$@c`-*^1+io
+.Ms%3sBLp>o*1VL0eA-Z3`-r'*eqe")`pmh?'he_gS[^`,18'\05b?85U$5[d"JXN8T1;@Z6
+/4f#k7&[riU=Y>AIA`KBR1ZHfDq1@($FD!V(Q8dHVt*<@F]AaSlc!W0s[ErLj!%=%*gWA)OhU
+dpC(7V-tK.>%^Z;V:sJ;/Ng-]A?BjqFMNhf?nU.bEFfGf4WIY`BXiH1Vk,LUZA.j)pQ>7>sk7
+U4>*c>O%7JO"B0,HAL3BTJiMgikL[&@JAs).SJ6?5[:j;HD/*^;blOpTp#\`BN$iokc.i(jP
+Ji$^XXbI,kb]Af]AV^X#Gi-\B+4LL>'Gea(e@LA'?j=#*n.]A!J7#!I'rrYGSc8S>LuY[K[q;jZ
+q"$rjLP`Z8<f`giY+1f*>-sR\1aj7VKO@b[8F]A:":[+;T<GiJ1/:^2..N#+;&LO(QkhrAn@=
+3M>LN>fJaXp#o^r[T"h,Pm6_=>6"FrVS\fd2.aWoMD\;72Q6IBcn6'NKr1$Ij2oe/t[PA@_t
+:C'@n9=kEMgilGV\5ncq0DZ+o\/c$5qS:'bK?Wu-lr"H]AXNo9.7!RGq@t7c?a*3jn5@p$,r1
+jC:2oVns./AesI;6E(Gai9tQ+p>4>]ADr7<X$rrIm]AIl`"Akh=UC,_,?M,8AujZMI.R/dRXh>
+\W-q)?@+6D\iu7^R^tccTNlud9mrH$F.G!jXD[@Y%-!^J@R.n0p'8\KIAV6Zlr+,+KB_k2(A
+0ZB>M#g9ZZo:*BKX]AW`_=#FgJP1%#qt8!ql+2H"Q)?H0?:'mB=;"A3dR'1\F]A%Ol^!@<aCr@
+kph:q8,**h3CN^Hj6'olp)*+'_@$4,n6`J]AV/gU9dM6%20jE8&$?1(NtFEGJaP?89oR^]AN,7
+f:Pa0$HCmlEc8&%]As5SjO.BVeHV)g!P8.'\Mp\L1"bugQ1Sgmde3u:[o36!E&&WdI#D'H$+b
+IZ.@$Hs"(.dKZVBLC["H[2L23f-gDd1=Lo_R:i/A+[cGsDWKIZHR9>mh^c';Y0(H=cg%2r)A
+dARVSsejZY^WZQ-9C"pel3<jCtcD$[aLg\]Alh4g9Y"t<_/F$]Al;Q_Ph!nNEE#l<PW3#`DWSH
+!fCC:91o+o`sfo?O_b,Y[Yu@%J'8ilt.r2X3ImD^eL%_)CSfF/b-`c<h)h^Lq*n+OBF!-Dl)
+YcL[8XZ+<=ED7C8OQmeegi8T*Hh\q%QL/QX;R:'$;("g`84$pWVg7`6)Z0ur]AP0@)#A#.LHU
+Lh%IF.(FTTbH"Oa27ZIR(a4=$L,aim*&%&:>M]AOX8&E?*rF^P,+'"bqL&<UIgQ7fUeKV#h_,
+)X=OSb)G>m*'ij>.E4V"IQrl18P$(-FG5)U/)YdBk2upq?,+(%Shqatkc&I_pk9G)6f)qHV9
+n&D(b]Ak]A-E!5le/L!_hCA&stYF0CKQlde"Bd#f\huP%3?.5ZOoIRHS7uGJh$*81P64mWh?q`
+!?j/+/INWq!UJO'oNAWbWTK+Z76[jL'8SF)hY=*^U6LYn/A;-pBquhnmnI]A!2ju>\fE-IE%?
+\uAROX@*';5X>S;k$:s2dE0li<r^+#T">LnT8,C*d&iqIbDoH;oA4jR9e5cf'/1#nZ[NS@Im
+r?BdPOH,N_.%C<\E=LpJrJ_.94b]AZX%oN:!kqgOBK_Vt:n$RekG8j96Yk)PP-=<A#'FH<J4?
+gj(@#Y1N0CaQ<Agpl.gqRid&^)I&\VR;eBe\M)/+8)5P<*qWaE$>g5!,4$$:mn,BaGoYAE$5
+9W7">U8(q'5jT]AK<=3NY$Gs"!JYk3H"W^*:]AkL.tk7fd>D!@EGcUU*5*LK;gt6\D'eKQg/IU
+K@30_%#qa<C)XrOM=iFkK;-k\3HANB=WEM>_cJ8XEdM*jn\@4SDFDg@<hHW4h?]AX[Pq190=Z
+KPQLXD$7m0_[$iN7BaG/7_2co\$!mjAs$d8?lq_p<.!h\lXdo>ChE\U_K!ou>A4;TIiPL?>K
+`^R2GF]As4^NY&dQ4<l4^#Em`eQ2\V^&Mbn$G]A8c'`[hj7_"rNT1eSAk59g&S/]AkmAh&Af)T;
+rr3OTc.Znm0'CVjft"]A`.,eh:ZGCnD3eAq!RJj2mQEKB]A:ssgV8$JEqfH,Qbmsa%gH#ahVi<
+`EC=j"(Pna=9n[pDUR#q:+]A`_u"Jb,U>s4(FIsLaCIHbU@`KE@)+)ug,I:?O43*nA&01=AZ)
+!T-!4d%n:(.8=B<I''2%#k=Vgb!9@IoH70^$Xk(R4/4RA9$"^6hZ-`ZDPs'@=F<'mHYZYE@\
+PYl.Xqm^(LTGM%8T\U7<6BL,Ubemuouf53:I_?Cqj>Hh2(LiGXuL*rMu2m^UlL6KJJkgY9[g
+O!s=:(ka:e0A_-qIA^cL$j8=]AMmmCOW>eBs;)8dCR$Re>K"jL`MC!f,m]A>Y-Efl=D(8P):_@
+=Xob7Hih(bJ1I:&-S-*k2?7;?\FLQbBNMPMVr3n7A8Gn8C5B7'f]A9HEM\+G7k@,(]Ai*D3)D?
+nIW9bK:iTKiH@Z-ZQWTnI`O5K@b#B[>>fIC8ce`O;?>@J@qj+d_0c@oP932Yglk,]Am-#1O_F
+oJ1kT\C>p8R'!@#pB/*>E/D-hfV\q,t+uYZ)h.5r+tPsLr_mInrc4p5!s;F1-TEl\P9-I_"_
+\F)p/c/Xn/%+8Q!K0Y_ic9M&qNJQ,0\D@$&qW/d+p@&.]A(kk,U:A2&&Bkmgk;g[qGfc\:/:,
+B5k+uoNa*\3?USW#K*o?+'Ik?";?r[7K1eU&Z_A`a7o*8]AD8Itrql6KDYtZ2N,>5KYq1r>C#
++u:P=`T+^5lHsrJoQ;/a_O15aIV"9oYUQF8.LFEPa["0%NSoofNm;PDAq0Q+KUCaC8?*%HNS
+l[1U77VA&m5@mP@k#MV:()'0mrDr1[9YG1L]AY2LSE5hX'uKr]AkE++kiB&A(&8o[eFk<klaq&
+,W8C2R5jS$6_%G]AHp7K0iYF$Z^okSd!#l4gEU&N.djr;dKg1e&H_/7KTFIM\80dc\;Y$a0ja
+tR%@&W.Jd-L0=e(PY0q3I6FVY!g@[rdlqY#-Fq)g$`X8Tr`KIe`rfZgM=+72k%c-d'ig*F*W
+)Ia,0q1'rC4om2Rr64W09HrFB:*Ppcm]ASB12s?"/C.7mbf-f1$%[N2C5L-/#p<$kE%/7PR5>
+;S2+M=^6^HD5XZl`nB[S0]Ajq+CF"Z^]A:#4T8YiQaTNqq:dP'_gD:$gUXV7+a3a<D\KS`ncu]A
+f^H)fQdBPWX*T.R5OpH*B[tadJD;^d8QQ^lQ+GtJ>BG3mp)uKX$i650:"G878*um\FP=cKJ[
+rOsW6]AJq//;X+3E.b["]A*O`ODVd,OOPZB:/\MJjkf#7@KA#./>A0Zs`Im)s*/jqsqRMIYT,U
+t#YHF"p)'6p*K;FgTB[[.(#bW=I>l1/,r^Gb.!6>Mc@ds*_M5iE`nqW3"T2.oT$BrGqX/3Cq
+n=.g=FRMBJ^Ubu;%a&)iK#W!XN;iNa[hP,g7c:kgc``):W`mD^me8B[U+sk$K41:f["?0WiB
+^o#bW_7?oXo["0j+_Hgc@Q(aS>((g<&Pa,SDpnZks5C#9J+s#B']AehhJU?c^,O=b*G8"3KQ)
+'YZrLErLL&q2_-B6S+E*loQht/9T7u%lV;A);Z/N]Alu1KuSZnW1NiZ[:!/]A>kGr]Aic"2k]AbC
+>/B!dhj>XO)e;>!?A;DXD=<,?h_#@5Vf.5.GM`8T_>"DP0s%keq4<#mpZ5Y<nTBkQpoT*mVK
+:FPCH\())lG<O`7aGE-PQ#bs4fG@lVYR-f0bn*"O3Cm=p?2K405FNIg(:.NhW7BD6d5-qaP?
+$,h3M8Xb!.j7\?E@THB/?sf8VJP;4lg1?>9iGjB`!&pWFr]AYi1bF,DZEQ0nI-#Q\!E?lb^W>
+U[bPN39O='Qe!@cB(EV`tA>dAsQT1k`0WGYaW*[a!R]API&1q'AfY-n2+Q5GZJc>X2ftp+]A4?
+:7?'B>gRB*c%#2<IRgo;nE3CYX[EI(8b0#s,F&ap(8Di7rB`iO"ltaW^`:C>G1-A<FHr$8A6
+qtFnakqaOqSf(B[aX/;WGR@aC$e.ahB1>'^K97_[-.#+lX91fTZVDV)I,_QT.^_u]A50@sA`n
+:T]A.Ku3OCAK-)I[+nR&_(p2rlVe7:`^J1AUk$iG`47&(s\a""ILcY]A)mBK4,q-3BSL*@\@Jl
+a1JN&.J(&Ws*j9&:aHDn(=4..U^l9UDD5>NDChLn5eFS!(f6TPZ^i-Jod#.+_nKjUf+\6Jhu
++Xn[hhq_F)r!k+-6f\`TX[9GO%0OeBmp7E<fK&/*".<nlS?f`)XKr3f5\^+`:FOp@An915Oc
+S.fO^DLuU*hpFlcK;8XMrr'kHqZ4&q;jdW+g13V+uMR`2kfj9U?'Ia=DNZSQ_`sG(m\ePW6#
+/g?>eI?(bZeWJ.gsOG*5-QO.h7sFeFfTujrjm^tAC(V?e&1G3nTnB5!6GIWHI^S9!,(X"Sq[
+5SA'ts&r%>/aYrW16p=8klYskmbaRWKhq<#Abj>=#.?^?,IG8k^'8"34D)&([6[YKu20U#b[
+O?p;umb5tO9?amP8^rn_N9)/M"cX2./0f^bR^'`8IgqGS>hjE$Tnp&+rnBFpkrXOlatsDJ^A
+2>LA9QOmiVp!kYr?KW4uC1ufTp@;p8k^E0O&M0q$@A;J2,oY\2/Wpb![8LX34!V!pK@G>lXp
+35mj0sg5I7V.WH=OYS2*'QYGd)2CK._\UuLF,a%njheC*kTL]AqCcJL/\j?j30"%9-\M'*-N,
+`aoO<(ZIZU*XrFZABGHhqNMr`HAd-,5?LkirV4Nlt\Rd-]AjaQ'*^g6JFL363=J^c,oaA]AI's
+AJXF^GPlTfC:=U4+^R@>H'W-&4dJQ<oi&OM>)Ws1isijr'%<sS,+d1cV7Cb2"VLs\uC4nchY
+<E5V:c!Ka$9,plPJqs51'Ag[P\!FF=Hqn,^T`ITb#Be#2\l=U=5"0n<"cV`%iH8R5+@d:+e+
+TA)bBeWIQYSoP:Bgii1A9$TJ/Fjf\5=AuRLSVr^ZoJ(:9+FOS,DgBdqCFM?pD9g#**a*b6,T
+G"$SK=/(,epW'Db\Y5+V:[.Hj%"Rpa;:M3<!WZltl9!0)QnV<Xb9`V#.C]AF8-HHfG5'<VWI@
+,s?qN\G=\>Skj_"E;[F9o'Y\+G1SrpnO2O9"Q>p"O8e(K_umNhG)H'Y$:V/#/`cZU^pEcGNQ
+dcRPY,:eo3k"H67DDOa+`n8<N/4n'$*i%/#4-]AjHG[/ChE'>e'@[_T&o;M!#s3JCrQ.fc[q7
+bHoWmN&W%ZK*`M#IXJjBQ$ap)`%$d:[kV>s+7t,=r'LZkNZ-+&IK+W?n,TTt8/2J9>3D'`I+
+*Hp]AndLsQM,M-g$W'D_PG0O?QC35D'B8G]A7_#h)qSK=!X#+,HG;Glo`spHf>F@UaWIk3VIJp
+8[8Lge`HeX%>.+,q$f$3F9+U),1>2hsLH)Pi]AZuB7ZL2qkCC<]A63G,FW_EIU%s&jge.\Oeh`
+E`k1D&4!)I2"i-+(@EPM7^:"`,Ks@e/K(@a<\Zk6M4Wh<W-f=QE\Be2,0$9%50)3^n:')-OD
+&c:Ju0Ka0ieE=Y[,FT5Jl:1_\g&8Atl[KEd&>#-uSK\"fF^E\P37(0mB5Q0f/'(CPJ0H-n%n
+nrljG4]A-GBg)NJ>i8GZBpjl'n09P5Pc)^h,bC77Vj[03A<C`.N#[k%,:.?qYb.t0saQu&M4*
+hHn.+c>ap%<H'A+QoSh0gh)D1^-hSm=ZRS7r:sV![bh'VZFB.Dd1EGucarnra9]AOM@B.:6p@
+7FW%Rf2:o"I&-L%+mG\>i6>6hjISPW:<b(baL.bt3An!NJ%t.o#=DT\_7hKd,^TF:"U23Rq@
+3-'!"4N59eG!S:&lo/K7;EZR@$Ljkl2p[Mo<EC^[bFm8C7U*;?W<[-Z)Df@&i@\%SB%:=Z9T
+D4Y-**9$7=mFAW9brP"k]A<ebXjrFfU0t'hZ2qrF4q4d=VN]AA:Na`%89ZXSElJ^c)mpJB`udj
+8-&hOcX)#=pb`*6Z_]A-d"%"[\g:^J,^gZb_NsL*Mf0LDPe%ksq6maMmKSLmo?aFh\T,bQPY<
+Q<mPlP,2r,&:b4<+h90oGjSh'A*RI<9X6%Y[tC7aI(Ij8=dM[l`t&:_Lke97j#I?^sE:gbsr
+A4TtEd;Ptu_-,?lM=I^1_M*))rZRg0]AAo,N>-eCZ.[FWms(]AcH114VGcP!QZ6T67'V$J(Ma1
+Ya'2VPe8\hp[+Jh5Qr0+9pQRCDm8QL,q;P/7BULOI"AUc1#32YJYRRh=19IeqCR'5O)PHrY-
+W?hcEER:JP@HI'8.*#'HtsONb4U!u[&Uf2GRS7=6l6E-mYlMkSd?*?J#M=_h?LXo+.c#Y@]A^
+rp]A<m]Ap%5$TXM.qVLDq.DajJ+M]A:E9!4)#H,;\+_Gk,5HH[Kt@&a'oq+oC4X(mH=r`08F)-<
+-<i_;8>tMZI0p\9KFt$E)j&@K5uEL*-01leq0nKjD/j"Ac@WlREn!qDEWK-%qUt4&N&gGGkC
+rWl+_s_l_?=jJjPWCtJ@Qot%?0j-kn,_-"+MNrA#*8N@kOVDDqUcd0ofE=4SRdHd;>[,]AQGT
+P<tp7R;Frg1#FLNCFL7k-LlEO/+M$2P5!Td2IWg%tY*jA.lo#lrT\6KR`JsZ#1`tGs/p!<(a
+98aKb\eGb+'3@@UsLphlA"IY6TNJq:OM6AW.;gN@EZ%iehq)WZn$M*]AE-oHAnJ)=N<ur`RXp
+7g'$E2t7"#:LaD14("4LYqj&r3?tR]ANE?lPNAXC5VOO:GIu!c;k8#Wo;j7:E+k,eue^[[WIn
+9IY3HZ:m!NKOn!\CU7;^[9UpL-4pHIqaoV%AemGLD",Bb>#LYaQ\B]AVIXuKWW<4s8Ll'V3Ck
+(FuYEnXgmgBHuUH_Ll3gqr=jK?)8/[Br8Or)q/6/mfo6aA2]A/Cq">2,]A,UWWZe@^2mB!W*Mh
+GI@_r6:n>i<JuHE0B[6leF,1m,/[#k(0]AjB4V?V&Jm)2d4/D<EN3B/62m$>OKb8@h>_lK?(=
+=`E@'d*81#tRXRG["J"id>C_Ps_p@F8)L/hK:T-%A5I2Alm,Pr#pe>udb5jaY!2DAXtR,ju`
+"u8bV-@pm:Kr+i=')lhd^V@)im2,)=m%V.5N726!q-;b:g:f.18`Wuf.@6bQJp;sMba6.B"\
+@]A&6NDrb$qkctOPoD[`-oA7h8^oj]Amk%QotImLhUR,05RiZT(9rDGnRieEe5b#8`*&qI%i,8
+;>;AH8pj`W:rclu1^75#Wf1H$CI7l(!S>DPAgEN191d3Tfd3=,e:OHRBSXL0bhAuUG4]A4_.]A
+qu'C=qZpq@[0nB?n=Wmnql5^e[n"UCfU]A.&&++[g2#YQ%DtqG_?;?3RJ*6a`aA-"L+e:j?(N
+1$.'?\n@(7SnLAR[SEP&F#D?dVoe]A%FO]Agt.i(#miEig^hoL6@&m-++!#A&K0!>pjb#)3j+n
+:s(?8fp="oVOPR1i>VF((YB.:0u-.Eh>M=oVPR?8(N<5L(2'RjGu[)do)(*iI[gul==4-^H+
+A5S%Z:QR0k!cf^o\aT]AN#sb_Dm/\Lm!Ha7U.&L'tP"%9)ZppIdN\u#1Jh6H?$;0WIL@e`@Lt
+PIIG4(Epcd*6a-MNpTVU&=_Ni30MgWhS>I^AF9-(j=XPL%ig.P7F'@1tWe$D8E"r@E'^6qJ(
+E;KM>[&*K>*MET8H>%&j]A)ieDH\EE4G5M/JSL#1jiQ,ZnU]A/$&Z68Wk:?:9J@W.4Ndp9E>oY
+oNim%r#OU55^3/Df+<lJ85??]AEQ&;;_!G-3O%`YF$Lo'S2,a!LF-+XA,UN<SB]AF[(6-cpgG4
+/SisGQnS*h^6tu:TO\,eT%Ph@`Pifh60UuI)Qj5Qi-.7H&:cF:#9CH]Anoq,_M)EKm<L.6bAm
+#[BY+mgo2_FhU92o&,PUJkbOj@4?)9'E]AI1"n6m<\sIE'MaMcgTChVa3f3NjlMh$ceX"`N0>
+QdD!,LFgV1m44.[lrbD2:PISB'j,W,S93;N#m`EZ)3(o[('CXPRaq\hK(b,N&gksAeI3X1on
++sIf:O7$(G^4=3=[D<AY+MWG]AnZTmKGrW1)N=f8#=b+!M[c1@E:2kB!4kSF-YVclY(HSV/AG
+[d*lDh7-&N\V(V+5N-B"+ocWZ1*%PGmb8Kaf2K!KIm1@]AV@U&8J,VmR.&<4%;$G8k*a'^(;i
+la47,9[&"ZntY^7QbCL\L&_in)5lcj)6p_u0&h[Fj!gg<[+#J$nk'D#_-iWObh0Zp3p9B""t
+#opO+P@OR8f8)/=B10#4+.:!dI8/k-tptaWS#oPrSmVQ7>Fj9)u#+qo6%=jb\(G;,o\<<NaO
+ET&WhXA5!jKYMLPEU/bJ=)PVePna#T"6tK`2N_]A`[E2B^T+^,k2b3eM/O8(]APjdW(<`Kg4Lr
++XA&T?")*K7hQ:pHc*]A]A@6,!_-j2BC#ghg#Vr9M[-tkS>ckZrO'=e(;MkA<<4!a(mT`6o`&6
+&*;fPdmU!?dUgLI/dDG4]AljN>/2YW=h#9Y6;^Fqt4B(rN.rGFG<=/MIUdUXW(Y]AK_8;bM)\F
+)%WMikY0NS`]AM\QWlZ@J=VZ)J_V:B"Yppl+397:L!Rr_a."Rnh3!GCS);PhEEL#]A4]AWEGf*Z
+Ka*$:**3l6tC.N^3e*&VB\p_<sRTKo7so'EOgHT:^fM)cB8oT=Wt?\qAr/,rSSnZ!>rVn%SK
++jl(3-I;Q-E3PtRho]ACj4q=^$ZTL/dmr]A0#1rbD>JTIBX5r:M]AVePto9PdK>2p%r-$Aqe"U\
+JeFArhLoZ,t*N0&m+db1&CeGY>Y`MYIO85%l['&WldX.2\2NFfM;F$"JQ$"29Ao&#JU[sq!L
+A"LBkTZT+8W)bF\>1_a6X'[*HtM8UoGX_7omGe[OM(HeX\BLM:b`.`e5k9\e34r<-QeDf=O!
+>]AikJ_1DVL_u-3C!a)j'q'cumaS,Wj<XIj#+t_eNPHmgX`2WH`Dd6OP4Rb\]A)GGU\WWgIaUf
+_Z6qa9._;Y!=_Tk@*n^`[rn,D_t]A"9LlJ@PX!oR$m-uc0IS&5Paf@7g99ieTq[Z7h5eEC@[Y
+W&e[.5\.;41Rg4;Xqe7[9"TXEtPltmZP"L,Fl>Ja;"H\RP9$fiWr-Fh>9aF$6_O[b$h9J5S_
+u\mS#Xt=p)5dO.Z00\s0?^kRD'sJA-lV\)jKJ.E$'OZ,#1V(+?g[k)qJLX+G]AAQ_DHfSd+a/
+0W4Hg\aDg213:]AgFW`UASJ@;IVs$tf"=F/L=94os.OB;$&N2Iq>h]Ah66r8O]A'q!]A]AT@c%5pn
+#EXAcK%3G-5,oGG6IOSqEIN*A?KWf,c$(uFLY,Ei2b'Q>[t.1.(0)W3r+,+KW(Y6c!;c+jb/
+?!R6O]AUSr)4c*]Ac/&l[/jo+!Y>!ShGXK3SK*,o@64Z\*KX/Klc^',.a&LgQ^1@iD`+\Q!M"q
+8.<("mE8<f4\7Qj'qXC,3+QY2\S;1cX9hnR7VVSsh&3s_)r,j?rJYUe'`8=U8I%iATf@T>.8
+I+j;hV5*f1s-mCP&`3uD;Xs&]Aq0CsOuf`oN@X;a@2sJ!4Qdl<>4P2D"*#&C!c''db7Hi`J%t
+sW?\DK^HR:'V%!@.@O'6u@&m@M]A5m*BKibs-\O>5YgFQ[fAq9ET^H$D"dJ5U9]A(I"qP[k>kg
+cKbIKQn?D#N["RB$(isuU'`XW;6-_hMithhp1pN.E,Y]AkHKiHjhY*docjc_,DCup$-BgR_!6
+(.b-Ul-!XlUg2U=L/NWIb[mr=\E:hXt&Z``#7kG?P%23&`Oec`R(8C`olk@KPlJ+#98qp4#8
+G!=qtt%H\f:^gMC"OCSqTnZq/&f$PAtDr89cFmC`C6NT-:7npbA6^<H!,.WLIPa^H``s/]AQ,
+dQRPJn^]A4XrIA+*mi;]AEE:Z0l<^O&SuTl(\i.b(%X+1)&a6.s>b+<V5@"Ul%UVA$^YH.YT;5
+KG`n)Edo0+l;V,qUJngD+k40p%aOpnf>8(9!Qc\0#'if9MDUOTm=KBmI]AF$4sGc+f7Zh`"pA
+Y/UDY%.aTC!":.1md3+RaE^>:%a%[E)"=Agk<b9GWllAEFmu'8\[gt&&L%oKa;BS*C[tJ&k(
+RqEmT?&5(NQCp)-*#dd='-ZJBbB&'nBm:ETEJH-Dd$Z_YZ2VgL]A3p;Qhkf[r8=`9/8FC$]A63
+^i:_#6RfV]AS^[jQGiM/ppTM#QSC'79>'Yr%Eq`EaQTDtt=4@TOmS:P\_8PRpf*hN54eXCr\F
+lmq3JGA;I)_t!PQ8lFp[Agj8q0uRJ/rs]Ac\S7Bt3L77uT+XEW9o]AV9XnO=>0!E\Zq-I@:X/i
+:-OaV4Yr>&;eU$Yuh!r.+LT?Tee1rT''F;5R*j2Z@`pM+sjPWrU_E=;)VcE9nlpQ"0_\fMjs
+."Q$/ho*O,)@V?)62VK/"+>^b_]Ag^VMMF/%%p(3A_QL0B7ct6?<bXG)*KLL@jN^Y\;51'5J.
+OoI4^Zn%HEEY:ZL2F:j>]AnslZWO9&/Xit`E'MCp9,Z=-&,K+En"d_=@tmQAT9f7B,sK+=%.>
+\+6Y+N&A,UFJ+H!K^CK*)ch:_DP!Du014HY1+6645"]AA!TpU!&AWe#;ONEfCeG>\WWmG_S2:
+fmKU&8HjVa[6\'\cdhaVXU8<JaE[4CHki!iELGukW0:l;e)1)l8mG'IHp*?8RWA%fX0^t/9O
+_J$AIs`-?>1h^&Fq_#M'>=S!=$\d<!KMpdUSSLBMX9X=(sfEX]A;YUPp"kVQ[Z_OLI$%o_Rt+
+\Lg.*1<3:%RAo>qJ+M&5aho\A%5DtHSXU&IAe.65ol#:dLPlpf!;17e3omjYY-5n?^t;$e%*
+U;>0[(,n%+9]AZLZZk+boeU*^?Iu3AMNYAMMhO-1u^QaO<g!Eh!7DhcH9\XWnN]A&GmcWh]A101
+MYWljl$*-koPUoG]A_T@IE)AVc6G]APe.hab.%?r6aK#bVssAKNQX/u!/Y^S&&0nCAXr$lAf,\
+*F8Oj-mGg,L8*!.$>`Ife1A#iRojHY,gVYgVO[S&&\/-nDpfL4'Oof:E9)]A2_os;eof]AbKai
+6[0c1<:i+>^+o&PA4-j_"[9F7d)%-";T\]AGYTlh2p2!p3M=1tKpr<*.U%m^nQL-);I1&/Y&u
+B>,&*=G?sa*6PS26im4e'j_#-bp7dR\;8hP0l\<!KMP.t@%-s\'WmXG-B;nLhIM`IiM^VqR&
+da(*7k4f^*%;scO\P:,nEo:-[[2MM-ZhmekdZDm33F$O98SC'_5o8JIR?Z"qL^`^nc`h?1EC
+Q&/7O_6"=)bP7bNT_"gLj;^G.p*f?R&.kU&gl%2SpV"cRWb9D'tgoc$sFh.lO<L/2564!rLo
+3:q!dMTbSR>`nY>uE]A^4*^Yc;;p?D"H`(m/iZY6Mj'ODWUCWHIm$Z;=qt:[[=Ht[=lbXTJMV
+6Gp[T@Qa:eaW5C;uf38",0-gu'3g?2PTSt"XMB+R95UDl^*ojhC4,K>PgiE(Sl^('Tfnc&eJ
+JWRdmb8j5$1`5?egr+3G?DZdcV%UKHUGKO$bom0[pN1L7QsuJFaA.GYBlJSA%:\D0H%"dKCW
+'qr&;Z_e`]A19"EIDD]A7j)KFel>u_L?1afasON$n,DKb@f2h$KR3sm7r_dO4i*VSX&6/m?Lim
+1U/Os=I=5Dr6-MJb2K5)Ac3*X9J<YVagKdrM&VDVi7cFXGlhJShfoN0KW*-o@2guB2eHAt68
+tH!i/o<GbX#l^7O1rG1Y1m><<!W[C?]ABUN<j_3>)(_Mr`XHZ=3%PG_lTIJf$i=l"oKoa1=c)
+gYWn:q$*TXa(M$)69niXi`@ftaTF*lR%2-'Z5OWgcq;-='ARcPS2]AF8_M/Q\\GOh$=Lc[Gh8
+qu869riilDrt#cGWTfi8#*aHil3mgc@iU"a;H@BFf398g[2X+78HeO\gR#>"!A*5^Kh+N/(`
+23Z\%FXHH$u:b6N4K,r&TF-$h1uQVVN?GrQfV]AA5C_6QAkD;hD[*I_(`nP93<;*49Qs"W:[0
+Yheipb2MP;"I7PG3Nj'%<?:B$XFW'kjFF+s"Dp3+CZLjgnBcQo#M7OmIOJs;[?&QMkUA\VdP
+!e56^KUEc/QKaX+aq$"Z$DG<.UBik7pXn]AiW-AoFX:q`cWZMf+)^60n\NNZ'>XR[?\C`7?$L
+P$Y@/HSC9o2[<=?+1PlTfQ3YsXs%'Y5'qoG]A<fW&ri94<BR8]AEJI,aY:t6tMP'ZKhiE8VBZf
+miMJpoe1n8e3C+(T(cQLUa%%0I2Oh!,U$^S]AJKi1*!68@K09`^aUmg'>ol.e+a9#3-$Ttc?C
+BVa]A/ni`5<=V+hB7k$n%KjISFA/@R"8ncEb'@;G;h--07tuN=P*l.,![2Yh'28ac*#U*ELLD
+MQh;;aN5Y0.,]ASK7'18cBIp)q1NM*-dqkgCUkiedgEI0*c7D"1;oMBOHj'<Z&1g5Xbq^Y8=e
+Wd^>EVBo^m0B(gSX%/gXRIDaltM0IK`JRI>.71%M^X*+qnk@S\\p3s-H59u(C(QBe']ApT1FR
+ec_5$V8#F"7!+<DQ-ik2aJEW1jg73mt80RW?eCsWgsfWKN^$jK'f+@'1aqfU8`HU+!1EO2G:
+\\nt5W/BL&e\q`Pd,PD)DgWWNLl9nc%&oMGMTF^"m]ACBGLW&*o]AT!0^WB-jJj3l_[S/Wbo9'
+H&0Ot>J=,1(>Ef7X\7F&f6?+Fl"IP>'UFmXr/?f-d<jmbRTj7*-Yp$Q!'21'kF;Z2=8-l%:t
+d4h'hu7.Bd>b><PhQF3j>s0$N\UD/A7*M+trJ?6[(L6hVLeTok-a<KnfR%k$fGahsD1>)ITi
+-KtL$/.7RRsJKa'[E"9iqgdeVlW*"NIm`qdR3h)/_aei(oDuA]AI3lG#J?u=4b)TIZd3NVcp4
+/<!J9GH3HYGq^:4oiGmIfHYq4BiWoqD38;;FU_-i([\kP$g,`[s4WH;=E:Wnn4@i4r'<=@XE
+<2ok22R9oY+Zjt+V/D&1cZm2$5Aof[NJX<oi]As@!s,6:E41oh8hf#iK#G#i"i0/uX@6F2<@_
+PS;s&A9UAcj+ZcUr=[&_D$7l0E4*0M_9O7h5kJnUWHe"nU`NKTL3p8-t[64NIH%m10:N!:@C
+2/)7:=3DQhh/]ASHiYIK"-a%%4?h]A3BIG1uBn#/_F35tBsd`"fB8,9f(>54#Zk#OZ*B9tTE*p
+8Qg@^O>_.k\ntc]AF&%QQ#N0c@RDkhY#4ojc4Y+HSp$aJUVb!`Y=bFV<NKqE'a2m#AX>p_@pc
+V?85bp<bm$Yf9.JBkfg?Y$e*e%B=JYR^P*&%(/7?l"h(f2AR_J3e`>?SHPEIUFL&>KI1'k&>
+0u7-Ak#j/U1epqFrg47Eo\ubLY2DG-Upc!KZ\C!c-7+/@j>(`ZhmS3enhj:,EC(L]A#M64t#(
+rUYgt^]AW[Jh*U732NJiGbGB41VWJ1qj@L+>[\e?4p,acQI$f5qHdsN^u_ZSLq=>5'B^&\9<6
+DTh:bHMGtnG+rOWUETE%5ZDqs!f=J!C%pqoXs3jL]AqidkNSI`3HGJQa`5M%+!_gP\lcrC-m)
+!>b*a1d]AZde*35"W4RZqZ['H.3t/Q3!bgF5U=pc;0O_!Ir99s*`@<3^)tinr]Ak^0o.a#qCJD
+r=0Nb)%+kIa>JTYh%_-j2Qinj(M7S70d6o!)`T1^pfoJBcns5GSpXSo%M4pl_iE#%X[bJ[3o
+8#&rC=`9%M@"R;M5V3_G#mV$@]A^^)8FTXL`7*2+5S#[Z^E=-$@HeFBabd0M^GCE,D,0%MBG8
+f/"<KKG;#SL4K]ACQi<UfUO#<n#Z)'k#73H$7Xa(=6ps#%>np9&^k,.=bc541iH'l*[jCpcPk
+c:S":]Aa82=`>ooS")fTYf(qQuQ.+%SFAiCP8):3r,<t4<4g_hR/?QOB;a%$dZDj'Y$Rh]A2)Z
+.sujaX!82879,=TQd_f?/hYJ9mci)-"BOIh:dAHla5qaQJ5Q[+LE[odIJuQM-'R]AQR76mLf$
+mH;ZG1d+=[h2dljTqL)u'FkJE:Z@m"f[+(o5!K=V=gSoI?OZ]A6AU84#j/lZ[J;'YR0TP4+s4
+IM:0.6VG;kf,B'iB<f\cK:sK&dKWjj\:MQpl2U/&_kY9fRtmdcQ%,4Q=K\\qn^)1EQp#U`i;
+C0tBO(ZEBgVX5ng#6OOYNt0a#_`C>6P%LA,kQ0.-o6!LM>A(2qBW2??#Z&Rn@,iZUj#rnV_b
+WlS5AgBn3_'nZ3<#\s05!5YXM`=Y9/!#HD=+N+?c1LM)FEnMS"o:]Adncj%h6:csV)li5X*Dm
+,8-q(/V+?64!Bt=`/&C.$a*ma7DE:n1Z*d1JSs36O2$j.K7Xn!8ZYQAI+s?UGXAQ8X\)hVJ-
+@6^OKU/s(3_nG^/j`D'Y5)*Zoh+i*8F2fY9Of-QmQCJON;V9nFKbPQaAWgcp4nd6s-)j87*G
+9kKQZ`aQKodqao$i9Sd1cnpkB(^r9p/<M0#:OfEV@e-IS^A@"W]AMt";L=&P"]Aa1GuTMGXL3d
+ASG(894=E)'D=,UC40>F@t[>_Op^!@"Xoh6[C&d#p(oN.d?T@KEa/_iGlNE!`:Q2goPf$B,Y
+dfJ,&%Vi\*$kO@RYH[M.B"XTDn+c1]AJ.\J2??0D7<Dnc/*kSb]A983UtD^!-b6@E(j]Arlm35"
+@D*%XmK3NpVd'-4oEE(V,N2]AZ"\!-\e/-3\4R?*q&l<bAW\fLpsR6Q\<P_HK:2JtBT]Ab$4IN
+g(WIM(NU_!"$,`nIG<KfWgb]A.0\34O\qUIKd>7O]A1oLNt'mi\Kq@D/+D_.=C$@`O\&VH;/()
+SNig6&><46q!rH<NGD2n@(YiD2AciY#"5JkfKNQY=ihr']AfZc;?&3B=K);5$JW/;-!T0HFO5
+XT".L*W`Psk%"5J6j[iHS/E:"Fq!ilOPBBcTW5>u_c^EVkSY!m;3AikYo%YK@SR9NKrZ&[fY
+aFYa#N1M\`Q_;`%J]AAJE2gSoPSgkhFGfZAQP.bg8)&fiTL-Q.QQOFjJ<+>s+Tre=<)Pb@jKp
+aVU-`MlKA%OI*^:0EdXO5XT":BL3-/a5SL&ZH_kK5Zaa8#+J-et9J>$ao/lITmffLYrjqI%3
+V*,I/4M9?^R_+-\=7lg3cqC/c1A%O!bYTA45TQIdMkZ?u)1&=4;<Q=WW0^W4Fl4ZqMWh>X=L
+r\Y"qNZ`Od]AfbLL!m-<u\a+999:Y!Vgc_M.YhZuDTiG;N(nNX1:cCfC[Dsu/]AfnHd]A_AY^E[
+5oOoTK#_,ml+'WZ=KZisH*5e@\1I-_GTTY&@%h\S8?>7)!PV#"?+XUr<=S/WGcS\o$L$CcT-
+jq>-]ARbe@C*^)-J6]Am7=)o`C0>s%A+YCA^@#l/%Me,n0Tr[JP.]Ajc<`KOLQLr@JDIWi3_?Md
+P6mFWHQtdDC>\pPcmmk$+tJS&AjU'e@$ma*n5;_*uc+@j5a2)Y^'I^L.;Aakb;tL,YO"@e;R
+gF"<i3'MVm09)?0F(C%s?2F$+1*Zu\@BVt),sbi:HXq>T@'4&Z22KW#$Q`35p./;\,oQ$#jQ
+LQ[e/H\hAB:APCY2^*7jc^,]Af;?,N4s(<nAHXQEVS$1PT2Z=ZiD@uuG^FM`p>r&<M+L+q\9,
+Md^=##H!GAm6=\MCH6L"Fr.RH6U@eH.&P^#gSXH-Q4]Af2o9L&AV,b2<EVR-,r4"Ggo0aJ#R8
+qGsAqnnWLK/*8=s:D1gfPJ:ZbBa^J!L!DKL.aSUJXqBAi65!-C_hqpMFd+B??\93%D:ZY5"0
+B/,r*f_Y)s6eR>.3OZW63rE4lDKadpH!9LfBUMt:^?G$^^<e-i-/CT*IdVBBAlp1IM%]A(MDI
+aJDZ"^A938`Zn2IN^5X'fWSdo,hY/P&lo?DjPFA0+i0%WWg^>EG6ji;-P+Fq"-qSXTS*Ye?4
++:2S9rEBTsqT5XQZb^$O+>A%?e`%%4Q_X]A^FE?UGl#R;SkQ`[e`;o`;ORJkg@MStDGbBqJAl
+@b7JXUlN#2O("lad?EG4G:@:[7NHWZEE=c,C(DK.+<'@FXQoBD3$Jbjku1)sRIEh^*Q,?fI)
+_alf_m2(V@.Vh4TM+Fh,rm7r=F?)<JF$P@5O]A<)9i@?/,trV'ML.T-4"9#+7=-C+YGr$I[/r
+g+E;Z-%ecF4SQ3<<r?F?bX'L'_a6;4dcA]A:Bb"$7Cmf<Ic0d;h`F(!Z8V7i`<L4_V'^*p:&Y
+t>hrZ57VKt1Wn@!\`MYqnKea"]Ak(kg79F@fdhX4flgM9XRg5(:"o5C$WVXWci2AZE)QY^g,c
+JufQJ<tta09*@O$r+\>rrTd6SE[cNR=pOKGn1l2EO?MuJbb.G\TY&F?Cu*@I%?CT>,s:Cuef
+X'\j.#h9CVcPUpt\8]A5XsG>2%m^Pk5Q33iS6CC63'jaZSIu[-R@YYk1q<lG7]AJ>-\"W3cR!*
+7S%5]AlX^oiFFXkO=.?=Yu8\-gCihsi3W@WK/`KMQ!o=,VG$O3$0oqs*_g'L.VK(jY;*QGXS8
+Ml"6&aL6'!.!I?ksS5'7sjFXMrXEu=*n#4mm?e+H,MXu"13<O7g.'LNb\`pV.*CAk't.haFa
+VW3pb=l`)o5Ug0CH/9,[hq(pff.FQO+mD.fCKT*01?dM4%?D8/&Mfu@S4-S0IA`jI3d.d?e;
+@M&9:1^V=P&h\'Or9K=AAR>e0HSQEHErZE,U)c>Diqad9X8b/L\8pCb5V;["7k]AUr/msW+&I
+'nE+3R5"H!(>;%'@P"UOcXub^[.%''L,=G?o&_mB[_Q+6<"bi,99e4S(a>]Am0o,hbSR69;r_
++?02PD@RA54A;RgFeP'AH'*rL9%S@a5*dM"s>j'fFOU7%[L9h<5psn`gUtV627W/!s9iT=A7
+#q"2UX?m'r8mg=EVuKtTtt-(;_U2i"s@TL)<dE6gQ?9[/-3\Cr:+*4:Y"KD14:VE!qCVeB.H
+mAMNG<Q`)#cugQrZlonYk+.ol<@eo9?B,H50E'IS,"W]AgLZ=Xsp;rcr76&'1B4i/u(>#b]A+U
+FdbK9L3Pr`[4$H.m6;nJJk1lb7&OAFEZ*%CIP0U.nh03&p*W"C`r3gDFE5U5"<h=/;TQF&">
+T0LN4W7alE[l^*>Cc)B-@Nb_h*E.qLL`m0Smf=>$gdomlu+O,'n6H>u_"NF%J*9Fd]AaiD.%Z
+8i8Kl#i)rWZg398PIl.g'$:h"V5DW[7mN4UnS43</_fQI_:YVtQ-C(j!mR=\HkEGtDh#ge,f
+?]A=Ik"sX:9G5>J!tr[*gF-U;'=U+9_ccXi2Ai#"_O,qb<Ik(18HTU.-1(Hd?7mEmS6lk>DcY
+rfAFrV'?m%0RXX]AC*@CG)6nut]A4!6/S:\ot@Qf<l2U/cV!"r)'?kY=eklK1!-4F(*,p*P5/O
+j%(;'N9aILeoK>DcY(/SE%h_%K\1Rn>Sd'TXQrsC_QB&>$72!ceTjrK\Q_WLK:sjW`XKgLd&
+LcIb?:6e1/L@@;c5bCf7'uGOI4NPCQfZerM.cP!CZEAIWliE()'b_"4CXF*\_A4f;o20a*i\
+H%$dtJ!go8.;'bigNW<f0C")7^O<:Vu(D<+rR["^NLfQa`A!,hMc>/+3Gh^ko[kk\aps[[;1
+A3A_k>U,^^F.>[#V?q?4ir5_n^h0i$QaWB\n>;\C/_T$,ISgm?WC^9.fX.hM#3h3S]Ac$ml$8
+#)$$-Ec"C2']A+:BfB!PF%uR8daKlk45=.;.a__NZS(`+:a(8Y!:G2XI]A>RIQ4F8$^-t2)?)/
+,Z<V.4Fna`;'!Bqn#(WB\f6&c2h:(jqMHO(1qJ6%]A_rl4"dIAK>5ZJfo_O?,i7Zf6^jfVbJ9
+jn_C->(8!q?WC#D':4a`;rjRiE)"'0gkJCB^pMmqRH0IZKq0rtb2+DVo[l0.p_I1sfQVc^9/
+Wg5"e?1Z:2K>pY;p4.O93%-W'k+mL^VIp7A/a#nfV4f5Hd?$eU]Al`t4?od\,]A\#J5>DI)r7q
+H`oMp-,N('RT2u!&<+4jA)!9'j32cIeB-r_UCoGKN45Q:EE&`d-^G*YZ6Y9d(%+J+)i>u@.a
+8Id8eLf=Ib%JMS:#9TI`#SE<>Y-FLtTDVe&NZBk3_)"KI061RA3Bs1&_[=\[o'?(d\d*ZuR$
+cE'8ToR%s]AhK\"--PkTR\`,2>f7RD$L?RLbhjG)DXp<)O<8i]AJMI,ph/S4hI`18u,r<KoO6r
+PjW4Z^EKVV/F;i^&P5V1U4jCk/?I+b2*kMs+HDMF>lBKprj..PfC430>R#.$GcQW'\8>'r'n
+H$P1!nEeO.ZmjIPc72IL>0@7,Gn3,H+O&p*1J$R2DVmdJRPN+$iK$MUD^Akf0b9R'6+G35^%
+@A5h[jQj)N\Zhae8s`"95E)ujID%dQ6!H)B\Of50^kGIl^DHae\4E*QLKX^?G@EG6Rb<FrRe
+]A<^lE<fr:TPl+5?>f>NWLI5d>:u8p#K&I--u5\Cnf8iFN'A"KjsgOs_q8O6Ur$>@G$C5<mkN
+&rq@gh\(Z\#m'oE5$*:dJN)ular,;FhU.Ml1lo?e29Y[3SP)h!IEuHOkm+EcIo*3@PP<B\Tp
+EaZltembIm<#t:9+_f\'QajGc0_li2.nHCmLT7")d+6;a'm!lPo`7lWEXhTP(O>k0H?9aL]AI
+a>VX<Hk-7Pf<Ej-\ec/k.D!begjq7"UbEb-\KrCL@DF/;"O)QnkH7Ml<s1?1R"A=^p+N(,XF
+OLuQ6Gtofk^!.r=KbRD5h?"ID5Qf@Q??-_TIP_f(XWU"G<A502M`sirlp9PP5[EmBDt)!BAl
+?/!!d:JlPZ+N"aTmKL3Mb8P;b1u2kZHMG7fK'`'fI#9K1(?kOPe;!OOl<@DR[d=gS1MDtKQ#
+q<fg!7Fo#nM,?3,:a/TV8h2eT&K'+b\e@KcbLli:^$09<Z"m_fg_>g&bA^nQV"N=%U%#FH?\
+4H?:j,$02\CrZK]APTL"$a`)]A1JQ4VDSpE1VHhKT%b^pZ^T&TN:S5So7S8RYT\*#E;Qdj.+@n
+C\cnaCFSu'F!UnFpB=SC5L'Jg7o@X'!O)pBJK(`[1Vbi&G&0bu+ec/lV<6nW#L5P^Lb?Hbgd
+o@!:KT\`n9Y^HG24GMj)L;9u(tjUSh9E]APZ;S,@734OEW,8"^>fR+/Jl2,rK/\((WtKob#fM
+^;Zut9IRb-lVdu$\6/!UKk(\5QUdQEot$]A4<>FGK+9I'XTC`-DJ-*UJF\Y\=+s9="pLCJB;F
+bDIp2eu\QcO'gC`E:qK3g'+,f9Y1[LhBEK`djKWh>:^ssIN[L^`PW?X.V_QiJL8GnM\?alX-
+UKjSdCo]AGCGURk&mA!mB]AOf3q'ZQ,tn_3]A1A'2+7n]A=mI)nGJ::k@Nq7(ud'_FTMs&M)JC/.
+uH1P&DIM_J+\uuio4i#k3]AI/0"<)Lu63tN/'g:8%Z0$7dCncj.*BSO<kl_a'Y@Ge`8T@>Lm6
+JMN+@IKgqmH\coos9U4"56OY3NX_3YZ#T<?%l$J*,[%h:Y4pZF76$i8t^I?J?afJ-D'Y8m>)
+&T^Qh<khlYM(.k2Ft.:Pkh:j>^Af*Zmh/nCMGC]Ahm5o)?0%8g7(::u&;G/-k6gK<qfO6_Vo9
+9`i-E\G59^UC3TFT(_8"=6O`fGWk?LLqfL1R#Un<oO\N%ME6Xeq=@=kJ8-HQH+?G_k9V8?o'
+iXpJ6C:sH`^H=\=tItpoW6X*PAA+ed^E3VNNpT=[W6Ne,%hcilj_ak70.M?0QM6ZkD3B3OcW
+$[*$is<3Ot<3LfhLh_prlnA4nmmGN(K2mXa5Q5NaO^BofQ<0=5I0<\`acV46s!E_hd76Q4a,
+pCTV$&B7GZP%dLIO(L1Ye8#n<\G4H?CSblFQAf[bNI-5U?)&G9\WnNg!s`<C?r[91,dHjVs\
+C+BS9bc)hKW45K$p7Baih\a0/%jT-<Jq2N'n_1m@.I;uN1t-R\ZbQJ7&m>S9^5L*FX\Dl^QD
+<J!g2Be<sulnR>7p<<\AaZaA]AiNE,#44lgE8]AlrbC.f=:q65".M!G4_Ah1J4o6%IXd8*j9(_
+r#')VQg[@\On@qHtd(!:TC$GGXaZb]A3eI9n1d<JkkO5LRY!hmpbb+@6oWd@3<;B^/qK<I+YD
+d!*\n_T<s43,OkQ]AfaY`&HS!^J<Ur:YJ%tY!d[RG_]AJpR)?2^q]A?+"cG=s)jj(D22CF".EMf
+0?M*WhNe(Qm,peQ#[T);ohc8=?M2)b--8V=d$'dG*Xr909<)T$n%.iTp*.Hnfhg0iR]A(_<p7
+(bol#E^'MSL.@al>mK#J$4[8DeSk,U7BBk"E3APGN5qm8P>C+iL2"<:-9Oq8&Y<(3iCH..'G
+G1/R$qL?o0&qIMX4*TQ@O-do1>O7L(I^s[UTDgE-'kBmO(_8i&%,Ft7->)i.gT_3Yo@f,)Ii
+dT8?='eLq_0*Eg>9n$F9pX'80f[L)>/6BF`P4Z9L>=s*t'[(UcbOgST5A+'hl6u;fRYB<k5\
+4Y;$RH\llMd2?U<!SOBcLip2Wik<$r6qOK"_kddS*hdn!fN3nK6+M>:pnoj!3MtOk3^ak30p
+"o(`k<GJBeF%10*h>kh848@W+\4;]AGOdG6)+d6bKFqfc))Y$\pQcqJmp1#i(dbSqo\Oq?jZV
+f)(MA60Ir!qg?$ic_YA:6n]AB^3/f:p5S5]A$/:*,=1gfo?n9%(K>d=o8r<iU]AE'9&@J<J!n,J
+<m6t9IC$8BA(*QDSc?\c,/V5l7UW@Xl)2^]A'jOmf#C"3N;"Qd^bmVrDMH0Eu_H48&l.$@&Oj
+c's_3uLb.)JdJNAq@;E,b&OLgH?WS*M;b(-tkYS6(UkW.UD,i1@N@?WD9O87$^^E3>mX0Lqp
+&O;OT3F);^oSiAOX7XH/;4tCB1.lfSko8BV[P+JZO&KB<b1E=;pr1if$dG8'JSI]AP20%*ep(
+^O&KjV7>H.1(k5j(&A-"5$V/ZJF-qUI!\RfOJ1NjPD?@F$<41M<hgj8aLQ-:]A2KB.=CEuTY*
+>QCX@i=),cpDqo?j[<\8<Pgc1$)'lj]AeNOkHOmtgQ!Gp*C@6g>\8*N4<!G!FK#gP><\M3Qe8
+>eW4rKl#?_od=rJR,E8s^L1QK%u_5Vb>!3UR2Z(4J\J9jK5l,ha$T[fVPHu2=A?t6_J'[YkH
+@drAVMLrp\0$@C&8o"iZ&aK9e0>@*3cr4o(f)GpbGl^kp?Qff1PD64P]AHp&M<7j!K`,Hl1g*
+%)[Bpq^Q0rl-/)J#\(rV-d=uHtT;6"tU8(,+2&bN(6BX>7fKHp2`&C%5InHfH[eK]A)18-S(B
+cjF^EuofVqB,_q'+ZE+fb?KG=`)Q6;#bWI8KuEt;0%'-j$+Vf1PoE1]A/[*7'FO"g:3)Wgr1I
+!?H[GTBn)]AlB$dM2MIGADi^$6I;?,P0Jb\;lUHpaKgF;1e%mZK#8HY+#jKqIVDM^t9(54,B^
+lPIeB)+RMFi7-BIiTs6$AIG'O/1j:K#mm]A5m,kNuG()c6p/b&B?=A(rod6Q]A_#I)Z'?tlSEX
+11o:*TWeN#]AkANqo;sl:PNiFAJ3*`20]Aum`YIFd%eh6?lG7I"Rh:\RTXa/?;4:?s*Q;d;PeC
+@]A?+?;Ot#[1aF2Ytq;%#WNV6jaWKW<lPuZ_2;69OjS]AB9tI3);L0ruUIgqKrZ5JG&$,[7n+(
+GmARf0O$V*hmU,r''h;XJiRQ0"M$o5:'Aq(7+>L=1KjbOWID22\(T"`iQ_SHToRHg@TX;7Xm
+s<:D#a01lN+]AFa4(0p"\A"")7R.@mHe4n?R@Gj*cnaR?_FK!-`8$j^\k@p3"=EkY(EFf<Pdb
+3^L"lqnrJ;m2,RHd(gZg/T@923p>GC(A>(S82KfLf0[.C\*\dk7#prJ7/mg<@lV4<S?]A-\]A,
+4UX1+,B1P,(YtR_RRLUUA"3&tbe'99`l5Xcp#_/K%l]Ab`QEqr3_;f__>Q]A<Ff]A':@b+Y)bQL
+q`b9[ghF+1f@6uA20e9Ab)d^`V2"7o^IiLCi(NF]A)1E?hu6U]AU*;p*mA;Ua$YH!<B6oab*'b
+jf#(bKZ!^[W4e!S=Z2M;PrFH]AmC?W_iogUB*RNaI^!(IW;4=>EmqB07TDUhg@rO8MVjm3?H_
+e#9/`&]As8D=M>[:h#_e$QSacp"e*\-aJ<\@r&mY[=&13YBPbWKi$80Q+;i+T[<eSKPmhYmc^
+mJD-R<tjeRpX-ZjSj(V6*80.Z#6F0J'he[]AWd,?`Jo\-@#cWbuh21YJdX3FQm%jmbO2boP79
+2ApFabMj(.t;\=4'X.&<2eSHBhjFRn&LKS%S]A1<jJR]A-0i!K-h16*N.u]A+crcIT?7_Hb3@G%
+qF.3\gST$d:I//@$RR$1H*^.u754(e[$#[h31lB1CTY-.?WdaTV8/_VK:?1LpiFcu)Co"G%D
+/NKT8gE>\o^MQ?Nqh3s%pQ(<LSY+Qe2AMq(8pLR>tKV6rp9X'0+BKl=Z8d*"GSjN.IK[9`dW
+QTP8U"W92rXc%"He$[NW^?"Jh=6`i4apF3sG@CCiq5pI?oJ7!no1REH6Y9Z#n7Z^o7OY.a@t
+>;t`HI<h]A]A0GT'slW&=`leQW0IR9i"NUk_,8E;+:2m8*c3)_KlMW1)3oGH('R`^Y^rS,^VMt
+B$nT#2\s=PD!30E4X#93bd$)6@MP^h-5L?9Ku@P=4+IDmi`q"8hC$ie@CDj[Efn_Z&nJ6J_\
+qWDD^WmLW5r,OSnk/.G>re*C6m)Z42VaJ8AN>/,VhP>4Bbf0)OX+)RR:qjW8G&pa6mUu#d07
+i2[Fp>>L9;:TG84C>F(**pj-O*pGQ)Z:cVd[,f(IF[MD.m[d14Z[%&m4DX#Qo&?O3&j:#:Id
+p477r1Rp#]ADKME1OXb#@7cGKE>C),B`GMSA?'e"!mk7Cb;8//%tP/"1O)$@>_AE;<o(g9.U`
+5[*:X?V,E!BI[]AD2ff/Ekg!*e/lSqL=cd$0GIOLmQKojIl-oRjqnO]Ao8((G)m'a\"r)oI1Dk
+[YjQPVM<(C_668(RF%U[HeQcDa#uQi8tR-[Iqs*+uCcR+!(I)p4P;f6q3aAZ3.]A27A2ToB7%
+9Bb&<2m@Q<EO[=<1bLRTf$jJ&"Vc2XFoDTZAFe68KRgZF=[uuuj!!Pj8\<'>Cka3ASl0D]A=s
+1#E`U(K9X?nfk9@+?$9`X8GUEmUju[98X"*sLbebJ[_:"p2s?)ktfk^$1lE*)T38rC?g)3>P
+rb#_(#t=6g(2*D]AG*):dWd$hC6_&4prQTe'*@2a>FP#GD'6RNW2Vbg"j^jCa2HAkc0^*josr
+l08='*A\]A5N_^2pJ^.aM(60oUD;0]A#N_k*r3n+XbKk:Qh:OslsKX.Tp_ns1jh\c%D.=kas(/
+\)1i(c1K2Qgsfe1f9-JtC;$m?<>u2cf.n4[RZqmq`IbicFojFhqc"JXVHd'rJdpg<e0eEff4
+6[lM8L.q>Li_;&44[a?drF$1_!Yf9W\mJ39^eKGAHo2]A\^'5F#+,_aTh@Y6Dmot^6<C$Qke?
+AHcO8'@(&+b&mG<4VX=rm?^J)C]A<_fpFtc-?aWAj#FRo(Ck4%8l\S1<J@$_;5:YChmbaV6&n
+N#cKF!Q*ea?HO6IhD`D?#)-'7G.nJnUYqa]A,d+KbXW#=9X??%;SO*NkFJHCcOWP3cg9;Z1Wm
+4P3]Ak?#t`RZE9Gu+t[o?)SUUF9fMEJj&8We2=RKI(j]AV*@\V(InEaX[()Wm;)&>Wh?bnW(q1
+I0p!W(GNP8QKfKf,Keoo%&Mr[Z,PYPATcg'Y=2qIppsMT(.e2`1I;QU#u!nVc`geg`hJ@G0k
+shpX%.&Bp67M-FtGa"Pk0KsZHKbaCq\@50qiXmq/iS_l!.a<`kkZ`/&#Z*"XBYK.A06/TfC[
+X;jGCDe^9,'oRmC/dC]AFlrcNd)4>HLjY[\K*laf2MUIRTrKjF)nQg]AF]AOr1La4>smMKms@q!
+2q#WdGuN>@b/+MY'D*U5L>4_#F;8^9Q,4S!4"HoIA[+Te#/Q*`i0i_RT#E0Y_#5oi[+N-LIk
+HeSmZ[@Or/QFS[_5s6EHp5=ie/#Q6<Z3g7_Lq?(OTE6<1Ha-)6o4(M>8PYopc]A4D,JDM_+[5
+#294O`ldQnKtYBP-Qe#roZ?ri[jL"!;BTQB[Wu%83PDAuRH]A#"_9CaQ,7JfS1g,C?bH4S7=t
+qNOmo>D_;Qc=KShRddVh,q0jfYD;iYnp!-%&7n#\</$JYuA)9[(M6mCXd)`?=Ad!f-I[Z4Fc
+SG'e`QH-m*WbVXX7GLb%SS@gYa$p,SJ9#PB$66m$L;lsH(>Tqpr%dC5_,e4>%r"^5F<Mj-8M
+,PH<d*c#UYd,?62.rhaC>1Y\MD^qYPB@<Tajq>$COeU<BQi!GD=;e$oriBP9TB[IK^mfnG<4
+nbeZ%f2,#YP")X)(6^SgMp>7o8jXe&pSKAESN_!&Hq_92N)-SSYiK3Wpn+J07@ma&@NF=,4J
+Ak-(KQbqoAt@S6rfIuHZcf,J6$]AD<7\Q[Zip<F[Q#d3&$&5m(-#ua5g8eBVVa4OT1<$$&<Zn
+OXU(:\d5T&*K7:^L<qp<:#XuW]AW=_K1`?k]A)CV(\Z]A<RUU-_T`HOL^:K^Q81dQA=RI<1/_E`
+&"M*>\#WZR3Q;+3SQOf('AN&_^t2eKg/KSh6"qAH*+)'W,pbZTm>c8<rns-QL[qr6_CiNZL@
+8NJ5r1b^ZiD4,u?5EX-[^1?MTR4d)eIcgS(#HT'O$:jHnOZ,j/kB;0H#RqIe6e@jbpP02J"!
+4q')@_TskgIp;N4IT812q"@SC<`skC%k4;RG@V4tG^jj6LLqnl<`#=NRdU?2==FJ7l@0,#:C
+MlfX]A4qWfh:GT&bQntKT=[g9"YIZ\%ciF1,q!V-?4B5G[6B;\!Tq?31VOLS#eOUW'nI\$%Xk
+Zl=fVf_2rXr(BHC8EPm=-c=iRa:T$;NMTCQo0(]A]A>VWUnR71eh*l/[Pm.O6G:ebjk/"/6cUL
+!,32?@)/1CW,%[[ZBqZ*UR3H=I+tur7lD#,pVBnNTfgio:;Frk09->L(_64*mV3kf)&1-B0T
+?II$LZ#Uc+?Kg=f14Y^-2io0-J4P0#9H8(c%4+_uAsdX<V8i$n<4q19b!oI5kob`jUMCQh/a
+"TfjO95BA1XVMqp\!k@&PH<DSY(WL<Z!5,gRZc9t?5Ca*c-"'_(s(O#maW!9PkgT?56Zr9KY
+4tjX0kf/IoA'S;#CcHliXYa9[_DN$6BKp^;\@A6774a)Ta4Ak/?.9(pm@&EsMGglseeT*Nm,
+Oj[HN#10C"rk[Ltk51hR9:$:b0_%pZRiITV'R,-]Ag!!Zr^s"-X5fb1$D0^&lIT]AJ0OdEX)V$
+>DD>O[M:$e_<irXZ;=q)cqB[Q*b6#^L"rW4s6->Bp.'VIZr:b.b`-j47t:4ErE:JJdVQ3K/]A
+_loOqU9SPB^>k&gSO<&8CQOE-n34*q#]AR`dlM[mm@`ad]A-'TtFteaW.RYW.i<&Rd0HO@J1=6
+5fKb,!A&ONSp8M#6o4WV=%+o&O]AYm?hpG?j3NW+dH2-&;7pP)s;/BC\1;4V6KJ=1LQ@$GdN*
+YT@9p@s2NL)TiZbLctg2,kW.Y/A8MFdY)DstXg#V)BBC41U3bH`%ah%I^'[Ub4pbg:hU$+26
+pnE[7tka8qO<]AR4G7jB[BZX)i!95oWpQ!^ZICpTKe5>4/`/d.p&;L<LW]AoW0<qV^"3'(;dm[
+Qf;\50:E6VW5+#oJs;2SD_;qQ!Nk)Z.6:-4Kr=(`XFuOlbc.hEo>-Rhr;#.00L'_4YBna2b1
+V'P;_e-1NURt=a*l/\KYFb2D*@>28p\a`b%RO!_&mo3Nresf;gQh=RV4]ACA1uc\ZBdQ$sY81
+_41<m^>5LEIJ@h8$T(9"A-FQMl+"elEkH.M]AR2`rWUF9VIRpD9(;_'mh(-8m_&#s_P`'a8n/
+O2)<N[>O?U5pOUBB1`_AoGQ-Ih6V:n=)!n&Lgf7T4H8Or&sQPYcAI`0+KQ`2Z+8GF482IgJ9
+&_n6V3e]A/'Oi$'h<M+eSN2Qh9h>Eo:FlKR:Sa>dSe#S@IU]A-S.dc4a*hV`&.%#@Fa&n?X9_^
+3/1t_K.gcDM$HVhuhn"Xd-Bed6<-2%$L&Wf#I5GC7(Za;3#+?Bur0_S"mHbM(Aj\(]Af2,Uis
+K$(^GgO?u!8I?VDN9pk5jJb;,q:rNeMK3JkSn?F^"FgHuN':@:j]A6#%XM=Ahjp]A/V#XUQNlk
+q)+#A8WR?SRnP8<RY^Vgn20sNku+d-F0?.%Frh4$gV9@;^YAd[Ec03c$r$8`7(U(.5Npa*^"
+piXY%l0UVT07+UMV$>qfL,,*HR?Y1Y8T(qN?2SV5*pCHBuZ%:C1,2"1d$hbjXm;V:;t,3VW`
+U\l!CU^DG3UIdd3CD=%mdqKghU3+jq$9fMWpPLbL>HYaUJHmG([.p,5*0LG?jmA$c9QE15jD
+??-$;tgH@UI['rdT@>+akJur%NZIL0Z<TI@IV+V$QS<=r*<,lCqY@.nb[""/Ffr/8><YEp=L
+SR#PZ0ti_V^>L4_Ek!p>D*_:,#M?p^smXs8!;qTKoU1Hj"2*i,9Ih3d/tOSoBOUkG"Be')no
+^[-t\aln2W_:3Z?DqPq#MgBC:Y,K[\K!8_%O>FPG6KWVG2\(<mHjeiEYE-!.CT-qB^>pe9mP
+,t=+@L:?12nB/m`1md^j3EJfQ]A^4$EL1_[Wgi@C:<X?";q:hRqL^d)K-@^+e4+"TAclL"GM.
+?`+;/c_Co')V7uAhpZ4^s!XgL13ju%GW]Af;@(1G;,Wr#:"((Z8]A40t:l/\R*]AoZiO*GWhVef
+=h1rhl]A#*c?<L-I*/$o'IT77E]Ao4%$qSWNTPN$AGUJ'ZWn2Z!8"'IY^?sY!0^YVJ#Y":H+$s
+H7QN^eTqtLo%dSR4s!'%^`D+G^%b!miV/,Sq;lYX<pUo@,a'YAkXd9V%63;BeSmY1(gCjQOd
+_>40(41I`cgA2"lPs_drQrqhm*.ECZ?3amSa%Boi-%jh0Q^'eO$S)*;(Y1k=I$'?Fqus1FM)
+M;r'il]A?"=u'b_\c-7>1&LLPPG<*DE6R8`1IhAp5M#DHAi0^o)V'Ha?C8<jMDGZWDILQ+,Sk
+'iZrC^!(G`$"tEfmW;Re$dZpgDkB4>\c2$h--8pGL^0bVX_A-VS&u^^(T]AV-2T\X\22$&l?G
+.K(`;!H[D$-`8<D%1%M%P2`'dhEMmErR!'.=R1LV]AQ@h_;gLBQ!Vhm1.`A8*,@TRYSp3u\Ym
+)h2t'4(4IA.SIjJ/Nq&a]AJqGuPMid@,*TLK91#%,_hTE"cI^cMu,-V_6+PMj;6#&1ciOL/1m
+GZP#8C)X4Ip$.I9_G)h_VcGb^6Whk\4(c<("Ag7/;H(6)3Wn+'*BoiS5i,c?]A=Qe9&MMD0o+
+:Z1CL.m1?In$+<[]Ah(&!.F>b,lEPpQk6'Sc]A^JZ'!hn;:5X@,]A:JS"Z[EP!lU3U)R73.Zn?Z
+I^Wl2kCSb.[ck9?mcf]AbkR!Xeu(4J!Sk:p6ePs[G5=#Ll.;2d]A;qp-@g3"E/*8CWRJ4^<iO3
+:F<B:nA4o:XeS>Ot"GCK0G+\.6`L&0AajYn>JG>n5<T;'U`EA$GmO$+K3(!P;Q[7<r_r:S>g
+_QT)tb%EfM%7f7_f\BdBgc3KPTpP4A)4:$(>J=LlJ82mD15i;t\3Q^?nJ6[g9uG\j4r7ujRq
+en3hO4bn,MD8FXO,>Cm4:@4#Y+4mjBe$gbn)sDnt%t:ns,XNsBC3G\V[bQS7)k+j1g)a6;Sk
+FLdo*.=*_a$kG:P8H=H7Z1-G[/r@^ZV-N0$!nI#[]AKsREW9Rc[#g`o]Aark:_0.ir#'lG,?@]A
+=WbbBgW+2?CUIt32n'kQg<R5bHVZi%UY/!W3^8CQsaTVQ5o7Z5;BhE48P"^5GFMkRnr,siU"
+\Ju@8Hd!m1o0Bq6K#NFBh[OO`j_f`M=m2P<V!k`hj(+n@jP$;%f:J]A'K@O5Ue*t'JVn">(&\
+Y--?PF>,t[q(lZ1<D?ad4OkTmJWN\Y'O,;J7'dJVW8+a_>R9*7s&G*jV+\)^=#BsJnF-3#)-
+)*02Hp<Zd-Uu**'IdnjG'-&lFQf00"=I2-fN.\WfcELW.7gJWJi0J1g3[rtoNaD[q_H5&ZKB
+B<iG\+>LT5-nKhL]A*+h?&)b`tKuGGJ2WDRp^'sd`-dL:B79cZ.X3oq!j&=3[DHf;n;J]AQGc=
+`9Wd'7gA;%cSWGtR[L4BJNemlF#D^IA#XiD#FPAJ7%=Rk@UbW=npCiKpOh+$+ag=G8FSh^*m
+s1dLK/>GCM:@Y%6d.:[>a/qSQrT3BY;&2fXc23GP*S!:ZcBUq5M"VHW+[HXc(UT)R3PU,?$j
+Zdkd)82rm@'6RqI&]AY=t?e[`9FoMsMnH:eEP3h17`%!h^msiVZ'%ruQMQTBP2J/e;f3Bft#$
+rGj(ek,`:]A.Bipk6MH+?VHVjb!n%4'fr?@\7Bo#\/*9J@im(>DdQ\IEm,csUJ"gn$_I'"cQb
+#"BQ.MYgW=X#-g-KR=)B5RLiJ(3_VNM7OD@s%u#2PlVhfJIuXsFRS1"!O2#<!)7_pIMlh;Qc
+H%i.Kg"Le[Y]A4_0_TL[@q*WYkKO5(E&gPgpWJ><Z1Ocn$1nZkgC]A(ZN[EchQXo^pAh6Fl<)+
+-Oe/&S9<mdJ-(1!*0(1R.MC]AU[]A,Z"SM)"GQ/QLmV%diL-2?WE$o"8ZM45K_[2]AAN,@O5Q6.
+gdq#$V!p<`U/,uY%RRa:6,!B&HdYd]A2"D^EOh"G3\7CprqT+9l#'1>^#k9;),6Cd/@Zde3M'
+3%Vtq!dLN5/oDoVDs$i=)6OnQ"m-_%f`6OGf$#1U?[)KaA&mQr$N&f%]AuY(opBOk*673)i^0
++G3<gD&DLpt=cjjgV(r7*++@c=17!8-C$Au.<j;o4JVoeCb-2JDP64f;(n,KVf:0>FjmGaNa
+TRJGf/ji6:dL$[dSp%?\C_pSiAbEG$PNNV\UGZC+%IoL?/"Q4X_Xq#<AEI1WMX"\@2s"B+1G
+Np5t`.2Wac;\5trjB+?;,P`&E*/!N]A>!If*UhI2kaFujqKQnaO1]Ak/)3bqA0'oNdL<eZ1lY8
+g$"$di46%Ff8[LN.ZTHH2]Af`p]A$$A%06pcAC6/HQ[[j_X:E_iqD_n`O?CE31AP8hfVG5e9@&
+SCWoq_^g[9-iili#ci.[0"FT7W)!^U7uConj.IdLS^<"a%N)b_\\]AM7hs?0lc"AR'UOVCTO9
+!)q4'L=(,WEhD+;4Qr;Q23G#S_4B-:FWR-.@@;UDo!L+Y\@"mPqgGLBkcFgP1\9T:1&$22H7
+WIQooe5pcUbcHaa>2i(GN[[2+LN>)?r=$ik-o\i;&5T2B(%o+a^?RS&MGH&;l3:=LY(";5dA
+>>,rhBuG"BLJ(+Sn;]AN'f>:QntD+U[!,qmDqkTrouQH6p@-&9s4NQWW%Y8f$iGU7+3:(!e9I
+N(S#mSRCY"N/"6EEJ,o5)BOsEe3=#fpg1Pnpo'V<\EQ[&&2<,>,26*D=20LX!?^lOX$FfO`K
+GKY<1q6_6dQha3lP:`!SF$-uVP8R.4AdT`Pe@ABb=K?k;-:gq6(''Z:+s/ZTp)8B%epjUkib
+9SoK3thpeoBVrb6Tdhq\E>5mOTtQ3o!uG^WDp^8W@m=<-P,@J42n-c*nND1;2(^npG,K5d07
+fZjpZAbGFa:)0UXOaG]AJr.H.U;9kA=></Vl'&9t\\)tU0j1AJ(t8\-t(g0Thr7/,;!C^gSte
+[(%gj1G7IVVC.-eEB9$$1qmkQ)p'=-<27(Q2puq!XIn&&BdRBG1eC5s2++!em/#EhETZh?uL
++uZhL")H*;>9>F*T$b>/G:;9l.KVa(7/=_dgpf,gDd(`W2'ec_"8T3ljdcGIdFG]Ah+?9sW:Y
+KY@VTH?_A9gn8NG]AG8.L%gNNJ;ZHfNq=ADmeR2MAQf4:3&pRT5959rq;N1FIqXeX[lVX0U86
+,3kjEM_;ZP3D$J94_nYHM<J0V;AAdVXfr+>+C67:G)0Unuj@?+oX6$ss8&US2>/*cGtn)'8h
+_7-i=mS1AdV%O@-\o#q)^p+($o^5[PkrYg)Y9Gp*[9sI*sOTBu$R;kkU%YG?Ff\I0X8d!.dn
+sbVGJN89dHN-LEFHf)&Ga>GNiG6'15UslF4LPjd%7);j9%=.:0/CtNPf#:GT"Pr+R[#3"!R_
+1bo[_`!RV:iuH_.V96s@opms[`r9*.VU$m,_tAOuSk.@M8-%GUt\X:p@$5TA)^&EiM`#Al',
+$>XQ=;!dtP,YhbT!'TP@o=sI56NiG)^)1!i0)`i^]AL=L\4=0W:R"3c-%'&^OcIZ=QU\J$a-7
+#eQ"M#Zeamir*BZf)q%L<Ek$@.CtEru!0EL)VV!)m(MVF]A2/XTd&QQHYVEm;rRia%lI35u(n
+'DmH@_57:P3eOL8*2B#rg!u-ujQSL?=Q#,a\Ik4mu#3+6<4odYmRbO1"K(#K<Hg#U!aFH+h.
+&E4[Jf^_gUq[(C,KuaEL')3M7(9&A8,D[Tk79VbAO@`Dr'M;&Pc2$/_oqQ0>"%u<pc2leBmY
+MhoQF]A`CUF:\3fJ0m-F7gV/.,f,gurYocfm<f1:X-+BYCA/jR,dh`5E>iZ(5G%LSr0GI-#e[
+VkkruIuIMR9j/efDV$bpI#2AS%[Z\@5;k751no@be/p+=K.%_"[eZ^:6qP=:.'lJ%Gd;$Tj(
+!O6?eg,Cs#,3)?K1)8g/X06HeRVuq+15N5lo5+gk9UA175\krc]A=0@ao\I^,2JA^j42=P&LI
+9V1c"FIk\qF,eQ,CLhQ_G0#3#=-JqH`jbQM-H/sC\HpoCHa%\qG:%q+K5NhDMJWCWBao(6B(
+<WNRhmjJjW8Y8"Ji'E4<cn5s.7HAq(Y:2TI0X7:18F,m!T+17K7@3nWG%E/-c#a(s*&GTh;G
+?$=1,c%Ui?A.XXpY!="FIFq]A>~
+]]></IM>
+</O>
+<Style index="2"/>
+</com.fr.report.cell.FloatElement>
+</FloatElementList>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="0" cs="6" rs="2" s="3">
+<O>
+<![CDATA[INFOGRAPHIC]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="3" s="4">
+<O>
+<![CDATA[POPULATION]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="1" cs="3" s="4">
+<O>
+<![CDATA[POPULATION]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" cs="3" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!<iQ$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!R+,'5u`*!m?G:W>@A5ch_
+"k&V3<r"G#7O+-q+r]AG48iM-P7=J[:tuITV*_ZN=H^/lUO"#MM$)NBe_2S9[%^j-FrppiTYX
+E.n.-1H6j7GHJj@lF.W9PiI,(-cs`o'#5EYuKKj'`Z+h$hBXH-q?A+b?BsB=Kk8FmkWPK6A6
+\VjMSkp?A7*Rk;P&%l)?2u(Q>3tLa#-_G418,HeZB3)\6aL(b1*Bq>@If21Tq*uu8'CBD<OK
+j?b8;"U1M.U-EO1Ln:B`/]A*$!Q@Uob(Ac[0sn@tn,*?n#Eg:45-H]Ad1Ls%Br17]AE!O$3Ok%H
+6[G7oB#P?)=/TYoGe.abCFsJ\^u(3Zg>e,0AfUkoW-8Q,IOh+YO6?q$*bW\NgBNbXoA(%j*<
+>^kA*,rWHqD!']A)gi*!sm).;_rDUq-r9u>/:Df.,M;6L<_Jg!utC2(tgY5n[+=m/_M6lG90:
+XP5]AHsLt,I1B:-(-0%SsHCbU'j=nsA$4[#]A`":T*MJE^09M`ncRJ@bfo]AX&(D2_;b_:D6Y3V
+XE]AZ#!CmDp*T:k\+Qr+?73,C)XocEJ2^XtU#&+B`1EQ9^hp)]A^`RZg6*?LuP7%?j!!#SZ:.2
+6O@"J~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="2" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="2" cs="3" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!HS=$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!]Ain@5u`*!m?>;#;c+7Lh]A
+OhM;B-\S,Q%e"W_8Ja\la)p&9gE1ERgb]Ai+bcueNjGZ,dt-Q>Dedi<SOMVX#,K5WYF@hnb%:
+Uji&JuKpNQ607:\!SF?:7SpSeAYg4'_1P"A^_0qqRq45NE!,o>SX(*j&87ei7,kb^R5l3:[l
+j.DR;OQ3j)TrWC0#Gg<?nP?FR@M2&f`>>qirS0(8EDbtmq1kfGR(_R'_^!Uf]AFd<el34T&n?
+rn>lehk&ogL'r)tr5-]A'QJcTm$\h1Vo$Q@?eXQJUeO`>E[gd$k5U'bI]Ar?7rF1$>/8dhcEo>
+,_[TlQW"F.I/rNFGoQ9(3TA'cf]A>6>>h?`3h`)"Q1(cY.APEE&a'Teq4aspJ,D0L<!;_om@u
+_UVP;WL#k7ZbjP'D0PDXB4'imD`C"Mco@`Z./6ZDI`.os$bg]A`tee:\Z8bM2Z.D4R/3#!:Uc
+dV*'kWgtEL17_\Wlh/,]AC*dUu,g2MZ<QXipq_gT330!$f.:^NI[&&!/^6J!7Ia0abghpA&g'
+dp3$Yndk`4uES[hSLlcms2V]AJ3!/HRi\C!1W7821H`daqtKa0gC(6T0HVpaP]AH?^++l-eJ76
+dc,=*km9QKD105FH-;mK*q]AM=u85>cFHfUt)=:cjHB+FnBo.de2/"5od95@?-pC-DXKn#@'E
+Z-32P+%Q66!3Ja@mMX1VnCo8bl5mg3[S$9,b7#5"m2PO"Bi[Ya)Gp,qz8OZBBY!QNJ~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" cs="2" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!<iQ$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!R+,'5u`*!m?G:W>@A5ch_
+"k&V3<r"G#7O+-q+r]AG48iM-P7=J[:tuITV*_ZN=H^/lUO"#MM$)NBe_2S9[%^j-FrppiTYX
+E.n.-1H6j7GHJj@lF.W9PiI,(-cs`o'#5EYuKKj'`Z+h$hBXH-q?A+b?BsB=Kk8FmkWPK6A6
+\VjMSkp?A7*Rk;P&%l)?2u(Q>3tLa#-_G418,HeZB3)\6aL(b1*Bq>@If21Tq*uu8'CBD<OK
+j?b8;"U1M.U-EO1Ln:B`/]A*$!Q@Uob(Ac[0sn@tn,*?n#Eg:45-H]Ad1Ls%Br17]AE!O$3Ok%H
+6[G7oB#P?)=/TYoGe.abCFsJ\^u(3Zg>e,0AfUkoW-8Q,IOh+YO6?q$*bW\NgBNbXoA(%j*<
+>^kA*,rWHqD!']A)gi*!sm).;_rDUq-r9u>/:Df.,M;6L<_Jg!utC2(tgY5n[+=m/_M6lG90:
+XP5]AHsLt,I1B:-(-0%SsHCbU'j=nsA$4[#]A`":T*MJE^09M`ncRJ@bfo]AX&(D2_;b_:D6Y3V
+XE]AZ#!CmDp*T:k\+Qr+?73,C)XocEJ2^XtU#&+B`1EQ9^hp)]A^`RZg6*?LuP7%?j!!#SZ:.2
+6O@"J~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!T3u#reXHH7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!N/LW5u`*!m?Pkq6"(JHrL
+mas3lo6LKZ&AurL0^\Qs_J.=/(dc`6^aR10[qoN\9Kna47;=lgEK7>'k\4_e42Gn6t"!$ue<
+M0cH%IWS[b^Y?)DF"o*I/Bkhs[!UKCsd:a5N6pd>gZe8Fcm.Yip+q_b&0kkBKQ3")OFGaH[-
+p='E?H!rdQcfR2INOP="5Ri2oD)X[RN?+c-irN&);/gAR\h5J%O2Yph*1ot4jKF'ec]A)-Qgj
+nN8>T3T-BlU7N#?5%JCSCg5Th1.cAR$59TLuAQrO2M*Y7Q/3n!7LiplgB0Ju#=Qr*q[gUg]AC
+F?1FF*'VUI:t+H`).o-6\(cmCX+bpbs6qnEl#F_e0*el=D'^<kbK9)s@'NhLDRZBAX3$>c"#
+?8QFBs[>iK1,IE&sQ:Cc8QSDGdB4jQ;FrUo(WUm3KTN$1P@FjYFJTY<7Y99i"b]A5cI_G6f[]A
+=R[W(ti(jB44d\nihZF^F.YGP;_r4F6Yun@Ci7^5_:3j6g'</%_Wcc,9E'UVYP?0`5R\"*+4
+7t>d#1bL]A+N9?1\,ZL/!(fUS7'8jaJc~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="3" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="3" cs="3" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!HS=$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!]Ain@5u`*!m?>;#;c+7Lh]A
+OhM;B-\S,Q%e"W_8Ja\la)p&9gE1ERgb]Ai+bcueNjGZ,dt-Q>Dedi<SOMVX#,K5WYF@hnb%:
+Uji&JuKpNQ607:\!SF?:7SpSeAYg4'_1P"A^_0qqRq45NE!,o>SX(*j&87ei7,kb^R5l3:[l
+j.DR;OQ3j)TrWC0#Gg<?nP?FR@M2&f`>>qirS0(8EDbtmq1kfGR(_R'_^!Uf]AFd<el34T&n?
+rn>lehk&ogL'r)tr5-]A'QJcTm$\h1Vo$Q@?eXQJUeO`>E[gd$k5U'bI]Ar?7rF1$>/8dhcEo>
+,_[TlQW"F.I/rNFGoQ9(3TA'cf]A>6>>h?`3h`)"Q1(cY.APEE&a'Teq4aspJ,D0L<!;_om@u
+_UVP;WL#k7ZbjP'D0PDXB4'imD`C"Mco@`Z./6ZDI`.os$bg]A`tee:\Z8bM2Z.D4R/3#!:Uc
+dV*'kWgtEL17_\Wlh/,]AC*dUu,g2MZ<QXipq_gT330!$f.:^NI[&&!/^6J!7Ia0abghpA&g'
+dp3$Yndk`4uES[hSLlcms2V]AJ3!/HRi\C!1W7821H`daqtKa0gC(6T0HVpaP]AH?^++l-eJ76
+dc,=*km9QKD105FH-;mK*q]AM=u85>cFHfUt)=:cjHB+FnBo.de2/"5od95@?-pC-DXKn#@'E
+Z-32P+%Q66!3Ja@mMX1VnCo8bl5mg3[S$9,b7#5"m2PO"Bi[Ya)Gp,qz8OZBBY!QNJ~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" cs="3" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!T3u#reXHH7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!N/LW5u`*!m?Pkq6"(JHrL
+mas3lo6LKZ&AurL0^\Qs_J.=/(dc`6^aR10[qoN\9Kna47;=lgEK7>'k\4_e42Gn6t"!$ue<
+M0cH%IWS[b^Y?)DF"o*I/Bkhs[!UKCsd:a5N6pd>gZe8Fcm.Yip+q_b&0kkBKQ3")OFGaH[-
+p='E?H!rdQcfR2INOP="5Ri2oD)X[RN?+c-irN&);/gAR\h5J%O2Yph*1ot4jKF'ec]A)-Qgj
+nN8>T3T-BlU7N#?5%JCSCg5Th1.cAR$59TLuAQrO2M*Y7Q/3n!7LiplgB0Ju#=Qr*q[gUg]AC
+F?1FF*'VUI:t+H`).o-6\(cmCX+bpbs6qnEl#F_e0*el=D'^<kbK9)s@'NhLDRZBAX3$>c"#
+?8QFBs[>iK1,IE&sQ:Cc8QSDGdB4jQ;FrUo(WUm3KTN$1P@FjYFJTY<7Y99i"b]A5cI_G6f[]A
+=R[W(ti(jB44d\nihZF^F.YGP;_r4F6Yun@Ci7^5_:3j6g'</%_Wcc,9E'UVYP?0`5R\"*+4
+7t>d#1bL]A+N9?1\,ZL/!(fUS7'8jaJc~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="4" s="5">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="4">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="4" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!HS=$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`!]Ain@5u`*!m?>;#;c+7Lh]A
+OhM;B-\S,Q%e"W_8Ja\la)p&9gE1ERgb]Ai+bcueNjGZ,dt-Q>Dedi<SOMVX#,K5WYF@hnb%:
+Uji&JuKpNQ607:\!SF?:7SpSeAYg4'_1P"A^_0qqRq45NE!,o>SX(*j&87ei7,kb^R5l3:[l
+j.DR;OQ3j)TrWC0#Gg<?nP?FR@M2&f`>>qirS0(8EDbtmq1kfGR(_R'_^!Uf]AFd<el34T&n?
+rn>lehk&ogL'r)tr5-]A'QJcTm$\h1Vo$Q@?eXQJUeO`>E[gd$k5U'bI]Ar?7rF1$>/8dhcEo>
+,_[TlQW"F.I/rNFGoQ9(3TA'cf]A>6>>h?`3h`)"Q1(cY.APEE&a'Teq4aspJ,D0L<!;_om@u
+_UVP;WL#k7ZbjP'D0PDXB4'imD`C"Mco@`Z./6ZDI`.os$bg]A`tee:\Z8bM2Z.D4R/3#!:Uc
+dV*'kWgtEL17_\Wlh/,]AC*dUu,g2MZ<QXipq_gT330!$f.:^NI[&&!/^6J!7Ia0abghpA&g'
+dp3$Yndk`4uES[hSLlcms2V]AJ3!/HRi\C!1W7821H`daqtKa0gC(6T0HVpaP]AH?^++l-eJ76
+dc,=*km9QKD105FH-;mK*q]AM=u85>cFHfUt)=:cjHB+FnBo.de2/"5od95@?-pC-DXKn#@'E
+Z-32P+%Q66!3Ja@mMX1VnCo8bl5mg3[S$9,b7#5"m2PO"Bi[Ya)Gp,qz8OZBBY!QNJ~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="16" r="4" cs="2" s="5">
+<O t="Image">
+<IM>
+<![CDATA[!F>i$rJ=?G7h#eD$31&+%7s)Y;?-[s&-)\1+UA8P!!(Br.qnt`![UE+5u`*!m8_?1Gu5Els/
+@F\;3^C/]AX^oqPuf#86lsH@2[7@=#T4Iu-^"KV'@q#KF`\.3*Sl1Nhl]At[orYpQhIl<KSN$I
+d]A`#0eh/8"qBI)7!pTFajcY'%O.@A@l5rtPP9ln*d2M9WI75,PmOAjUJY[4NlF?8CPq#od.1
+^@tn-54&,^C/,4)leGSonqjOM,p[2cd,B\Vc*UV2:h!e2./B`_J6KqB!]A<k\)14O:5q,WSd$
+/E#@t/D3#iG'rI0Dd+b[aA!BE$gkb7_o@'s1[P9Q+po(bC35!J$13&qn:,+$K07M!24!:Ho>
+lbR*eTiS4f==gIQ6!brRUdbm.b.Eacj7.qM4:[:gJo8%J(PcY,Ck8)pC\5us3OaOBY:o,4H6
+e\G1n.4X@PIueJQi+72:gubQZI$F>Vb2UUX;???AH_c\kQ3jNAZ%GjW"T:>V;3'G.ZiBV,@U
+@O67[:)JeulCG6U@\[$fZV1Nm&NPT!Fqu(en5ECsbHKZrIbN`S"SPJBj3c[pgP81;k&%rMJ@
+(Y5=O[uG-r]AOAYLYdf:q0XgP5*r9ci>JPK?<$up7C?<a1ZhV\EKje&J/W4qd&T!jVk5cKZI*
+@(@^-K+;gUEo#%TJ,\[(8c=?oXKJ%uEmloOkAe2.CY58ElVJt/:l!4FPO:3Z$HjO?!kCc37)
+qgJ9R#]Aa[K"'ujp%ep6t;%Pq#VNYfr!!!!j78?7R6=>B~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" cs="3" rs="11">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1118482"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-13421773"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.PiePlot4VanChart">
+<VanChartPlotVersion version="20170715"/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1118482"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrLabel">
+<AttrLabel>
+<labelAttr enable="true"/>
+<labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
+<Attr showLine="true" autoAdjust="false" position="6" isCustom="true"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="80" foreground="-4144960"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="false"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+</labelDetail>
+</AttrLabel>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" duration="4" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="false"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
+</Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="false"/>
+</Legend4VanChart>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<ColorList>
+<OColor colvalue="-14042906"/>
+<OColor colvalue="-3750202"/>
+<OColor colvalue="-4736840"/>
+<OColor colvalue="-9013127"/>
+<OColor colvalue="-3658447"/>
+<OColor colvalue="-10331231"/>
+<OColor colvalue="-7763575"/>
+<OColor colvalue="-6514688"/>
+<OColor colvalue="-16744620"/>
+<OColor colvalue="-6187579"/>
+<OColor colvalue="-15714713"/>
+<OColor colvalue="-945550"/>
+<OColor colvalue="-4092928"/>
+<OColor colvalue="-13224394"/>
+<OColor colvalue="-12423245"/>
+<OColor colvalue="-10043521"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-13031292"/>
+<OColor colvalue="-16732559"/>
+<OColor colvalue="-7099690"/>
+<OColor colvalue="-11991199"/>
+<OColor colvalue="-331445"/>
+<OColor colvalue="-6991099"/>
+<OColor colvalue="-16686527"/>
+<OColor colvalue="-9205567"/>
+<OColor colvalue="-7397856"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-2712831"/>
+<OColor colvalue="-4737097"/>
+<OColor colvalue="-11460720"/>
+<OColor colvalue="-6696775"/>
+<OColor colvalue="-3685632"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<VanChartPlotAttr isAxisRotation="false" categoryNum="1"/>
+<PieAttr4VanChart roseType="normal" startAngle="0.0" endAngle="360.0" innerRadius="60.0" supportRotation="false"/>
+<VanChartRadius radiusType="auto" radius="100"/>
+</Plot>
+<ChartDefinition>
+<OneValueCDDefinition seriesName="类别" valueName="百分比" function="com.fr.data.util.function.NoneFunction">
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[左一]]></Name>
+</TableData>
+<CategoryName value=""/>
+</OneValueCDDefinition>
+</ChartDefinition>
+</Chart>
+<tools hidden="true" sort="false" export="false" fullScreen="false"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+<refreshMoreLabel>
+<attr moreLabel="true" autoTooltip="true"/>
+<AttrTooltip>
+<Attr enable="true" duration="4" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="false"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="true"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-1"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="4"/>
+<newColor borderColor="-15395563"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.8"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</refreshMoreLabel>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="15" r="6" cs="3" rs="11">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1118482"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-13421773"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.PiePlot4VanChart">
+<VanChartPlotVersion version="20170715"/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1118482"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrLabel">
+<AttrLabel>
+<labelAttr enable="true"/>
+<labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
+<Attr showLine="true" autoAdjust="false" position="6" isCustom="true"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="80" foreground="-4144960"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="false"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+</labelDetail>
+</AttrLabel>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" duration="4" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="false"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
+</Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="false"/>
+</Legend4VanChart>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<ColorList>
+<OColor colvalue="-210176"/>
+<OColor colvalue="-3750202"/>
+<OColor colvalue="-4736840"/>
+<OColor colvalue="-9013127"/>
+<OColor colvalue="-3658447"/>
+<OColor colvalue="-10331231"/>
+<OColor colvalue="-7763575"/>
+<OColor colvalue="-6514688"/>
+<OColor colvalue="-16744620"/>
+<OColor colvalue="-6187579"/>
+<OColor colvalue="-15714713"/>
+<OColor colvalue="-945550"/>
+<OColor colvalue="-4092928"/>
+<OColor colvalue="-13224394"/>
+<OColor colvalue="-12423245"/>
+<OColor colvalue="-10043521"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-13031292"/>
+<OColor colvalue="-16732559"/>
+<OColor colvalue="-7099690"/>
+<OColor colvalue="-11991199"/>
+<OColor colvalue="-331445"/>
+<OColor colvalue="-6991099"/>
+<OColor colvalue="-16686527"/>
+<OColor colvalue="-9205567"/>
+<OColor colvalue="-7397856"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-2712831"/>
+<OColor colvalue="-4737097"/>
+<OColor colvalue="-11460720"/>
+<OColor colvalue="-6696775"/>
+<OColor colvalue="-3685632"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<VanChartPlotAttr isAxisRotation="false" categoryNum="1"/>
+<PieAttr4VanChart roseType="normal" startAngle="0.0" endAngle="360.0" innerRadius="60.0" supportRotation="false"/>
+<VanChartRadius radiusType="auto" radius="100"/>
+</Plot>
+<ChartDefinition>
+<OneValueCDDefinition seriesName="类别" valueName="百分比" function="com.fr.data.util.function.NoneFunction">
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[右一]]></Name>
+</TableData>
+<CategoryName value=""/>
+</OneValueCDDefinition>
+</ChartDefinition>
+</Chart>
+<tools hidden="true" sort="false" export="false" fullScreen="false"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+<refreshMoreLabel>
+<attr moreLabel="true" autoTooltip="true"/>
+<AttrTooltip>
+<Attr enable="true" duration="4" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="false"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<changedPercent class="com.fr.plugin.chart.base.format.AttrTooltipChangedPercentFormat">
+<AttrTooltipChangedPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipChangedPercentFormat>
+</changedPercent>
+<changedValue class="com.fr.plugin.chart.base.format.AttrTooltipChangedValueFormat">
+<AttrTooltipChangedValueFormat>
+<Attr enable="true"/>
+</AttrTooltipChangedValueFormat>
+</changedValue>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-1"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="4"/>
+<newColor borderColor="-15395563"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.8"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</refreshMoreLabel>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="12">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="13">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="11" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="12" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="16">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="18" cs="4" rs="10">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[YOUR TEXT]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="88" foreground="-6908266"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="2"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.CustomPlot">
+<CategoryPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.CustomAttr">
+<CustomAttr>
+<ConditionAttr name=""/>
+<ctattr renderer="1"/>
+</CustomAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="1" visible="true"/>
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6908266"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<ColorList>
+<OColor colvalue="-7219979"/>
+<OColor colvalue="-7424"/>
+<OColor colvalue="-4363512"/>
+<OColor colvalue="-16750485"/>
+<OColor colvalue="-3658447"/>
+<OColor colvalue="-10331231"/>
+<OColor colvalue="-7763575"/>
+<OColor colvalue="-6514688"/>
+<OColor colvalue="-16744620"/>
+<OColor colvalue="-6187579"/>
+<OColor colvalue="-15714713"/>
+<OColor colvalue="-945550"/>
+<OColor colvalue="-4092928"/>
+<OColor colvalue="-13224394"/>
+<OColor colvalue="-12423245"/>
+<OColor colvalue="-10043521"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-13031292"/>
+<OColor colvalue="-16732559"/>
+<OColor colvalue="-7099690"/>
+<OColor colvalue="-11991199"/>
+<OColor colvalue="-331445"/>
+<OColor colvalue="-6991099"/>
+<OColor colvalue="-16686527"/>
+<OColor colvalue="-9205567"/>
+<OColor colvalue="-7397856"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-2712831"/>
+<OColor colvalue="-4737097"/>
+<OColor colvalue="-11460720"/>
+<OColor colvalue="-6696775"/>
+<OColor colvalue="-3685632"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-2171170" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="0" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</CategoryAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="0" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6908266"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange minValue="=-6000" maxValue="=5000"/>
+<AxisUnit201106 isCustomMainUnit="true" isCustomSecUnit="false" mainUnit="=1000" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</yAxis>
+<secondAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="4"/>
+<TickLine201106 type="0" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-6908266"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange minValue="=-6000" maxValue="=5000"/>
+<AxisUnit201106 isCustomMainUnit="true" isCustomSecUnit="false" mainUnit="=1000" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</secondAxis>
+<CateAttr isStacked="false"/>
+<CustomTypeConditionCollection>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.CustomAttr">
+<CustomAttr>
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrBarSeries">
+<AttrBarSeries>
+<Attr seriesOverlapPercent="-0.25" categoryIntervalPercent="1.0" axisPosition="LEFT"/>
+</AttrBarSeries>
+</Attr>
+</AttrList>
+</ConditionAttr>
+<ctattr renderer="1"/>
+</CustomAttr>
+</DefaultAttr>
+<ConditionAttrList>
+<List index="0">
+<CustomAttr>
+<ConditionAttr name="系列设置1">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrAreaSeries">
+<AttrAreaSeries>
+<Attr isCurve="false" markerType="NullMarker" axisPosition="RIGHT"/>
+</AttrAreaSeries>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[系列序号]]></CNAME>
+<Compare op="0">
+<O t="I">
+<![CDATA[2]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+<ctattr renderer="6"/>
+</CustomAttr>
+</List>
+<List index="1">
+<CustomAttr>
+<ConditionAttr name="系列设置2">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrAreaSeries">
+<AttrAreaSeries>
+<Attr isCurve="false" markerType="NullMarker" axisPosition="LEFT"/>
+</AttrAreaSeries>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[系列序号]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[1]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+<ctattr renderer="6"/>
+</CustomAttr>
+</List>
+</ConditionAttrList>
+</ConditionCollection>
+</CustomTypeConditionCollection>
+</CategoryPlot>
+</Plot>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[ds1]]></Name>
+</TableData>
+<CategoryName value="时间"/>
+<ChartSummaryColumn name="进水流量" function="com.fr.data.util.function.NoneFunction" customName="进水流量"/>
+<ChartSummaryColumn name="新剩余泥污流量" function="com.fr.data.util.function.NoneFunction" customName="新剩余泥污流量"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="18">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="14" r="18" cs="4" rs="10">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
+<Chart class="com.fr.chart.chartattr.Chart">
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[YOUR TEXT]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei UI" style="0" size="88" foreground="-6908266"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<Plot class="com.fr.chart.chartattr.Bar2DPlot">
+<CategoryPlot>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${SERIES}${BR}${CATEGORY}${BR}${VALUE}"/>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-6908266"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="宋体" style="0" size="72"/>
+</Legend>
+<DataSheet>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isVisible="false"/>
+</DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<newPlotFillStyle>
+<AttrFillStyle>
+<AFStyle colorStyle="1"/>
+<FillStyleName fillStyleName=""/>
+<isCustomFillStyle isCustomFillStyle="false"/>
+<ColorList>
+<OColor colvalue="-7219979"/>
+<OColor colvalue="-7424"/>
+<OColor colvalue="-4363512"/>
+<OColor colvalue="-16750485"/>
+<OColor colvalue="-3658447"/>
+<OColor colvalue="-10331231"/>
+<OColor colvalue="-7763575"/>
+<OColor colvalue="-6514688"/>
+<OColor colvalue="-16744620"/>
+<OColor colvalue="-6187579"/>
+<OColor colvalue="-15714713"/>
+<OColor colvalue="-945550"/>
+<OColor colvalue="-4092928"/>
+<OColor colvalue="-13224394"/>
+<OColor colvalue="-12423245"/>
+<OColor colvalue="-10043521"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-13031292"/>
+<OColor colvalue="-16732559"/>
+<OColor colvalue="-7099690"/>
+<OColor colvalue="-11991199"/>
+<OColor colvalue="-331445"/>
+<OColor colvalue="-6991099"/>
+<OColor colvalue="-16686527"/>
+<OColor colvalue="-9205567"/>
+<OColor colvalue="-7397856"/>
+<OColor colvalue="-406154"/>
+<OColor colvalue="-2712831"/>
+<OColor colvalue="-4737097"/>
+<OColor colvalue="-11460720"/>
+<OColor colvalue="-6696775"/>
+<OColor colvalue="-3685632"/>
+</ColorList>
+</AttrFillStyle>
+</newPlotFillStyle>
+<RectanglePlotAttr interactiveAxisTooltip="false"/>
+<xAxis>
+<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Microsoft YaHei" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</CategoryAxis>
+</xAxis>
+<yAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="3"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Century Gothic" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+<Percentage value="true"/>
+</ValueAxis>
+</yAxis>
+<secondAxis>
+<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
+<ValueAxisAttr201108 alignZeroValue="false"/>
+<newAxisAttr isShowAxisLabel="true"/>
+<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
+<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
+<AxisPosition value="4"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Century Gothic" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=0"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+</ValueAxis>
+</secondAxis>
+<CateAttr isStacked="true"/>
+<BarAttr isHorizontal="true" overlap="1.0" interval="1.2"/>
+<Bar2DAttr isSimulation3D="false"/>
+</CategoryPlot>
+</Plot>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[右二]]></Name>
+</TableData>
+<CategoryName value="text"/>
+<ChartSummaryColumn name="sample01" function="com.fr.data.util.function.NoneFunction" customName="sample01"/>
+<ChartSummaryColumn name="sample02" function="com.fr.data.util.function.NoneFunction" customName="sample02"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
+</Chart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="19">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="21">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="22">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="24">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="25">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="27">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="51840000" height="27360000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="false"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="4">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="16777215"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="1" size="280" foreground="-12599312"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="Microsoft YaHei UI" style="0" size="72" foreground="-12764615"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="0">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="893b4287-9b9a-4dc9-89c2-97558df6d346"/>
+</TemplateIdAttMark>
+</WorkBook>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="false"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<ParameterUI class="com.fr.form.main.parameter.FormParameterUI">
+<Parameters/>
+<Layout class="com.fr.form.ui.container.WParameterLayout">
+<WidgetName name="para"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<Background name="ColorBackground" color="-1118482"/>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.DateEditor">
+<Listener event="afterinit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[this._createCalendar = function(){
+	var o = this.options;
+	var self = this;
+	if (this.options.need2BuildConfig === true && this.options.data) {
+		this.options.data.resetStatus(this.createDependencePara4Data());
+		var data = this.options.data.getData();
+		if (data[0]A.data) {
+			if (data[0]A.data.startDate) {
+				var sd = new Date(data[0]A.data.startDate);
+				if (!FR.isInvalidDate(sd)) {
+					o.startDate = FR.date2Str(sd, 'yyyy-MM-dd');
+					this.std = this._createStartDate(o.startDate, o.format, this.viewMode);
+				}
+			}
+			if (data[0]A.data.endDate) {
+				var ed = new Date(data[0]A.data.endDate);
+				if (!FR.isInvalidDate(ed)) {
+					o.endDate = FR.date2Str(ed, 'yyyy-MM-dd');
+					this.edd = this._createEndDate(o.endDate, o.format, this.viewMode);
+				}
+			}
+		}
+		this.options.rebuildConfig = false;
+	}
+	this.datepicker = new FR.DatePicker({
+		renderEl: this.$view,
+		viewMode: this.viewMode,
+		date: FR.str2Date(this.editComp.val(), o.format),
+		dateFormat: o.format,
+		startDate: this.std,
+		endDate: this.edd,
+		onDateUpdate:function(){
+			if ($(':focus').length === 0) {
+				self.editComp.focus();
+			}
+			self.editComp.val(FR.date2Str(this.getValue(), o.format));
+			self.isValidateInput();
+			self.fireEvent(FR.Events.AFTEREDIT);
+		}
+	});
+	this.datepicker._loadDateData = function (table, date) {
+        if (!date) {
+            return;
+        }
+        var year = date.getFullYear(),
+            month = date.getMonth(),
+            day = date.getDate();
+        var today = new Date(),
+            TY = today.getFullYear(),
+            TM = today.getMonth(),
+            TD = today.getDate();
+        this.cache.showYear = year;
+        this.cache.showMonth = month;
+        var std = this.options.startDate,
+            edd = this.options.endDate;
+        table.$title.text(Date._MN[month]A + ", " + year);
+        var nextDay = new Date(date);
+        nextDay.setDate(nextDay.getMonthDays() + 1);
+        if ((edd && nextDay > edd) || nextDay.getFullYear() > this.CONSTS.MAXYEAR) {
+            table.$nextm.addClass('disabled').removeClass('hover').data('disabled', true);
+        } else {
+            table.$nextm.removeClass('disabled').data('disabled', false);
+        }
+        var prevDay = new Date(date);
+        prevDay.setDate(0);
+        if ((std && prevDay < std) || prevDay.getFullYear() < this.CONSTS.MINYEAR) {
+            table.$prevm.addClass('disabled').removeClass('hover').data('disabled', true);
+        } else {
+            table.$prevm.removeClass('disabled').data('disabled', false);
+        }
+        date.setDate(1);
+        var day1 = (date.getDay() - this.CONSTS.FIRSTDAY) % 7;
+        date.setDate(0 - day1);
+        date.setDate(date.getDate() + 1);
+        var $frow = table.find('tbody').children().eq(0);
+        for (var i = 0; i < 6; i++) {
+            if (!$frow.length) {
+                break;
+            }
+            var $cell = $frow.children().eq(0);
+            $cell.addClass('week wn').text(date.getWeekNumber());
+            var iday;
+            for (var j = 0; j < 7; ++j, date.setDate(iday + 1)) {
+                $cell = $cell.next();
+                $cell.removeClass().data('nav', this.CONSTS.NAV['day']A);
+                if (!$cell.length) {
+                    break;
+                }
+                iday = date.getDate();
+                $cell.text(iday);
+                var current_month = (date.getMonth() == month);
+                if (!current_month || j !=4 ) {
+                    $cell.addClass('oday').data('disabled',true);
+                    continue;
+                }
+                var disabled = false;
+                if ((std != null && std > date) || (edd != null && edd < date)) {
+                    $cell.addClass('day disabled');
+                    disabled = true;
+                } else {
+                    $cell.addClass('day');
+                }
+                $cell.data('disabled', disabled);
+                if (!disabled) {
+                    if (current_month && iday == day) {
+                        this.cache.selectedDate && this.cache.selectedDate.removeClass('selected');
+                        $cell.addClass('selected');
+                        this.cache.selectedDate = $cell;
+                        this.cache.showDay = iday;
+                    }
+                    if (date.getFullYear() == TY &&
+                        date.getMonth() == TM &&
+                        iday == TD) {
+                        $cell.addClass('today');
+                    }
+                    var wday = date.getDay();
+                    if ([0, 6]A.indexOf(wday) != -1) {
+                        $cell.addClass("weekend");
+                    }
+                }
+            }
+            $frow = $frow.next();
+        }
+    }
+
+	if (FR.Browser.isIE8() && this.$view.css('visibility') == 'hidden') {
+		this.$view.css("visibility", "visible");
+	} else {
+		this.$view.show();
+	}
+	$(document).bind('mousedown', this, this.collapseIf);
+	this.modifyPosition();
+	
+	
+	var tr = $('tbody>tr',this.datepicker.$datetable);
+	for( var i=0; i<tr.length; i++ ){
+		var $days = $('td[class!="week wn"]A',tr[i]A);
+		for( var j=0; j<$days.length; j++ ){
+			var $day = $($days[j]A);
+			if( 4 != j && !$day.hasClass('oday')){
+				$day.data("disabled",true);
+				$day.attr('class','oday');
+			}
+		}
+	}
+}]]></Content>
+</JavaScript>
+</Listener>
+<WidgetName name="dateEditor0"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr/>
+<widgetValue>
+<O t="Date">
+<![CDATA[1523591543361]]></O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="129" y="25" width="106" height="21"/>
+</Widget>
+<Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="dateEditor0"/>
+</MobileWidgetList>
+<Display display="true"/>
+<DelayDisplayContent delay="true"/>
+<UseParamsTemplate use="false"/>
+<Position position="0"/>
+<Design_Width design_width="960"/>
+<NameTagModified/>
+<WidgetNameTagMap/>
+</Layout>
+<DesignAttr width="960" height="80"/>
+</ParameterUI>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateID TemplateID="8423969c-efc8-48fb-bece-0bedf8b743bd"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="43bd2abc-d0f0-4436-9a27-fedf0b1123c3"/>
+</TemplateIdAttMark>
+</WorkBook>

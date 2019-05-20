@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<TableDataMap>
+<TableData name="Proc1" class="com.fr.data.impl.storeproc.StoreProcedure">
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[Mysql--testskp]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[test]]></Query>
+<ResultNames>
+<Name>
+<![CDATA[Table]]></Name>
+</ResultNames>
+</TableData>
+</TableDataMap>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<Listener event="afterload">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[var dom=document.getElementById("view");  //获取canvas元素
+var ctx=dom.getContext("2d");            //创建context对象
+var width=ctx.canvas.width;
+var height=ctx.canvas.height;
+var r=width/2;
+
+//绘制时钟背景
+function drawBackground(){
+	ctx.translate(r,r);      //将画布原点重置为画布的中心
+	ctx.beginPath();
+	ctx.lineWidth=10;
+	ctx.arc(0,0,r-5,0,2*Math.PI);    //绘制一个圆，即时钟的边框
+	ctx.stroke();
+	
+	//绘制时钟上的刻度
+	for(var i=0;i<60;i++){
+    var x=(r-20)*Math.cos(Math.PI*2/60*i);
+    var y=(r-20)*Math.sin(Math.PI*2/60*i);	
+	//每逢5个刻度使用黑色绘制，其余用灰色绘制	
+    if(i%5===0){
+		ctx.fillStyle="#000000";
+	}else{
+		ctx.fillStyle="#cccccc";
+	}
+	ctx.beginPath();
+	ctx.arc(x,y,5,0,2*Math.PI);
+	ctx.fill();
+	}
+	//绘制时钟上的数字
+	ctx.font="20px Arial";
+	ctx.textAlign="center";
+	ctx.textBaseline="middle";
+	ctx.fillStyle="#000000";
+	for(var j=0;j<12;j++){
+    var ax=(r-50)*Math.cos(Math.PI*2/12*j);
+    var ay=(r-50)*Math.sin(Math.PI*2/12*j);	
+	ctx.beginPath();
+	ctx.fillText(j>9?j-9:j+3,ax,ay);  //因为PI的角度计算是从3点钟方向顺时针计算的，所以要对数字判断处理
+	ctx.fill();
+	}
+}
+
+//绘制时针
+function drawHour(hour,minute,second){
+	ctx.save();      //保存当前绘图环境
+	ctx.beginPath();
+	//时针的角度等于小时的角度加分钟和秒钟转化为小时的角度
+	var rad=2*Math.PI/12*hour+2*Math.PI/12/60*minute+2*Math.PI/12/60/3600*second;
+	ctx.rotate(rad);
+	ctx.lineWidth=14;
+	ctx.lineCap="round"; //设置画线结束端为圆帽形
+	ctx.moveTo(0,20);
+	ctx.lineTo(0,-r+100);
+	ctx.stroke();
+	ctx.restore();   //返回之前保存的绘图环境
+}
+
+//绘制分针
+function drawMinute(minute,second){
+	ctx.save();      //保存当前绘图环境
+	ctx.beginPath();
+	//分针的角度等于分钟的角度加秒钟转化为分钟的角度
+	var rad=2*Math.PI/60*minute+2*Math.PI/3600*second;
+	ctx.rotate(rad);
+	ctx.lineWidth=10;
+	ctx.lineCap="round";
+	ctx.moveTo(0,20);
+	ctx.lineTo(0,-r+80);
+	ctx.stroke();
+	ctx.restore();   //返回之前保存的绘图环境
+}
+
+//绘制秒针
+function drawSecond(second){
+	ctx.save();      //保存当前绘图环境
+	ctx.beginPath();
+	ctx.fillStyle="#FF0000";
+	var rad=2*Math.PI/60*second;   //秒针的角度为当前秒钟的角度
+	ctx.rotate(rad);
+	ctx.lineWidth=2;
+	ctx.lineCap="round";
+	ctx.moveTo(0,30);
+	ctx.lineTo(8,0);
+	ctx.lineTo(0,-r+30);
+	ctx.lineTo(-8,0);
+	ctx.lineTo(0,30);
+	ctx.fill();
+	ctx.restore();   //返回之前保存的绘图环境
+}
+
+//重新绘制时钟
+function run(){
+	ctx.clearRect(0,0,width,height);   //清空整张画布,在下面的代码中重新绘制
+	ctx.save();     //保存当前绘图环境
+	var time =new Date();      //获取当前时间
+	var hour=time.getHours();    //获取小时数
+	var minute=time.getMinutes();  //获取分钟数
+	var second=time.getSeconds();  //获取秒数
+	drawBackground();              //绘制背景
+    drawHour(hour,minute,second);  //绘制时针
+    drawMinute(minute,second);     //绘制分针
+    drawSecond(second);            //绘制秒针
+	//绘制时钟中心的那个点
+    ctx.fillStyle="#555";
+    ctx.beginPath();
+	ctx.arc(0,0,8,0,2*Math.PI);
+	ctx.fill();
+	ctx.restore();  //返回之前保存的绘图环境
+}
+window.setInterval(function(){run();},1000);  //每隔一秒重新绘制时钟]]></Content>
+</JavaScript>
+</Listener>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-First')}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Previous')}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Next')}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('ReportServerP-Last')}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('FR-Engine_Utils_Flash_Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[10782300,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[19621500,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<O>
+<![CDATA[<canvas id=\"view\" height=\"300px\" width=\"300px\"></canvas>]]></O>
+<PrivilegeControl/>
+<CellGUIAttr showAsHTML="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateID TemplateID="93aef34a-f8ef-454f-900e-37be9d111df2"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="e2a98268-366b-4da9-8872-06fc8cf6f864"/>
+</TemplateIdAttMark>
+</WorkBook>

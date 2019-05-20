@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[信息]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[FcadA_E\fipHD%'^e:DK5o3h3O9]ANq<$YF.TE8ss$:mb(?;_tYT_L9`Aqmeae,`G`XsQ/sn%
+T0M/7)E#e]A$VZXI!Z>bYU^1_Aj"7.nCmuRo$Hei!Ht!9a7[p`+'-kS\N\#`#lF4?bWAY-eKm
+(lM)+%-6@P:R2/NWK$(/PF/uCiUcTOGni5ribk/`1R=fZ8mgPV]AK=qq,KT_/jSe9\;$lBKM@
+R1Y:RV#knHD@APj8C!7#p'W2NBh^me?+37MKbm1$C(cO&iOmJlmhhf4PF<gWTV&aAb%2?%Sp
+<URR+?Y'NF%N_2)Z8j:ki)aHR;Ja32H9529`ES<qI!A<10B7<-Nr.=@KZn&uq!%HuqII4-8Q
+moRGJ[XW2A[*@Wjn0]AD>H"HRG(FS'ghIBU-C)V-pWI+Pph8%OH?(r89G*sDm]Au8!D32G:0)p
+EQ96HL4*(=a$ea.ku14mm$ifm1:ik5>;~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportFitAttr fitStateInPC="3" fitFont="false"/>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,1371600,0,8229600,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[266700,876300,13944600,0,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="2" s="1">
+<O>
+<![CDATA[企业所获荣誉信息]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="1" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="2">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="2" r="2" s="3">
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="2" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" cs="2" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="<marquee id='affiche' align='left' behavior='scroll' bgcolor='#ffffff' direction='up' height='250' width='400' hspace='0' vspace='2' loop='-1' scrollamount='10' scrolldelay='100' onMouseOut='this.start()' onMouseOver='this.stop()'>" + REPLACE(D4, ",", "<br /><br />") + "</marquee>"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="0" showAsHTML="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="3" r="3" s="0">
+<O t="DSColumn">
+<Attributes dsName="Embedded1" columnName="信息"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="80"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="112" foreground="-1"/>
+<Background name="ColorBackground" color="-15634249"/>
+<Border>
+<Top style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="80"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateID TemplateID="6108f912-8108-45b4-bf05-6fcec51cf6e2"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="ec729881-fd85-4fc5-b59d-0ade5fecf733"/>
+</TemplateIdAttMark>
+</WorkBook>

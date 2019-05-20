@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[信息]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[APlZPRm7P_k7kX^*BR#6[i!:J`./rN8RSA;>9Z$A&:URb![6u@mE@1i\O'mY[OY@Wg5i5(m[
+g#Ah(>tL\)h?-diWNMo\$XT*0j".f.hppE'K"r/DD]A*KX_;h4bB_B0"Y!Lj90a?S9S.)Uk,;
+_1E3<h`7.6T$$cT)S7!V8K$&C0<*@gf]A(o!a@\tn"g_un"]ALVI3bm%)D,`M(:B[<f/@c6aF5
+'hHb'MsK[A5`3,q9lTOG:q[0_+S@_V20IW7-@=Q0k"&Rh)[4kXHBPWQ^+RL/8gI+,jB4LZJ)
+q)c>5Uae[1)(:bS-=Y*F&8Tat5=p"i*#[,?q[Y:,;\o??&GLD,]Au"Y=<Yo\p^_\SSuX9dV]A<
+0GR!la5N>4[LS:LNgV03&b$^2)Xrn19V,YC^8P>/@C1XPA(!325F@tZoPLZY#/=-%j(YF6M)
+mkHQ+,XS]A$:4k=WbnVrnEcKdnYh?%2Q8j1/#C/e@OFC-$71YkB]A.T_YXE~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1447800,2362200,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<O t="DSColumn">
+<Attributes dsName="Embedded1" columnName="信息"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="7" s="0">
+<O>
+<![CDATA[最新消息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" cs="7" s="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="<marquee id='affiche'  style='text-align:center;display:table-cell;vertical-align:middle;' behavior='scroll' bgcolor='#ffffff' direction='left' height='100%' width='500%' hspace='0' vspace='2' loop='-1' scrollamount='10' scrolldelay='100' onMouseOut='this.start()' onMouseOver='this.stop()'>" + REPLACE(A1, ",", "  ") + "</marquee>"]]></Attributes>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr showAsHTML="true"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="112" foreground="-1"/>
+<Background name="ColorBackground" color="-13408513"/>
+<Border>
+<Top style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="80"/>
+<Background name="NullBackground"/>
+<Border>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateID TemplateID="fda06d6f-e89f-48a5-ade5-d3460c61cd65"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="0c1585bf-51cd-414d-8c03-958fa3fc211a"/>
+</TemplateIdAttMark>
+</WorkBook>

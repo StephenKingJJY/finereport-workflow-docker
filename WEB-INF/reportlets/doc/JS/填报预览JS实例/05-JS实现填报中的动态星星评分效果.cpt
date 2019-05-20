@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<Listener event="afterload">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[$("td[row=1]A").mouseover(function(){
+	//鼠标经过单元格,行号从0开始，因为评分在第2行，所以用row=1
+	var $td=$(this);
+	var col=parseInt($td.attr('col'));
+	if(col>0&&col<6){
+		//从第2列到第6列，对应的col为1-5
+		for(var i=1;i<=col;i++){
+		$("td[row=1]A[col="+i+"]A").css('background',"url(/WebReport/picture/on.png) no-repeat 50% 50%");
+		};		
+		//在此单元格之前的星星为选中状态
+		for(var i=col+1;i<6;i++){
+		$("td[row=1]A[col="+i+"]A").css('background',"url(/WebReport/picture/off.png) no-repeat 50% 50%");
+		};			
+		//在此单元格之后的星星为未选中状态
+	}
+}).mouseout(function(){
+	//鼠标移出单元格
+	var $td=$(this);
+	var col=parseInt($td.attr('col'));
+	if(col>0&&col<6){
+	    for(var i=1;i<6;i++){
+		$("td[row=1]A[col="+i+"]A").css('background',"url(/WebReport/picture/off.png) no-repeat 50% 50%");
+		};			
+		//初始化所有单元格为未选中状态
+	var score=contentPane.curLGP.getCellValue('G2')*1;
+	if(score>=1){
+		for(var i=1;i<=score;i++){
+		   $("td[row=1]A[col="+i+"]A").css('background',"url(/WebReport/picture/on.png) no-repeat 50% 50%");
+		};
+		//如果上次评分了，那么设置评分的星星为选中状态
+	}
+	}
+}).click(function(){
+	//鼠标点击单元格，即选中星星时
+	var $td=$(this);
+	var col=parseInt($td.attr('col'));
+	if(col>0&&col<6){
+	var score=parseInt($td.attr('cv'));
+	contentPane.setCellValue('G2',null,score);
+	}
+	//点击选中星星，给G2单元格设置值
+})]]></Content>
+</JavaScript>
+</Listener>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false" value="true"/>
+<Sheet onlySubmitSelect="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Verify-Data_Verify')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.NewPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('FR-Engine_Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('FR-Engine_Add_Record')}]]></Text>
+<IconName>
+<![CDATA[appendrow]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr verticalcenter="true" textalign="0" autoline="false"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[876300,1104900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" cs="5" s="0">
+<O>
+<![CDATA[评分]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="6" r="0" s="0">
+<O>
+<![CDATA[分值]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="1">
+<O t="I">
+<![CDATA[1]]></O>
+<PrivilegeControl/>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=""]]></Content>
+</Present>
+<Expand/>
+</C>
+<C c="2" r="1" s="1">
+<O t="I">
+<![CDATA[2]]></O>
+<PrivilegeControl/>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=""]]></Content>
+</Present>
+<Expand/>
+</C>
+<C c="3" r="1" s="1">
+<O t="I">
+<![CDATA[3]]></O>
+<PrivilegeControl/>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=""]]></Content>
+</Present>
+<Expand/>
+</C>
+<C c="4" r="1" s="1">
+<O t="I">
+<![CDATA[4]]></O>
+<PrivilegeControl/>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=""]]></Content>
+</Present>
+<Expand/>
+</C>
+<C c="5" r="1" s="1">
+<O t="I">
+<![CDATA[5]]></O>
+<PrivilegeControl/>
+<Present class="com.fr.base.present.FormulaPresent">
+<Content>
+<![CDATA[=""]]></Content>
+</Present>
+<Expand/>
+</C>
+<C c="6" r="1" s="2">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<IM>
+<![CDATA[!T=)$rJ=?G7h#eD$31&+%7s)Y;?-[s(]AXO9(^L<G!!(r$4no!W!iS[Y5u`*!eQ(Eu>%&6YJm
+IbY&.AcZ+R#i+?ng5M=8`AV_-kVi=8Oeb)OOlFA0WD.N(EOB&s>QajXB+_IUQEZq,(:\Fm@Z
+O4*\\\mWdHsf`OH$kIf.<qn:>-lc=lSgXt/G?XI/!g[4\h[<kjlPJ5@TZZLYF:7I`Bhk+0s&
+.#eFCUm\F>[:X+Ho?!lRq>QdT5JRcBkqL"q:Pm5*fmAXDH":j*Zg1sRr./WadH\>s7EVQgtW
+GKs*YS6QYYC@FFK$8UUs(=+?MSD&_UfOI?c&9;nd<4*"0Sjcm]A5e1nW*PVl-HBBJer@mVX/X
+Cop`rWmrR6$3a$KPGs1eK)jNDBXM#.XfSU_8cin>]A+$,6ZH(#+*gH$jrgoS'-:K*j17QO0Oo
+Q"hY$<SPGnid<2r]AUJ#74K7jS*$#Yh&&\kjn;-_Vm0d%#.nVJ03YErVclHJo3m"iJ>s]A!IV-
+W\@B&AGWZK,q4Hrf+3)!#Djh'c'1'd49$T9sq:rbplh1,+>`Vj`<2/^El^inFOB)@,O2YSH*
++'CA8uL-tq0YB";Q32+EC(ro>3)288E@IVeVjJrAi#j6,TqmB-c"p3m#6+2G+>SR]A)l>ZF34
+Uc:>-6S4&E-41"Ckj!P[?Td8:GTg""X'5fh3#?QQE]A(\`V5JaMjl#YkO99PQeRn,@P++Gt&P
+:(8N$C:0gaA[HDNJ.+\u'T5CP,SJ%>;`gOF;ls*dXTPP%ME&!cLC,Rb/l#fuYmLG:a2c4uql
+R!&mIJsfj-A#*r3j)Df1);B.=BMWgnG0D"Z..B9ILULUSB%_Cq`@AHlM#<Anbu$]AYD3763n1
+-J4km;988c@%H=')Zd5GhA?oAiQ5i-8%Mealm0D%,'QuJ=,ej<Z!!#SZ:.26O@"J~
+]]></IM>
+</Background>
+<Border>
+<Top style="1"/>
+<Bottom style="1"/>
+<Left style="1"/>
+<Right style="1"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateID/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="5652b302-afc8-4d89-9ec5-eff0046e17b0"/>
+</TemplateIdAttMark>
+</WorkBook>

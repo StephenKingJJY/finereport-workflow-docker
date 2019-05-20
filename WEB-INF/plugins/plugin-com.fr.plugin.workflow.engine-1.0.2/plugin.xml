@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <main-package>com.fr.plugin.zk</main-package>
+    <id>com.fr.plugin.workflow.engine</id>
+    <name><![CDATA[流程引擎]]></name>
+    <active>yes</active>
+    <version>1.0.2</version>
+    <env-version>10.0</env-version>
+    <jartime>2018-01-01</jartime>
+    <vendor>kai.zhong</vendor>
+    <description><![CDATA[流程引擎]]></description>
+    <change-notes><![CDATA[1.0.2 增加数据库连接验证]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.plugin.zk.workflow.locale.LocaleFinder"/>
+    </extra-core>
+    <extra-decision>
+        <SystemOptionProvider class="com.fr.plugin.zk.workflow.WorkflowOption"/>
+        <HttpHandlerProvider class="com.fr.plugin.zk.workflow.web.WorkflowHttpProvider"/>
+        <URLAliasProvider class="com.fr.plugin.zk.workflow.web.WorkflowURLAliasBridge" />
+    </extra-decision>
+
+    <lifecycle-monitor class="com.fr.plugin.zk.workflow.PerformancePluginMonitor"/>
+
+    <function-recorder class="com.fr.plugin.zk.workflow.WorkflowOption"/>
+</plugin>

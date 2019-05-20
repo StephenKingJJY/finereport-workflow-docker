@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="10.0.0">
+<TableDataMap>
+<TableData name="Embedded1" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[经度,,.,,纬度,,.,,区域名,,.,,说明,,.,,系列名,,.,,值]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData ColumnTypes="java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String">
+<![CDATA[1GlJc1UlF%2UXB8ja=LVrep4DkAqQ6p.g+CCX(<K9j!(?G-$)"D;!*$F.[??qL$C;:,nlpoZ
+=97>_Y]APHDVIJ`eJe/Q3c;3o',jn-jIPBE#WHn1!ibC"Ce#9kE?olcaI]ArR0.*\entn;NtJ:
+pJY"UZZ`Q$7[KEX\2Kpas2&JZiNAH,'B5@ioN<tdBSkWS]AElp]A_n%j_I]A+4l~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ReportFitAttr fitStateInPC="2" fitFont="false"/>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1371600,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="8" s="0">
+<O>
+<![CDATA[注：只适用于chrome浏览器，推荐使用高配置电脑预览]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="8" rs="20">
+<O t="CC">
+<LayoutAttr selectedIndex="0"/>
+<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505" showArrow="true">
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+</ChangeAttr>
+<Chart name="默认" chartClass="com.fr.plugin.chart.map.MapMainTypeChart">
+<SubChart class="com.fr.plugin.chart.globe.slideshowmap.SlideShowMapChart" pluginID="com.fr.plugin.bigScreen.v10">
+<attr refreshEnabled="false" refreshTime="10.0"/>
+<DataSet class="com.fr.extended.chart.ExtendedTableDataSet">
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[Embedded1]]></Name>
+</TableData>
+<AbstractDataConfig class="com.fr.plugin.chart.globe.slideshowmap.SlideShowMapDataConfig" pluginID="com.fr.plugin.bigScreen.v10">
+<attr longitude="经度" longitude_customName="" latitude="纬度" latitude_customName="" areaName="区域名" areaName_customName="" description="说明" description_customName="" customName="false" customField_0="系列名" customField_0_customName="" customField_1="值" customField_1_function="com.fr.data.util.function.NoneFunction" customField_1_customName=""/>
+</AbstractDataConfig>
+</DataSet>
+<ETitle>
+<attr align="left" title=""/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<FRFont name="Microsoft YaHei" style="0" size="128" foreground="-1"/>
+</ETitle>
+<ELegend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<attr visible="true" type="gradual" layout="vertical" horizontalAlign="left" verticalAlign="bottom"/>
+<GradualIntervalConfig>
+<IntervalConfigAttr subColor="-14374913" divStage="2.0"/>
+<ValueRange IsCustomMin="false" IsCustomMax="false"/>
+<ColorDistList>
+<ColorDist color="-4791553" dist="0.0"/>
+<ColorDist color="-9583361" dist="0.5"/>
+<ColorDist color="-14374913" dist="1.0"/>
+</ColorDistList>
+</GradualIntervalConfig>
+<MapHotAreaColor>
+<MC_Attr minValue="0.0" maxValue="100.0" useType="0" areaNumber="5" mainColor="-14374913"/>
+</MapHotAreaColor>
+<FRFont name="Microsoft YaHei" style="0" size="88" foreground="-1"/>
+</ELegend>
+<ETooltip>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="true"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+<attr show="true" fixed="true"/>
+<FRFont name="Adelle Basic" style="0" size="72" foreground="-1"/>
+<itemList>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+<item>
+<ETooltipItem>
+<Attr enable="true"/>
+</ETooltipItem>
+</item>
+</itemList>
+</ETooltip>
+<EGraphics>
+<Attr timeUnit="HH:mm:ss" themeColorFirst="-16712452" themeColorSecond="-16712452"/>
+</EGraphics>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-65536"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<SlideShowMapGraphics>
+<attr shape="pillar" graphicsSize="5.0" opacity="100.0"/>
+</SlideShowMapGraphics>
+<SlideShowMapType>
+<SlideShowMapTypeAttr style="black" initZoom="11" playZoom="8" interval="6.0"/>
+<ViewCenter auto="true" longitude="0.0" latitude="0.0"/>
+</SlideShowMapType>
+</SubChart>
+</Chart>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="80" foreground="-65536"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="KAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateIdAttMark class="com.fr.base.iofile.attr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="d015d7ef-fe73-4534-ab16-d4be31f14420"/>
+</TemplateIdAttMark>
+</WorkBook>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jee="http://www.springframework.org/schema/jee"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/jee/spring-aop.xsd">
+
+    <!-- 加载properties文件 -->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+  <!-- 配置druid数据源 -->
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="driverClassName" value="${jdbc.driverClass}"></property>
+        <property name="username" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        </bean>
+
+    <context:component-scan base-package="org.activiti.rest.diagram" />
+    <!-- jdbcTemplate-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager"
+        class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!--声明业务组件使用注解生成事务代理 -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+    <!-- ==================== Activiti配置 start =================== -->
+    <!-- 单例json对象 -->
+    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <!-- 流程引擎的配置bean -->
+    <bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
+        <property name="dataSource" ref="dataSource" />
+        <property name="databaseSchemaUpdate" value="true" />
+        <property name="transactionManager" ref="transactionManager" />
+        <!-- 是否激活Activiti的任务调度 -->
+        <property name="jobExecutorActivate" value="true" />
+        <!-- 生成流程图的字体 -->
+        <property name="activityFontName" value="宋体"/>
+        <property name="labelFontName" value="宋体"/>
+        <property name="annotationFontName" value="宋体"/>
+
+        <!--发送邮件配置-->
+        <property name="mailServerPort" value="465"/>
+
+        <property name="mailServerHost" value="smtp.qq.com" />
+
+        <property name="mailServerDefaultFrom" value="644977792@qq.com" />
+
+        <property name="mailServerUsername" value="644977792@qq.com" />
+
+        <property name="mailServerPassword" value="podhtbmlflusbdfj" />
+
+        <property name="mailServerUseSSL" value="true" />
+    </bean>
+    <!-- 流程引擎的bean -->
+    <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
+        <property name="processEngineConfiguration" ref="processEngineConfiguration" />
+    </bean>
+    <!-- 服务组件的bean -->
+    <bean id="repositoryService" factory-bean="processEngine"
+        factory-method="getRepositoryService" />
+    <bean id="runtimeService" factory-bean="processEngine"
+        factory-method="getRuntimeService" />
+    <bean id="taskService" factory-bean="processEngine"
+        factory-method="getTaskService" />
+    <bean id="historyService" factory-bean="processEngine"
+        factory-method="getHistoryService" />
+    <bean id="managementService" factory-bean="processEngine"
+        factory-method="getManagementService" />
+    <bean id="identityService" factory-bean="processEngine"
+          factory-method="getIdentityService" />
+    <bean id="formService" factory-bean="processEngine"
+          factory-method="getFormService" />
+    <!-- ==================== Activiti配置 end =================== -->
+    <!--初始化数据库-->
+
+
+</beans>

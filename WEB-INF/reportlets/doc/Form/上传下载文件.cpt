@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[2247900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.MultiFileEditor">
+<WidgetName name="文件"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<FileAttr maxSize="0.0"/>
+</Widget>
+<Expand/>
+</C>
+<C c="0" r="1" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=filename(A1)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="文件下载1">
+<JavaScript class="com.fr.plugin.customsubmmit.js.DownloadHyperlink" pluginID="com.fr.plugin.customsubmmit">
+<JavaScript class="com.fr.plugin.customsubmmit.js.DownloadHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="flag"/>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="D://111.txt"]]></Attributes>
+</O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_blank]]></TargetFrame>
+<Features/>
+<config path="=&quot;D://111.txt&quot;" encode="UTF-8"/>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Present class="com.fr.base.present.DictPresent">
+<Dictionary class="com.fr.data.impl.DatabaseDictionary">
+<FormulaDictAttr ki="1" formula="=LEFT(FILENAME(A1), FIND(&quot;.&quot;, FILENAME(A1)) - 1)"/>
+<DBDictAttr tableName="" schemaName="" ki="1" vi="2" kiName="" viName=""/>
+<Connection class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr/>
+<JDBCDatabaseAttr url="" driver="" user="" password="___" encryptPassword="true"/>
+</Connection>
+</Dictionary>
+</Present>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[内置SQL1]]></Name>
+<Attributes dsName="FRDemo"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="产品类别"/>
+<ColumnConfig name="类别名称" isKey="false" skipUnmodified="false">
+<ColumnRow column="0" row="1"/>
+</ColumnConfig>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.WClassSubmiter">
+<Name>
+<![CDATA[自定义提交2]]></Name>
+<SubmitTask class="com.fr.plugin.customsubmmit.report.ServerPathSubmiterJob" pluginID="com.fr.plugin.customsubmmit">
+<PathConfig isSameNameCover="false"/>
+<ServerPathColumnConfig path="=&quot;D://&quot;" name="=LEFT(FILENAME(A1), FIND(&quot;.&quot;, FILENAME(A1)) - 1)">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=A1]]></Attributes>
+</O>
+</ServerPathColumnConfig>
+</SubmitTask>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-16776961" underline="1"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateID TemplateID="a6755f6a-d1db-45cb-aad9-00f735168453"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="72156149-2259-461f-b1db-60dd2ada4b82"/>
+</TemplateIdAttMark>
+</WorkBook>

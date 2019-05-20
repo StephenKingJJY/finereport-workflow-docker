@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<TableDataMap>
+<TableData name="送达信息" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[GCOMPANYID,,.,,GOODSOWNERNAME,,.,,COMPANYNAME,,.,,AGENTNAME,,.,,DISPATCHID,,.,,INCEPTADDR,,.,,CONNECTOR,,.,,CONNPHONE,,.,,WHOLEPACKS,,.,,SCATTERPACKS]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer]]></ColumnTypes>
+<RowData>
+<![CDATA[A^8O-Jj9kPnFODmfe;1;\$JG`(nQ<\?)UM\+<H+qKY:&hqA,(M-"M43@!D<'.tkj&XS]AF0eX
+(1NOJ(4io1U;2?W#KQ8@[5">t[`UilF+&#o[P)KL/bsrW#+g3>KL=W#8Fqo9;09SmV)0*YBY
+"H3%[fa7jdZNI[T$mKsD?1'Sr]AS`d42dgsY(0GBNg7_m5u6%9DehD8QAj71"+LnT:~
+]]></RowData>
+</TableData>
+<TableData name="登记信息" class="com.fr.data.impl.EmbeddedTableData">
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[WHOLEPACKS,,.,,DISPATCHID,,.,,SCATTERPACKS,,.,,WHOLEPACKS_R,,.,,SCATTERPACKS_R,,.,,REASON_R,,.,,ESTIMATEDTIME]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String]]></ColumnTypes>
+<RowData>
+<![CDATA[1ZgMN0JMQEi\UeT-TcXHYMJqhb-pK>>+SN'HTl!cVicP(RBEftZ%7M#WKiUFQ&-ZN.7ah7"0
+l$'5['+<ZGd6J`Iu^-GV&m~
+]]></RowData>
+</TableData>
+</TableDataMap>
+<ElementCaseMobileAttr>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="1" zoom="true" refresh="false" isUseHTML="false" isMobileCanvasSize="false"/>
+</ElementCaseMobileAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="物流信息登记">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[381000,1512000,1512000,432000,1728000,432000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,432000,432000,1368000,1368000,1368000,1368000,419100,432000,1219200,5448300,533400,457200,1181100,304800,3581400,647700,419100,1728000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,1512000,432000,1600200,495300,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[720000,3024000,3600000,3600000,3600000,691200,720000,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="0" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="1" s="2">
+<O>
+<![CDATA[配送员]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="1" cs="3" s="3">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$fr_username]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="1" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="4">
+<O>
+<![CDATA[填报日期]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="2" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=NOW()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr format="yyyy-MM-dd HH:mm:ss" returnDate="true"/>
+<widgetValue/>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="2" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="3" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="4" cs="2" s="8">
+<O>
+<![CDATA[当前送达信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="4" s="9">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="4" r="4" s="9">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="GOODSOWNERNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="4" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="5" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="5" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="5" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="5" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="5" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="5" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="6" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="6" s="2">
+<O>
+<![CDATA[客户ID]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="6" cs="3" s="3">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="GCOMPANYID"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="6" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="7" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="7" s="12">
+<O>
+<![CDATA[客户名称]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="7" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="COMPANYNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="7" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="8" s="12">
+<O>
+<![CDATA[代理人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="8" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="AGENTNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="8" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="9" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="9" s="12">
+<O>
+<![CDATA[派车单ID]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="9" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="DISPATCHID"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$dispatchid_p]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="9" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="10" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="10" s="12">
+<O>
+<![CDATA[送货地址]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="10" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="INCEPTADDR"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="10" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="11" s="12">
+<O>
+<![CDATA[联系人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="11" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="CONNECTOR"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="11" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="12" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="12" s="12">
+<O>
+<![CDATA[联系电话]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="12" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="CONNPHONE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="12" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="13" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="13" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="13" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="13" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="13" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="13" s="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="14" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="14" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="14" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="14" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="14" s="11">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="14" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="15" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="15" s="15">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="15" s="16">
+<O>
+<![CDATA[整件信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="15" s="16">
+<O>
+<![CDATA[拼箱信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="15" s="16">
+<O>
+<![CDATA[总件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="15" s="17">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="16" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="16" s="18">
+<O>
+<![CDATA[订单件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="16" s="19">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="WHOLEPACKS"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="3" r="16" s="19">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="SCATTERPACKS"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="4" r="16" s="19">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C17 + D17]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="16" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="17" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="17" s="21">
+<O>
+<![CDATA[实际件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="17" s="22">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="WHOLEPACKS"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="3" r="17" s="22">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="SCATTERPACKS"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="17" s="22">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C18 + D18]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="17" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="18" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="18" s="18">
+<O>
+<![CDATA[拒收件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="18" s="19">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="WHOLEPACKS_R"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="3" r="18" s="19">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="SCATTERPACKS_R"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C10]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="4" r="18" s="19">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C19 + D19]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand leftParentDefault="false" left="C10"/>
+</C>
+<C c="5" r="18" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="19" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="20" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="20" s="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="20" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="20" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="20" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="20" s="24">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="21" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="21" cs="5" s="4">
+<O>
+<![CDATA[签收图片上传]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="22" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="22" cs="4" s="1">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.MultiFileEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<FileAttr/>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="22" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="23" s="23">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="24" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="25" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="25" cs="4" s="4">
+<O>
+<![CDATA[拒收货品及原因]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="25" s="14">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="26" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="27" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="27" cs="4" s="25">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="REASON_R"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<CellInsertPolicy/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="27" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="28" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="29" s="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="29" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="29" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="29" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="29" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="29" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="30" cs="2" s="8">
+<O>
+<![CDATA[下家配送信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="30" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="30" s="9">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="GOODSOWNERNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="30" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="31" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="31" s="2">
+<O>
+<![CDATA[客户ID]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="31" cs="3" s="3">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="GCOMPANYID"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="31" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="32" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="32" s="12">
+<O>
+<![CDATA[客户名称]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="32" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="COMPANYNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="32" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="33" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="33" s="12">
+<O>
+<![CDATA[代理人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="33" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="AGENTNAME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="33" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="34" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="34" s="12">
+<O>
+<![CDATA[派车单ID]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="34" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="DISPATCHID"/>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$dispatchid_n]]></Attributes>
+</O>
+</Compare>
+</Condition>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="5" r="34" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="35" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="35" s="12">
+<O>
+<![CDATA[送货地址]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="35" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="INCEPTADDR"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="35" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="36" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="36" s="12">
+<O>
+<![CDATA[联系人]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="36" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="CONNECTOR"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="36" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="37" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="37" s="12">
+<O>
+<![CDATA[联系电话]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="37" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="CONNPHONE"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="37" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="38" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="38" s="12">
+<O>
+<![CDATA[整件件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="38" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="WHOLEPACKS"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C37"/>
+</C>
+<C c="5" r="38" s="20">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="39" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="39" s="12">
+<O>
+<![CDATA[拼箱件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="39" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="送达信息" columnName="SCATTERPACKS"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand dir="0" leftParentDefault="false" left="C35"/>
+</C>
+<C c="5" r="39" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="40" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="40" s="12">
+<O>
+<![CDATA[总件数]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="40" cs="3" s="13">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=C39 + C40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.TextEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<Reg class="com.fr.form.ui.reg.NoneReg"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="40" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="41" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="41" s="26">
+<O>
+<![CDATA[预计送达]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="41" cs="3" s="13">
+<O t="DSColumn">
+<Attributes dsName="登记信息" columnName="ESTIMATEDTIME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellPageAttr/>
+<Widget class="com.fr.form.ui.DateEditor">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<DateAttr format="yyyy-MM-dd HH:mm:ss" returnDate="true"/>
+<widgetValue/>
+</Widget>
+<Expand dir="0"/>
+</C>
+<C c="5" r="41" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="42" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="43" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="43" cs="4" s="27">
+<PrivilegeControl/>
+<Widget class="com.fr.form.ui.FreeButton">
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[contentPane.verifyAndWriteReport();]]></Content>
+</JavaScript>
+</Listener>
+<Listener event="click">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[FR.Msg.toast("填报成功!")]]></Content>
+</JavaScript>
+</Listener>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[保存]]></Text>
+</Widget>
+<Expand/>
+</C>
+<C c="5" r="43" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="5" r="44" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting>
+<PaperSize width="36000000" height="31680000"/>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PaperSetting>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<ReportWriteAttr>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[present]]></Name>
+<Attributes dsName="mysql"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="present"/>
+<ColumnConfig name="DISPATCHID" isKey="true" skipUnmodified="false">
+<ColumnRow column="2" row="10"/>
+</ColumnConfig>
+<ColumnConfig name="GOODSOWNERID" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="43"/>
+</ColumnConfig>
+<ColumnConfig name="CREDATE" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="MANID" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="WHOLEPACKS" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="16"/>
+</ColumnConfig>
+<ColumnConfig name="SCATTERPACKS" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="16"/>
+</ColumnConfig>
+<ColumnConfig name="WHOLEPACKS_R" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="18"/>
+</ColumnConfig>
+<ColumnConfig name="SCATTERPACKS_R" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="18"/>
+</ColumnConfig>
+<ColumnConfig name="REASON_R" isKey="false" skipUnmodified="false">
+<ColumnRow column="1" row="27"/>
+</ColumnConfig>
+<ColumnConfig name="WHOLEPACKS_A" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="17"/>
+</ColumnConfig>
+<ColumnConfig name="SCATTERPACKS_A" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="17"/>
+</ColumnConfig>
+<ColumnConfig name="OPERATIONTYPE" isKey="false" skipUnmodified="false">
+<O t="I">
+<![CDATA[1]]></O>
+</ColumnConfig>
+<ColumnConfig name="COMPANYID" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="43"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=isnull]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.BuiltInSQLSubmiter">
+<Name>
+<![CDATA[NEXT]]></Name>
+<Attributes dsName="mysql"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="next"/>
+<ColumnConfig name="DISPATCHID" isKey="true" skipUnmodified="false">
+<ColumnRow column="2" row="34"/>
+</ColumnConfig>
+<ColumnConfig name="CREDATE" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="1"/>
+</ColumnConfig>
+<ColumnConfig name="MANNAME" isKey="false" skipUnmodified="false">
+<ColumnRow column="5" row="43"/>
+</ColumnConfig>
+<ColumnConfig name="WHOLEPACKS" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="38"/>
+</ColumnConfig>
+<ColumnConfig name="SCATTERPACKS" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="38"/>
+</ColumnConfig>
+<ColumnConfig name="ESTIMATEDTIME" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="41"/>
+</ColumnConfig>
+<ColumnConfig name="CONNECTOR" isKey="false" skipUnmodified="false">
+<ColumnRow column="2" row="36"/>
+</ColumnConfig>
+<ColumnConfig name="CONNPHONE" isKey="false" skipUnmodified="false">
+<O>
+<![CDATA[13868411818]]></O>
+</ColumnConfig>
+<ColumnConfig name="IMFLAG" isKey="false" skipUnmodified="false">
+<O t="I">
+<![CDATA[0]]></O>
+</ColumnConfig>
+<ColumnConfig name="GOODSOWNERNAME" isKey="false" skipUnmodified="false">
+<ColumnRow column="4" row="30"/>
+</ColumnConfig>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
+<CNAME>
+<![CDATA[DISPATCHID]]></CNAME>
+<Compare op="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=isnull]]></Attributes>
+</O>
+</Compare>
+</Condition>
+</DMLConfig>
+</SubmitVisitor>
+<SubmitVisitor class="com.fr.report.write.WClassSubmiter">
+<Name>
+<![CDATA[签收图片]]></Name>
+</SubmitVisitor>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<Report class="com.fr.report.worksheet.WorkSheet" name="示例二维码">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,3352800,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,4800600,2743200,2743200,4800600,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="3" s="28">
+<O t="I">
+<![CDATA[1001]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" cs="3" s="28">
+<O t="I">
+<![CDATA[1002]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1" cs="3" rs="10" s="29">
+<O t="Image">
+<IM>
+<![CDATA[X]ABdF;s>#mJ.QuQN.]AbO8/,)@X;ecHQUNSOT^qRa$qYHo6<Lk&[9Xgl+bo%j$o5bu!\+W=J?
+TA3jLQYe/T6g1(jo_FQHHF(68/boTJp+X]AN5`/?D=UHcEq@Kqa\AjHX?IDIeS6QG>9OSNVDs
+jcP))Oq'7;'B4Lsblt9P]ANif;F^Gpb]AH0Q'P1H?gtSmU8Q)R@Q</_@6r0^2;lJPHgUekO``h
+*Prh^/d.4\ZmH1d>D$O\5rE=DONQef2j:u:iJB'&]AV#;U,Xg'\?M>mmu'o,80kC_E$W,X:8V
+R'Q'#7l>2oMr7b;"YrQ#qK$HAAI9NpS'Wu4otb3,X^,HP7=A_lAgh6rKHL8eE$=NhZJTAR>-
++]A@.p=\D\S";Do\YE_mj^qjZ>MLh!d%J_*S*-T_!"?2"?g<.ZGS[BML_hiCfH6a7_)=uJ#L`
+\@f=cSj.IgKj91C-Oc5%%J=d8LER5kF<k!GkjurLO8mU%^7.Y!lg;m0VpJ60_h$42`s2_[X`
+^1O*V*f2S-^"cgc'#/I5U)d,+ZR2_*+ap"GZ<0!h'oUGV6\l28Q7'bMn`_IP^:opu;6&9rLG
+i9La.ReWHR=Ut@W1J8P-']AL=j^H51R`rSgDeFO$]A;)7W;h\`Ln).kP[VZ!S<AD6B39@L@U2$
+(YOM]Ai]A5Z*?o-jhO.'T]Adti1.EYk0/Q5Tmcf^]APsSE&eL-(8uq=O<,+7YZP+hoWOG;NklY\G
+"TQ6JbHdlVB"tB=8ge:DWuFI>mcfD&EcB*aV3T]A4HL#NRHkMJBd%)P43aMu,AM7:HcZKE.Fc
+6GkI=1\RDud@b82#&:R,(;C:MGNoGsMj5<JuS[bHaFZP8s(j2t%@^K`V)5?g>(jb:hP3YjjL
+Zn?aL;OTs8"HK*VD*;:]AHru%WsEuVjN0k0,eY<LR;IIf\!%Sfu/0.maX$+L!U]AcWo4KZYj2V
+G[nY>H,Tn.%9KP6J#,cWO5SYMT`Ur:A5^u\ud!BZH&KsQ5JC6XRT7bGOLd%3gp"O_\+r_-Sq
+MumMDcn`h#MOp>/JU-&)bBOrUZEIDf8Z`W$M7K_:O$4*Q98s$e@gIA:'7:FR\QG&lRD[/_R!
+EQJWZ[No*I_&;;2[3Q`>ajWd37$@q]ACQ,c+MW1UW%b$.W;nuG+-!>K]Aj5[K[UT*3RDQ:^_FH
+Xn:=>>LDHnUK-OC3e^XI@[BE[;EpAAut'%F]AL3ej7k2"+8AW,/ApRG5G&!L)@0N)A23C)uL_
+5FcSjC%'1r"&n`FD?Q2U6MA/c$6:gkAXLrJu0V:Lcl\e"F,=?D&L=J`[<ZU<RbKe@-$GnQS[
+2n'8NP5\(Q>ZV"?d14.>02d;,HH>jCV1@IgPKL*I'@]A%K89J(n^F1p$Reu]A>7nnUR[Y*G%r<
+4GQ8Y0cj$E6?hrr6`Jb<W#\<8)ODF,L_>Aq3NW5tJkEb-c"DOsR;ULK_Rb_)`7%I@YEP%gBA
+L3a^hs%h:<o3)/>>\=neg\u53+c;UN[&^Oemg>l\^nK/pjr=[\@VdOZ>.sl^WHI*6Ru<T>h]A
+"k%^Wf`]AU_`SCm*mGa1ZpCM@+SBqT)(+@/T*=9lY=KrrPb.K6Rt4t+=t7ZC@/b8Z,$NJ_oVW
+'ldsB<1X7Y.J]Ap6oPlndTJ15UEZr:cPl$%NAQQ75*llMi!>Tt,IBD4?0&#Yu@7.Q5^R8oFU5
+8`kA';I/DTGFmNb"12ZgR!.Lb.&/!n$7u197Xc'<;_UC;Z=d+'UeK*Mul.JpSb(\X`:uJKU;
+55QOHN`*EolH2`?uR=<7^g]A=CHp/]A([f]AJra>Ir+=@+]A]A:G4o6D(;c2JsS:E]AUPV0re[1@A`
+bJ]ArZrI4-LEOFZ:/YaV@jKRR?_jpAGT=ft!HVlW_+`_\6r:*,nhWK_23(\;c+H"kFXVf1`KF
+hq*N&M2Fj5@_J4K?s5!FW)9=l]A6t)1pa!5[:lk3gBj'au4>(-[Yf"+CNkISB/=WfJ[4d#V:+
++Bgk3%Ls01XFhPD<B(Z;6Qni]AJXTW@81Ed)kV_Cl\4S3=N]APg2]AZW5_3Ydj3p.SsCa;;*`'E
+69PpQ\3p*joe-<8CcK)X<$VQ00rpk3.i.a2@hD[)h0V!h:=B[,=8f8o[f53O_W)19^D&Q"Nq
+p[JaEL(9!57nquIg.P`1B'h.qd?'jZ\5?b%#1hU.<M@JlAQbU#_=O]A7Z&p%<q]A:Dma89Ei,o
+msEcEra\L<6l<0&6M2EkiRgT_93J4h-t4Hh1Jo`MS+WSr]AKB1^0\RS-@-f+W1;I2TA,<<$+b
+]AB=`CVB+Ug$+[fW5Q-*(-'+#mO#4Q.dtGKe\h3aWjr1.`0E@_cMRL8k`C[Rn1od2]A8mdo@BX
+a(IQ#!'M;D,Tn11+oSh!Z`+G"01k4k]AA!=kT*d4QFHZBg1h\b+njoDn(:s:cfZk%Rl\HU<W!
+J4D<6M*r,c+)0D`l!@od^?&-)I8:6Ypu14fe.jmg_&TX&m0T%O7:RfF3hAHjga/R;s%4c#`<
+p@*sBZ?Q5md3>U8e9he4df8%/\Va%Zp)q>)<u1?7usMfVYu;tORHL=Oe*>LY(M5;+p;G>pL$
+9NsM5Dm2E_Q(&eVLeT.1Mk8J;$YmrH=m'*&i&LK.O_%A]ALe8ccgrigZI?bnU(HPo*[1C:OX^
+%=lSttN-qp*eQ_VK3rU1I9_dVN$h8Ira.5NFIrrJ.q(k3b-D8HT<XD3Ua3O\MMo\+/+`MbDj
+1GC)u!L@j@~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="1" cs="3" rs="10" s="29">
+<O t="Image">
+<IM>
+<![CDATA[`E%=^;s><6I1]A>%BFl_WQa.l7$&SgS"9a==TLam'EJ6e2aR0HB"!S@E!f.s8KbC)qJqUUTBj
+jF7Kg:5\\q4<DDFM]AWoG.]Ac8M:C3KTPi_FP<;MY+;-Nm-Gh)R<u^GS_nA2\`\@Tr6Q#'2NqL
+9(`=3.$T^Q^KE$)`D\]AYd^66h$5U.M;U*-2fR;3NZrnuE+oE8p(ILYcEE&VJAiQ6%120j@pY
+&S0c:1mFoU.t0bGEbsl`Ab#QBDuRjZibhs2&BDd]Aa5JPRKs)bXALuqq2rk]A55jcH@SJsDE&V
+<]Af%>"6_5YNr^=hKYHXo7P=s+[k#1iV=&N!S5>`mpjOPTFd'@^l!B2ZXJDQ?p,TrpGXr?:ZC
+gUtWYBXpd8D'(7bG(Cu$ID-[Y2Dp`becIm^FXebFE@IP3!o!2,e)'f*LCSr2Wm,NF/rXq4RS
+SWQ2mhat(&p0%V:`gl2b&2TOl2@cB'Gd"mhf-oC"(f?n9R2JrYno+d\h#]A/_>m#9'ID>[$fJ
+!<N;WUM;if`%mE?oJ[ToQK#&?GQIX/AZbc<86"7KdVG"IC4I#ZeECLr^^uGct.)7BSYI?3'=
+s7%RnUn+Sl=A[e))Me<&(W,5=K-/>('dJG2Md;t3L([:db-T@XJhBg,B&9%B@SZs:.W&_WrA
+fb?J1?hSmhVQV+f3*G4+sAn^V^pOWH'!V06W28#-\=*[kLV%;;Kg8Wo0noMl,[>l6d%&F\U=
+Q87i7r=Ra28Nb=ko5Us,hu*Q4a<T1`eP8Mf9[NOn!(Q77-lK%E4aHejk7"'cqHLI?jq^@W@h
+A)o9OWN=@B@bf@1_.RM"um`rKe.Ki!/a4<2mfI#JY^u:`carof_e7iS&OhQS<lf]ApjtB18ea
+Wj,jhdn<W(aJI$UPQE<1S%5]AXkKbIJmc#&_dY1CDOCW.3INY!RH#j@0M#k=OD=+XQjrrMGfd
+/*ji7Xg$PBF_*U3ejhV:"/#B7&aZcC44^iEkP^hkIQs>rJTQ>UK6bCBoukgTZOblg:>o**YF
+RtK?aLrftDo""RWhE5Lc*q9s%:cRqEhb#DG6-VfU+t#t!tH@9EhVW^:H"E[#VG@7/1\&_e2]A
+D09O)K@P6E[*^9(<'LK=I/Vna55kEpLqd%"RmA+%$lf4<aKk!))k+7CO2;UibP/+/&T;b%d_
+a@KDu+ScQsB,(bmA&\`?[s[\VO7qUP=:9Q'ONAA\N%+6C,Ku_KiZp[cbfLoH6cPH0<`K,\oZ
+h.)cNYmSNFW']AN0I,rgU[kG-^0dfATJ$g4ph*jYIc72j'Jo<r]A`PJu)X6<OZ;grkreeI!k@@
+0*L>'cFalDBVTp6#!I$-Z*I03h<9F8)#'(GM?^T!:1nK]ArZ[Y<dkC=;jd$bPRM+^:?N(R<H)
+Y@!`+r?oGqV7/r%QTN`q>Q+/l[)Xm(jVm)PMr'tg@rA#Q^eX/4/.7lWA_&#Oj8(F6?AZP0J<
+F:Ao_AH>Vn\`rcGdZR.#1=jLYpO`3U3G6M=;j"?biN9k+;j/1*X&[2:H%,>kAChe&g(*f4mH
+3-%rYoa#i-GXPV?]AFmL\XmtdlurorN`>b<A+P1bP<=N>FO`Xn325G+g0kJ,R-!^r.77lTdJ"
+m&.lU:Nlu#?%24oQAAjJ0I.=8uPPt/,1;p]AMWP&,61/;f,$cJ@W(48l8%leQu.h(r(Sl&X9O
+mEuT+<b@[Y9*B9\g4R;W=Z?*eWhu2%i+_T;Gff`?f+FF_dO5Eh*HW;MYRp(AX;7)Zd6\iXq#
+_O)J9TP5Sot.X1M"IVdj^RWYtu2+,@dePeRA);+.59T6UG'98+!_19f);G.<g3F\aVm%LkK%
+;=]A0c)s#hWD9Lth!(BE3im@Nf9YGWV3h6"?F\JneFpe,?\ulXH2;N0qnoZ=.@HJ8;Bp\Ddk]A
+`k,NjcoN`#XW70TS;e3<R-B4[Xca'^\BMbH?d!+T?=hEq*j#qajh6!OG8'`Uqp+M&dddik$X
+0*`eW@hU>(kr:a6uUPTnJ;VNXNcV%@L>Ls9^"tN=B@/rl"1TleD\$0"aFV9PZ]AO9Uh9);(.h
+iOC)lc">4Q8sDY+aMs<A6#ptV=A.CCB'DUP<>q6dp.nuZLup]A-"0uJP4?Ts8`le1+";u8.IN
+CVr3F:l`D7)[fsr5dA2mAh]A!VLt_0u+2BQ9.l1T1@.-Wr,sjsM,VHGk`?V$:N]Aq#qQMB\d!*
+^u<V2;D486i*doiSiG#S,,G4GHuU,rTJNf3PMb2JB:af14X^'T,_7^-$uN`e8t#T84CKB*rW
+I;>\dj)R+?TjN1qbK'L\.Vnn2HFHh)A6#*79b0hW$$L@BkggDuT2pRL2mGJ(b2'O_(q#@;1]A
+1"un8k-WHk6^^st]As7u#2!W~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="11" cs="3" s="28">
+<O t="I">
+<![CDATA[1003]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="11" cs="3" s="28">
+<O t="I">
+<![CDATA[1004]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="12" cs="3" rs="13" s="29">
+<O t="Image">
+<IM>
+<![CDATA[]AiJoF'3>m.49Ps/R>+1b)I]AL$_FP6G-lPEsLc,Ot&UY]A(8*gpZN?^DLScqMi;8JYM?l7aR@R
+M_EW&uu52TgQ95[\DJ8F3?AU)4]A!=d-)S`r<"pSSH+c]A6hj%c?IRIkM3E<(:0_[(V?bf_;T?
+kGAIeN_nIPmR%5%&mr+B?5WG:WmN(8FK^>`'Mi=tPJZcc%[amhg3C@jqn<8kAID3e<DJOp*-
+76iPbO<H<(3m<N'r9q[:l/sI*3l^hn[=JnSBIaZI3D!Rg+%UkYk5]AJ_lM2$_,?7p0PY3[2dA
+0bs2Z>a"BsNU'V@-t2bWR/,kLjFH4s>Y:=P,`.D^bE(1'Xi<$+0Q`=bji`QuQc7VN3'a6O:J
+QrM[J<sdl!T7t.)Ki+U=`rI8SpRhKn,?.u!G=aUdNEjFQ$<IG9WU>3'#(dsl*[JJU6UB$qd(
+juS&@qSR<A>7CgJlaO+GFKgmqjN/qSfL]AUdhhWp-`+N;HOUB3j4p_R!CJ@SraUB&HU?N-+lF
+l3\"NS;3-B1T?W5#`6:hTc=FV2(-)2OX79\J,G&\JbRKa@h6BDf_0b<K$ueG%DXK]AeB"opS^
+N<Y/+_OlXXU$j93oijGaUttg4!#5+O&V_GG_F>r"@7dl7_@rDjjC^T"Z7![n&J>2SS7]A3nl?
+\.hWh(LqQrquC$2H\g[<eplqQeeXtBQ*:ZQ:dZ;%@4>18NZg8<Rbg"@]Ab^TZ=95&.jPMGG#c
+;,Y+j%iXC"gfmD3L`RX#<K#(G:tIcWau.k;?51b,B>Bc557L<^eet.'iIEVJi6@\).9F*UI*
+)k*B@1$(=6Hqc83iY8Fnc<7ABA/%JCAtVUYfk0:25sS-PetCl"dEAS@cLR!O]A?%3[B<,8EQ?
+'Q[4K-oGsDF)Hus`Vm,l);&)]ATBY[Ocnj5aA3S?Ia&Km\[)Eb@1(<lMAX,TK78mBVI629`d6
+&)M`IY%,Os2WcO7/t\q(8=NO5&nCi<Hn0#48QKu>a^8.&[\Y:``!GQ^0Z?%;-Yd!^EuNu+[\
+F"aGJ&q<Lo?anq#W`bk>2BCu8qtT,W.m,0dmh]ACc^tRN!R>HqrM]Ae>lZm>CV7GDoUPm,G#)n
+`nGD?&3i00JAu.Mc,"H3?$t%@R^HbiI>6Tpi;-bL,"3TEfKZ^@$Q73*1oY-S4*kXX\jE1G"Z
+mJbHE@Ut$\aQE[X_51n4c)S/^$Ho\oUsfZl0(G'V[RAUEC-LH1P#An+)bk_\_GiX[dCt]A#d'
+.!H00S)<QZ1jkJ_4GA:mcV'rhSi;02Y6F"AZ'J%7[^V]Au'Ep=O`j#!=#+jUJDM4.De+qm#6B
+/Uk?+3,dhO^cTC7Goq@hEP8Jp-[G$8W7Eo]AoAb]A_\A6&C-m^m;?9NJ;Wa@Nm]Aa9$Brjfo$OD
+)Gguf4%e?7:u2f^id"3c_1#*^MgElR/QBGW*pnA@AF,<Z6M<6o)g1p;Ao\FhVq-WnBZ29./*
+`h)Lur`dQr6!_nY82SQ<oS7g"$'!;S;kffI-km20H0B;'^'2&0TCa[:.u`(=4D6DU9qC^/(:
+OHWF29sW:X^jig92X2eW,,g0RK(dcDa?6RSNlGSLA\_cnh#U;S#sGDkcp]Ajse#&'J<fsekal
+^S+*jrC9T00/GK#A_kIe?1in!7n]Apc.dar=96l$g1_MYdC)EW]A<Q:G(qdef34!?XRcgsgX?8
+HOAoB+qC#o2QA;?ZS$%1(*lU;fdfq@J*/`@]A\ZL+e#cfXJ_ohE]Am;kY4B3TSeKH-'*/d1S!$
+R]A'B$M,+.fq&rN:,>!^GWhR-Hg[T)1ER=&%J1M!4=YTrE<e!<~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="12" cs="3" rs="13" s="29">
+<O t="Image">
+<IM>
+<![CDATA[X]ABdF;g/ue7>43^:rP\n-A!uTF9SM(;@O3`]AS'aF!%Smsd+WYn==AlbO=5_!$Db<K)MFqb*e
+B2j]A0JqY&2Kt^9Qad:k,%#K_'Lf=\:M<d(M:+^%sOmLrSu`rGOBa(pO).oms"U&LS6Wq\)B"
+XbU,G'3!ML)i6khJ!VZ_kdg6j"^-+S<0J9PXZ2QZYH/c8,.[+S7FaZ3cdHdgBhur#\pZ3c3(
+5%Q8Mnop_j#4,-*BIR^#_>%ERpgLK+g=SGQ<V)88St`=:^c"r83L>Xq`fSD?YqP:[61I%bdq
+JqClHeflh2ta3!Ts]AL@3>,2Lar@-fp=p<?$8ldPSSKdXBskM8i'47D*Lne%sB#S*<u*n+[d+
+.IIJsH/"]AI[c3FNLQjDc/%2uFVels6-]A'O+WpZQ48$hl.c-*eYc7C@uojX+LmJj$3s3gqXn/
+._KVK&GL=-Da#>B>T%dLb!a5]A1me72sdTp^ZIM::B?#$#u:H`?0?J0i&ak)7dd&GeL^ko;E8
+3^h(TE.)^7&cul.QFmd"r8^dh?Ub5s>XCQGq<2a@\A0d]AejbUCgEU;P@$4g.&2oF,lmD68Nm
+gl(N2tBC!l]AtkrE$d60,T93S0c`H\GW=281\IU=Ub8eEc_l9bnaQ"0gg;c_VXAR&;e/:A#*^
+uqMm(*TCos^2HVH-;"DN!2_-a:#&#B1FhliF<_a.N/6M<j%d_BEgLa>%e0IN>=jVaM'@FAb1
+'QUo29r*7ro5]A32okJ@W50qp+SEjL"3WGhAVM\!A=r(f6,jaA&Xm.QO2Oe@KqV2PF@[:8YLG
+jDJ+PWCB0f+3fR`dD<Rct6@+:@=5rt_af=eCfXl$FaFX&0\?/Q\BbV4=5r!$.^"ppgbbBC2b
+DVq.p]AbeR\T>mL.r$rVT-JsnB[@)a4Ijc/QYB\pC;qaa%ZMYXaTXCsaS*JM63bG&-#?.(U<g
+E@MRIiK=sXXtHl/_'X0akFL4SbeXZ)I,J=-iM=#5tUiNW<^>DlBY@"!p-$=gO]Aok*85A!W?#
+c\9qH$ofM3^4q*02_Sbs3F0J<6tfs'_p)%T!]AnM,EN>?P-@X*%G(d=XtVq0V5^%Bbg*YJJ%L
+.J/f,^>%bd2NC/$>43rI'nO(a$.3)f[s-_6_T&]Ach2M)tc&j=kf,O'NB4?b8mkl[b(C1nU!u
+ooo>'X`aoXZ'B0j/AZYqfZH5B8!"Tj?cU:3">+<rYtjX/mBYdBQ@C6K-$2'-,AP2(HAWVn;4
+@$Y\mY[^foe]AlQcNjaFD'VI(2=2nOqCq^NqD-\@U[:(s>/p=6$YZI]AN@UUeZGc7sft*e9^cL
+s+Yqa2P5n>.Q+4a:^r-j-%_0bX*PGZAeCmfE5D?I@Ta#fM?g'i[i.4>[Q]A":1N<s.(9.5)6/
+>CCLIV,jXN-mMan:-Q<jdX`=J8;NQ3^\_o699!HQX9H)$ASbnuEurq]A,kbG`,rhtBEpL.Q4F
+gIo@,gFtlW&T[^>me2T,BEDI2Q=MrCNrF%gI%9.C7?4V3dc#sEQ8'nn_-pq/r:\6-V9:h%=^
+^p>6-q+;ZYoZYM\/)`^AQ8a!hqEalIhm&?0HeRpP6;`PX+M#e@-nEY>@=+$C4gk2lk[fQ[+m
+#\3-)Lf"V8;iC)\U*5E3lb)OZ']AV&i/ehSJm4V0$LRk3j]ArloIBg'l$>^Z>`$^nbH5NpL.-[
+2#^-RG'ULp:)D?[7`&!9IPs%R0FI\lL4^BO;W?0&ZIEIC*&<a-BKXkIEH3D2M'h*2Lm@Z(.6
+V%fFVC7e^9GkJ%*6"KAK7S>":[F0oL[SF*rF;6h_,l("am,nJ<OL!Yf=QWiQ,8V[pS':dPI!
+I,c4J=DLIjV/YuT"mChcL)Ndc6O6\"2e4V&P4-3B!p!BXC%U)rBuTcoou38Nm2Zp1N<Y2=Vr
+1sJoQcb,q:2.+5;M\rS"i[chIf*k`IVT"g]A8bd=<6U%o<rtf#4iKafD7JViH;[[M-[]AV&@^3
+$!%G]Ak[mBg&<Bo->S76hM57um'62<97"jEI"L78l$O?uJ1NTW>"k7'tiC1iA%fcN'nhQfI<?
+_*u)ZKIJu3"ToDH-dfr.EX03js]AI]A+i'V,!(@g4]AAX0$##PQ$4F61m[F?k,Bh(E/;*_\iE2A
+t34);7;C"gos1fs7P9P:Ul5YgM%^o>,Is)T.uON3#Di%.h57VPkuAXLt4#rTWHmeiAEHrsSn
+IIJdEd(Y_NWaWrE4A\q+ecS4jPm>i4TU&FbW#>;_d\!:lWlapCORf#7ZG2X/4B:nWg%$7UnI
+H[q+T3?P_hD@SY6?102[S!k;Ut8<SMZA^$hV8-MLA'Jm;KYS+m`d4oi>Yg$\D03VTe3m=?-;
+ti1!$1$NCD~
+]]></IM>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+<Header reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Header>
+<Footer reportPageType="0">
+<Background name="NullBackground"/>
+<LeftList/>
+<CenterList/>
+<RightList/>
+</Footer>
+</ReportAttrSet>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="false"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+<ParameterUI class="com.fr.form.main.parameter.FormParameterUI">
+<Parameters/>
+<Layout class="com.fr.form.ui.container.WParameterLayout">
+<WidgetName name="para"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<Background name="ColorBackground" color="-1118482"/>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Labeldispatchid"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[送达派车单ID]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</InnerWidget>
+<BoundsAttr x="70" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.parameter.FormSubmitButton">
+<WidgetName name="Search"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[查  询]]></Text>
+<Hotkeys>
+<![CDATA[enter]]></Hotkeys>
+</InnerWidget>
+<BoundsAttr x="250" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="Labeldispatchid_n"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[下家派车单ID]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="0" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</InnerWidget>
+<BoundsAttr x="340" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.TextEditor">
+<WidgetName name="username"/>
+<WidgetAttr invisible="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<TextAttr/>
+<widgetValue>
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=$fr_username]]></Attributes>
+</O>
+</widgetValue>
+</InnerWidget>
+<BoundsAttr x="534" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.plugin.widget.scancodewidget.Scan" pluginID="com.fr.plugin.widget.scancodewidget.Scan">
+<WidgetName name="dispatchid_p"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</InnerWidget>
+<BoundsAttr x="150" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.plugin.widget.scancodewidget.Scan" pluginID="com.fr.plugin.widget.scancodewidget.Scan">
+<WidgetName name="dispatchid_n"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</InnerWidget>
+<BoundsAttr x="420" y="7" width="80" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.FreeButton">
+<WidgetName name="button0"/>
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[注1：示例扫码用1001-1004生成的二维码]]></Text>
+</InnerWidget>
+<BoundsAttr x="70" y="46" width="228" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.FreeButton">
+<WidgetName name="button1"/>
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[注2：可以通过二维码生成软件生成]]></Text>
+</InnerWidget>
+<BoundsAttr x="70" y="77" width="191" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.FreeButton">
+<WidgetName name="button2"/>
+<WidgetAttr disabled="true" description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[注3：模板sheet2里有示例二维码]]></Text>
+</InnerWidget>
+<BoundsAttr x="70" y="104" width="180" height="21"/>
+</Widget>
+<Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="dispatchid_p"/>
+<Widget widgetName="Search"/>
+<Widget widgetName="dispatchid_n"/>
+<Widget widgetName="username"/>
+<Widget widgetName="button0"/>
+<Widget widgetName="button1"/>
+<Widget widgetName="button2"/>
+</MobileWidgetList>
+<Display display="true"/>
+<DelayDisplayContent delay="true"/>
+<UseParamsTemplate use="false"/>
+<Position position="0"/>
+<Design_Width design_width="960"/>
+<NameTagModified/>
+<WidgetNameTagMap>
+<NameTag name="dispatchid_p" tag="送达派车单ID"/>
+<NameTag name="dispatchid_n" tag="下家派车单ID"/>
+<NameTag name="username" tag="下家派车单ID"/>
+</WidgetNameTagMap>
+</Layout>
+<DesignAttr width="960" height="132"/>
+</ParameterUI>
+</ReportParameterAttr>
+<StyleList>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-986896"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-1381654"/>
+<Bottom style="1" color="-1381654"/>
+<Left color="-1381654"/>
+<Right color="-1381654"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-1381654"/>
+<Bottom style="1" color="-1381654"/>
+<Left color="-1381654"/>
+<Right color="-1381654"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<Format class="com.fr.base.SimpleDateFormatThreadSafe">
+<![CDATA[yyyy-MM-dd HH:mm:ss]]></Format>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="ColorBackground" color="-986896"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="ColorBackground" color="-9579284"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-9579284"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
+<Background name="ColorBackground" color="-9579284"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-4144960"/>
+<Bottom color="-4144960"/>
+<Left color="-4144960"/>
+<Right color="-4144960"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-4144960"/>
+<Bottom color="-4144960"/>
+<Left color="-4144960"/>
+<Right color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1381654"/>
+<Bottom style="1" color="-1381654"/>
+<Left color="-1381654"/>
+<Right color="-1381654"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1381654"/>
+<Bottom style="1" color="-1381654"/>
+<Left color="-1381654"/>
+<Right color="-1381654"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9579284"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
+<Background name="ColorBackground" color="-9579284"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style vertical_alignment="1" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="ColorBackground" color="-1180417"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1180417"/>
+<Border>
+<Top style="1" color="-6823180"/>
+<Bottom style="1" color="-6823180"/>
+<Left style="1" color="-6823180"/>
+<Right style="1" color="-6823180"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-986896"/>
+<Bottom style="2" color="-986896"/>
+<Left color="-986896"/>
+<Right color="-986896"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-4144960"/>
+<Bottom style="1" color="-4144960"/>
+<Left color="-4144960"/>
+<Right color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" vertical_alignment="1" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-13421773"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6710887"/>
+<Bottom style="1" color="-6710887"/>
+<Left style="1" color="-6710887"/>
+<Right style="1" color="-6710887"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="88" foreground="-6710887"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-1381654"/>
+<Bottom style="1" color="-1381654"/>
+<Left color="-1381654"/>
+<Right color="-1381654"/>
+</Border>
+</Style>
+<Style imageLayout="1" paddingRight="0">
+<FRFont name="微软雅黑" style="1" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top color="-65536"/>
+<Bottom color="-65536"/>
+<Left color="-65536"/>
+<Right color="-65536"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+<Style imageLayout="4">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="1"/>
+<TemplateID TemplateID="187caae4-6034-4675-b42b-9de7dac05537"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="c466c3e1-b2d2-4237-b6b4-93439a856cec"/>
+</TemplateIdAttMark>
+</WorkBook>

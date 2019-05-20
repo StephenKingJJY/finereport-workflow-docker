@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.5996,
+          35.7396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蒙古"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.58984375,
+          46.558860303117164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "俄罗斯"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.505859375,
+          60.457217797743944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "日本"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.130859375,
+          36.4566360115962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "印度"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.57421875,
+          22.917922936146045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "哈萨克斯坦"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.64257812499999,
+          47.81315451752768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "澳大利亚"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.40625,
+          -25.799891182088306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "印度尼西亚"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58593749999999,
+          -4.390228926463384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "马来西亚"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.02734374999999,
+          2.4601811810210052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "菲律宾"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.48632812499999,
+          11.178401873711785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "越南"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.45703125,
+          12.297068292853817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "柬埔寨"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.853515625,
+          12.683214911818666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "泰国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.07421875,
+          15.411319377980993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "老挝"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.46875,
+          16.97274101999902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "缅甸"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.6689453125,
+          20.756113874762082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芬兰"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.71875,
+          63.39152174400882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "瑞典"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.402343749999996,
+          64.35893097894458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "挪威"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4375,
+          61.270232790000634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西班牙"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6035156249999996,
+          40.64730356252251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "葡萄牙"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1298828125,
+          39.639537564366684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "法国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7138671875,
+          46.34692761055676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "英国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4501953125,
+          52.10650519075632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "爱尔兰"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.26171875,
+          52.74959372674114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "意大利"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.77734375,
+          43.32517767999296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "比利时"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.833984374999999,
+          50.54136296522161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "荷兰"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.537109374999999,
+          52.214338608258196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "德国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2392578125,
+          50.86144411058924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "捷克"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.073242187499998,
+          49.710272582105695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "波兰"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.21533203125,
+          52.07950600379697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "巴基斯坦"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.4228515625,
+          28.459033019728043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土库曼斯坦"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.3369140625,
+          38.58252615935333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊朗"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.9208984375,
+          33.687781758439364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土耳其"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4306640625,
+          38.788345355085625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "美国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.25,
+          39.90973623453719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "加拿大"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1484375,
+          55.87531083569679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "墨西哥"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.546875,
+          20.797201434307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "巴西"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.294921875,
+          -11.695272733029402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿根廷"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.775390625,
+          -37.43997405227057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      
+        "name": "韩国"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.03466796875,
+          36.491973470593685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       
+        "name": "朝鲜"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.54052734374999,
+          39.232253141714885
+        ]
+      }
+    }
+  ]
+}
