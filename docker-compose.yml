@@ -1,0 +1,20 @@
+version: '3.3'
+services:
+  db:
+    container_name: db
+    image: mysql:5
+    environment:
+      MYSQL_DATABASE: activiti
+      MYSQL_USER: activiti
+      MYSQL_PASSWORD: activiti
+      MYSQL_ROOT_PASSWORD: aqy&>dA?w4xx
+    ports:
+      - 3306:3306
+  web:
+    image: fanruan/workflow
+    ports:
+      - 8080:8080
+    links:
+      - db
+    depends_on:
+      - db
